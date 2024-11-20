@@ -1,42 +1,49 @@
-# JS-Web-Dev
-JavaScript for Web Development
-**by Board Infinity**
+<!DOCTYPE html>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ readme.md of JS-Web-Dev (Coursera/Board Infinity) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<h2 style="align:center">JavaScript for Web Development</h2>
+<p style="align:center"><small><small>by Board Infinity</small></small></p>
 
-About this Course
+<h3 id="about">About this Course</h3>
 
-Dive into the captivating world of JavaScript, a cornerstone language
+<h4>Three module/week intermediate Web Development Course.</h4>
+
+<p>Dive into the captivating world of JavaScript, a cornerstone language
 that has revolutionized web development by enabling dynamic and engaging
 web applications. This course, divided into three holistic modules,
 ensures learners gain a deep understanding of JavaScript from basic
-concepts to advanced implementations.
+concepts to advanced implementations.</p>
 
-In the first module, you\'ll embark on a journey through the
+<p>In the first module, you\'ll embark on a journey through the
 foundational elements of JavaScript. This foundational foray will
 familiarize you with the primary components such as data types,
 variables, operators, and fundamental functions, setting the stage for
-the subsequent modules.
+the subsequent modules.</p>
 
-The second module transitions to the vibrant world of web interactivity.
+<p>The second module transitions to the vibrant world of web interactivity.
 Here, you\'ll delve into the intricacies of the Document Object Model
 (DOM) and understand how JavaScript seamlessly integrates with it.
 Mastering this module is essential for those aiming to craft web pages
-that dynamically adjust and respond to user interactions.
+that dynamically adjust and respond to user interactions.</p>
 
-Finally the third module, we elevate our exploration to advanced
+<p>Finally the third module, we elevate our exploration to advanced
 techniques and the influential jQuery library. With jQuery, you\'ll
 discover streamlined methods for sophisticated DOM manipulations and
 enhanced event handling, paving the way for the creation of intricate
-web application functionalities.
+web application functionalities.</p>
 
-By the end of the course, you will have a solid foundation in JavaScript
+<p>By the end of the course, you will have a solid foundation in JavaScript
 programming and a clear understanding of how to use it for web
 development. You will also have the skills to design and develop
 dynamic, interactive web applications that resonate with the
-contemporary digital landscape.
+contemporary digital landscape. This course takes 3 weeks to complete.</p>
 
-Module 1
+<h3 id="ch1">Module 1</h3>
 
-Introduction to JavaScript Programming
+<h3>Introduction to JavaScript Programming</h3>
 
 This module is designed to provide learners with a comprehensive
 introduction to JavaScript programming. Throughout the module, learners
@@ -52,6 +59,15 @@ JavaScript programs. They will be able to apply best practices and
 coding standards to write high-quality code that meets the needs of
 their clients and users.
 
+<h3 id="ch1-object">Learning Objectives</h3>
+
+<ul>
+  <li>Understandingthe differnt data types in JavaScript and how to usee them.</li>
+  <li>Utilize various operators in JavaScript, such as arithmetic, comparison and logical operators.</li>
+  <li>Utilize control structures, such as conditional statements and loops, to control program flow.</li>
+  <li>Develop proficiency in defining and using functions to modularize code and improve code readability.</li>
+</ul>	
+
 16 videos, 3 readings
 
 1.  [Course
@@ -60,15 +76,19 @@ their clients and users.
 
 > **1.1** Syllabus
 
-2.  About this lesson
+<h2>Getting Started with JavaScript</h2>
+
+2.  About this lesson (0:38)
 
 3.  Introduction to JavaScript
 
-4.  Setting up your development environment
+4.  Setting up your development environment (2:46)
 
 5.  Writing your first JavaScript program
 
-6.  **Video: **About this lesson
+<h2>Variables, Data Types, and Operators</h2>
+
+6.  About this lesson
 
 7.  Variables in Javascript
 
@@ -76,7 +96,7 @@ their clients and users.
 
 9.  Using arithmetic and comparison operators
 
-10. Arrays in Javascript
+10. Arrays in Javascript (5:41)
 
 11. Working with Strings
 
@@ -84,7 +104,9 @@ their clients and users.
 
 > **12.1** Variables, Operators, and Strings
 
-13. **Video: **About this lesson
+<h2>Control Structures and Functions</h2>
+
+13. About this lesson
 
 14. Conditional statements (if/else, switch)
 
@@ -116,7 +138,15 @@ more interactive. They will be able to apply best practices and coding
 standards to write high-quality code that meets the needs of their
 clients and users.
 
+Learning Objectives
+Use JavaScript to access and manipulate HTML elements in the DOM, such as changing text, styles, and attributes.
+Understand how to use events and event listeners in JavaScript to respond to user interactions with the DOM.
+Apply event listeners to respond to user input, such as clicks and key presses.
+Develop proficiency in creating interactive user interfaces using JavaScript.
+
 13 videos, 3 readings
+
+<h2>Manipulating the DOM</h2>
 
 1.  [About the
     DOM](https://www.coursera.org/lecture/javascript-for-web-development/about-this-lesson-IT7ub)
@@ -141,7 +171,9 @@ clients and users.
 
 > **9.1 E**vent Handling
 
-10. **Video: **What you will learn in this Lesson
+<h2>Event Handling</h2>
+
+10. What you will learn in this Lesson (mm:ss)
 
 11. Creating and removing DOM elements with JavaScript
 
@@ -169,7 +201,14 @@ animations, handle events, and manipulate the DOM more easily. By the
 end of the module, lerners will build a hands on project that will bring
 thier learning to life.
 
+Learning Objectives
+Develop the ability to write efficient and effective JavaScript code using advanced techniques.
+Master the use of the jQuery library to simplify DOM manipulation and event handling in JavaScript, and enhance interactivity of web pages.
+Build a project utilizing JavaScript.
+
 12 videos, 2 readings
+
+<h2>Advanced DOM Manipulation</h2>
 
 1.  [What you will learn in this
     Lesson](https://www.coursera.org/lecture/javascript-for-web-development/what-you-will-learn-in-this-lesson-ODHZ5)
@@ -182,6 +221,10 @@ thier learning to life.
 
 > **4.1** Advanced JS Techniques
 
+<h2>Introduction to jQuery</h2>
+
+<h2>Advanced JavaScript Techniques</h2>
+
 5.  What you will learn in this Lesson
 
 6.  What is jQuery?
@@ -193,6 +236,8 @@ thier learning to life.
 9.  jQuery Traversing
 
 > **9.1** jQuery
+
+<h2>Project Building</h2>
 
 10. Project Building - Part 1
 
@@ -273,7 +318,7 @@ handle events, and manipulate the DOM more easily.
 By the end of the module, you will build a hands-on project that will
 bring learning to life.
 
-1.  About this Lesson: JS for Web Dev (0:38)
+1. About this Lesson: JS for Web Dev (0:38)
 
 Hi there. In this lesson, you will be introduced to the world of
 JavaScript,  a high level programming language that is widely used for
@@ -288,9 +333,9 @@ simple JavaScript programs. You will also be ready to move on to more
 advanced topics like JavaScript development. Whether you are a complete
 beginner or have some programming experience, this lesson will provide
 you with a solid foundation in JavaScript programming. See you in the
-next video.
+next lesson.
 
-2.  Introduction to JavaScript (5:33)
+2. Introduction to JavaScript (5:33)
 
 Hi there. In this lesson we will learn some history and introduction
 related to JavaScript. So let\'s get started. 
@@ -327,11 +372,11 @@ in the world, and it is an essential tool for web developers today. In
 fact, according to some estimates, JavaScript is used over 95% of all
 websites on the Internet.
 
-So where else beyond the browser can JavaScript be executed? JavaScript
-is a versatile programming language that can be used to create
-both front end and backend applications. It is primarily known for its
-use in web development, where it is used to add interactivity and
-dynamic effects to web page. 
+Where else beyond the browser can JavaScript be executed? JavaScript is
+a versatile programming language that can be used to create both front
+end and backend applications. It is primarily known for its use in web
+development, where it is used to add interactivity and dynamic effects
+to web page. 
 
 However, JavaScript can also be used to build serverside applications
 that run on web server, as well as desktop and mobile applications, and
@@ -349,8 +394,8 @@ Internet Explorer. 
 Each engine has its own unique features and performance characteristics.
 
 What are the tasks that in browser JavaScript can perform? Let\'s look
-at some. It can manipulate HTML and CSS. So JavaScript can change the
-style and content of elements on a web page.
+at some. It can manipulate HTML and CSS. JavaScript can change the style
+and content of elements on a web page.
 
 For example, by hiding or showing an element, or changing its color,
 or size, or maybe animating it. Handling user events, JavaScript can
@@ -370,23 +415,24 @@ to a server using HTTP request. For example, to update the page content
 dynamically or submit a form without reloading the page. Last but not
 the least, it can store and manipulate data. 
 
-So JavaScript can store data in variables, arrays, and objects,
+JavaScript can store data in variables, arrays, and objects,
 for example, to remember user preferences or to keep track of game
 scores and manipulate the data using built-in functions such as sorting
 or filtering. 
 
-So let\'s summarize this, JavaScript is a high level dynamic programming
+Let\'s summarize this, JavaScript is a high level dynamic programming
 language  that is used for creating interactive web pages and web
-applications.  Originally called Mocha and later renamed to
+applications.  I would call it a 5^th^ generation language feeding off
+its' prior 4 levels. Originally called Mocha and later renamed to
 LiveScript, it was eventually rebranded as JavaScript for marketing
 purposes. While it is primarily associated with web development,
 JavaScript can also be used on servers and other devices that have a
 JavaScript engine. With its versatility and popularity, JavaScript has
 become a fundamental language for modern web development. This is all
-for this video. In the next video, we will see how to set up your
-development environment. See you in the next video, thank you. 
+for this lesson. In the next lesson, we will see how to set up your
+development environment.
 
-3.  Setting Up Your Development Environment (2:46)
+3. **Setting Up Your Development Environment (2:46)**
 
 Hi there, in the previous video, we saw introduction to JavaScript. 
 
@@ -434,7 +480,7 @@ JavaScript engine. So this is all for this video. In the next video, we
 will write our very first JavaScript program. See you in the next
 video. Thank you. 
 
-4.  **Writing Your First JavaScript Program**
+4. **Writing Your First JavaScript Program**
 
 Hi there, in the previous video, you have set up your development
 environment. Now in this lesson, you will write your first JavaScript
@@ -462,7 +508,7 @@ steps and let\'s try our first JavaScript program. I will go to my
 desktop and I will create a new folder and let\'s rename it as
 JavaScript.
 
-*Variable, Data Types & Operators (7:12)*
+**Variable, Data Types & Operators (7:12)**
 
 Hi there. In this lesson we will learn variables in JavaScript, so
 let\'s get started. 
@@ -1219,16 +1265,13 @@ Now in this video we will learn string manipulation in JavaScript. 
 
 So let\'s get started.
 
-String manipulation refers to the process of modifying or 
-
-manipulating a string of characters in some way to achieve a desired
-output. 
+String manipulation refers to the process of modifying or manipulating a
+string of characters in some way to achieve a desired output. 
 
 A string in a sequence of characters enclosed in quotes such as, Hello
 World. 
 
-So string manipulation in JavaScript involves manipulating and 
-
+So string manipulation in JavaScript involves manipulating and
 transforming strings which are sequence of characters.
 
 Let\'s look at some most common techniques for manipulating strings in
@@ -1236,49 +1279,29 @@ JavaScript.
 
 The first one is, concatenation. 
 
-So concatenation is the process of joining two or 
+Concatenation is the process of joining two or more strings together to
+create a new string. In JavaScript you can concatenate strings using the
+plus operator or the concat() method. Let\'s look at the examples. 
 
-more strings together to create a new string. 
-
-In JavaScript you can concatenate strings using the plus operator or the
-concat() method. 
-
-Let\'s look at the examples. 
-
-So let\'s go to the VS code, and here I have a file that is
+Let\'s go to the VS code, and here I have a file that is
 stringManipulation.js. 
 
-So let\'s create two strings, let str1, and this would be Hello. 
+So let\'s create two strings, let str1, and this would be Hello. And
+let\'s create another string that would be let str2, and this would be
+World. And let\'s use these two operators and methods. The plus operator
+can be used to concatenate two or more strings. We can say let result
+and it would be equal to str1. 
 
-And let\'s create another string that would be let str2, and this would
-be World.
-
-And let\'s use these two operators and methods. 
-
-So the plus operator can be used to concatenate two or more strings.
-
-So we can say let result and it would be equal to str1. 
-
-Then we can say +. 
-
-And then we have to add a space, so let\'s add some empty space. 
-
-Then again, this + operator and then str2.
-
-If I do console.log(result), we should get the two added strings. 
-
-Meanwhile, let\'s also perform the same thing using a concat() method. 
+Then we can say +. And then we have to add a space, so let\'s add some
+empty space. Then again, this + operator and then str2. If I do
+console.log(result), we should get the two added strings.  Meanwhile,
+let\'s also perform the same thing using a concat() method. 
 
 The concat() method can be used to concatenate two or more strings
-together. 
+together. So here we have this result, and let\'s say, Let result 2. 
 
-So here we have this result, and let\'s say,
-
-Let result 2. 
-
-And in this case we will use a concat() method. 
-
-So we\'ll say str1.concat. 
+And in this case we will use a concat() method.  We\'ll say
+str1.concat. 
 
 And we want to add a space, and then we want to add str2. 
 
@@ -1287,22 +1310,16 @@ And let\'s also do console.log(result2). 
 Now if I click on Save, let\'s open up the terminal and let\'s run this
 program.
 
-So I would say node stringManipulation.js and you will see in both the
-cases we get the same output. 
+would say node stringManipulation.js and you will see in both the cases
+we get the same output. Basically, you can use either a plus operator or
+a concat operator for adding the strings.
 
-So you can either use a plus operator or a concat operator for adding
-the strings.
+The second one is substring. A substring is a portion of a string that
+you can extract. In JavaScript, you can use either the slice method or
+substring method to get a substring from a string. Let\'s look at both
+the methods.
 
-So the second one is substring. 
-
-A substring is a portion of a string that you can extract. 
-
-In JavaScript, you can use either the slice method or substring method
-to get a substring from a string. 
-
-Let\'s look at both the methods.
-
-So here we are in the VS code again, and let me comment these things. 
+Here we are in the VS code again, and let me comment these things. 
 
 And let\'s look at how to get a substring. 
 
@@ -1355,9 +1372,8 @@ Here we are passing a two argument. 
 So this method will return all the characters from the first index up to
 but not including the second index. 
 
-So here also, if I do console.log(result2), 
-
-we should get the same output.
+So here also, if I do console.log(result2), we should get the same
+output.
 
 So let\'s run this program, and you will see that we get world and world
 in both the cases.
@@ -1579,10 +1595,8 @@ sorry, that dish is not available. 
 
 As easy as that. 
 
-If I click on \"Save\", 
-
-if we go here to the console, you can see that you ordered pizza is
-printed because that is the case. 
+If I click on \"Save\", if we go here to the console, you can see that
+you ordered pizza is printed because that is the case. 
 
 If I do case 1 here, you will see that it will print you ordered a
 burger. 
@@ -1629,10 +1643,9 @@ Looping Structures (For, While, Do..While) (6:43)
 
 Hi there. 
 
-In the previous video we learned conditional statements. 
-
-Now in this video we will learn about looping structures
-and specifically about for, while, and do-while loops. 
+In the previous lesson we learned conditional statements. Now in this
+video we will learn about looping structures and specifically about for,
+while, and do-while loops. 
 
 So let\'s get started. 
 
@@ -1645,7 +1658,7 @@ collection of data. 
 Loops are essential in programming because they help in reducing code
 duplication, improving efficiency, and making programs more dynamic. 
 
-Let\'s look at some loops. 
+Let\'s look at some **loops**. 
 
 For loop, the for loop is used when you want to repeat a block of code
 for a specific number of times. 
@@ -1663,44 +1676,27 @@ modified according to the increment or decrement specified there. 
 
 Let\'s understand this for loop through an example. 
 
-So let\'s go here. 
-
-And into the VS code and we can say for. 
-
-This is how we start write a for loop. 
+So let\'s go here. And into the VS code and we can say for. This is how
+we start write a for loop. 
 
 And then we can say let i, so this is the first part that is
 initializing. 
 
-The second part is a condition. 
+The second part is a **condition**. Condition here we can put is i
+should be less than or equal to 5. And then we can put the **increment
+decrement**, that is the third part. So we can say i++. And then we can
+say console.log, just print out i. Let\'s see the output first. 
 
-So condition here we can put is i should be less than equal to 5. 
+As expected, you can see in the console the output is 12345. In this
+example, the loop starts with i set to 1. The **condition** i less than
+equal to 5 checks if i is less than or equal to 5. And if true, the code
+inside the loop is executed, which simply locks the value of i to the
+console. After each iteration, i is incremented by 1 because we are
+putting here increment, that is, i++. The loop continues until i become
+6, at which point this condition will become false and the loop will
+exit. 
 
-And then we can put the increment decrement, that is the third part. 
-
-So we can say i++. 
-
-And then we can say console.log, just print out i. 
-
-So let\'s see the output first. 
-
-As expected, you can see in the console the output is 12345. 
-
-So in this example, the loop starts with i set to 1. 
-
-The condition i less than equal to 5 checks if i is less than or equal
-to 5. 
-
-And if true, the code inside the loop is executed, which simply locks
-the value of i to the console. 
-
-After each iteration, i is incremented by 1 because we are putting here
-increment, that is, i++. 
-
-The loop continues until i become 6, at which point this condition will
-become false and the loop will exit. 
-
-Let\'s look at the second loop, that is, while loop. 
+Let\'s look at the second loop, that is, **while** loop. 
 
 The while loop is used when you want to repeat a block of code while a
 condition is true. 
