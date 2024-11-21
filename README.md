@@ -1,7 +1,6 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ readme.md of JS-Web-Dev (Coursera/Board Infinity) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <h2 style="align:center">JavaScript for Web Development</h2>
 <p style="align:center"><small><small>by Board Infinity</small></small></p>
@@ -79,40 +78,41 @@ write high-quality code that meets the needs of their clients and users.</p>
   <h4><a href="ch1-06">1.06 Using Arithmentic and Comparison Operators</a></h4>
   <h4><a href="ch1-07">1.07 Arrays in JavaScript</a></h4>
   <h4><a href="ch1-08">1.08 Working with Strings</a></h4>
->#### [**1.0X Writing Your First JavaScript Program**](#ch1-04)
+</blockquote>
+<ul>
+  <li><a href="ch1-04">1.04 Writing Your First JavaScript Program</a></li>
+</ul>
+<blockquote>
   <h4><a href="ch1-08">1.08 String Manipulation</a></h4>
   <h4><a href="ch1-09">1.09 Conditional Statements (if/else, switch)</a></h4>
   <h4><a href="ch1-10">1.10 Looping Structures (For, While, Do-While)</a></h4>
   <h4><a href="ch1-11">1.11 Functions and Scope</a></h4>
-  
+</blockquote>
 <h2>Getting Started with JavaScript</h2>
 
 <h2>Variables, Data Types, and Operators</h2>
 
-
-10. Arrays in Javascript (5:41)
-
-11. Working with Strings
-
-12. String Manipulation
-
-> **12.1** Variables, Operators, and Strings
+<blockquote>
+  <h4><a href="ch1-12">1.12 Arrays in Javascript (5:41)</a></h4>
+  <h4><a href="ch1-13">1.13 Working with Strings</a><h4>
+  <h4><a href="ch1-14">1.14 String Manipulation</a></h4>
+</blockquote>
+<h2>Variables, Operators, and Strings</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Control Structures and Functions</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-13. About this lesson
-
-14. Conditional statements (if/else, switch)
-
-15. Looping structures (For, While, Do-While)
-
-16. Functions and Scope
-
-> **16.1** Control Statements
-
+<blockquote>
+  <h4><a href="ch1-15">1.15 About this next lesson (m:ss)</a></h4>
+  <h4><a href="ch1-16">1.16. Conditional statements (if/else, switch)</a></h4>
+  <h4><a href="ch1-17">1.17 Looping structures (For, While, Do-While)</a></h4>
+  <h4><a href="ch1-18">1.18 Functions and Scope</a></h4>
+</blockquote>
+<ul>
+  <li><a href="ch1-19">1.19 Control Statements</a></li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Module 2
+<h2 id="ch2">Module 2</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="">DOM Manipulation and Event Handling</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
