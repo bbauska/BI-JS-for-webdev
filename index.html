@@ -17,13 +17,42 @@
   <title>Board Infinity's JavaScript for Web Development</title>
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
+<body>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+  <script>
+  <!-- get the button -->
+  var mybutton = document.getElementById("myBtn");
 
-<h1 style="align:center">JavaScript for Web Development</h1>
+  <!-- when the user scrolls down 10px from the top of the document, show the button -->
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+// when the user clicks on the button, scroll to the table of contents near top of document.
+  function topFunction() {
+    document.getElementById('table-of-contents').scrollIntoView();
+  }
+</script>
+  <header id="title-block-header">
+    <h1 style="text-align:center;" class="title">JavaScript with Web Development</h1>
+    <p style="text-align:center;"><small><small>(by Sahel, Lecturer - Board Infinity/Coursera)</p>
+  </header>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 style="align:center">JavaScript for Web Development</h2>
 <p align="center"><small><small>by Board Infinity</small></small></p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="about">About this Course</h3>
-
-<h4>Three module/3 week intermediate JavaScript Web Development Course.</h4>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Three module/3 week intermediate JavaScript Web Development Course.</h3>
 
 <p>Dive into the captivating world of JavaScript, a cornerstone language that has 
 revolutionized web development by enabling dynamic and engaging web applications. This 
@@ -50,11 +79,11 @@ programming and a clear understanding of how to use it for web
 development. You will also have the skills to design and develop
 dynamic, interactive web applications that resonate with the
 contemporary digital landscape. This course takes 3 weeks to complete.</p>
-
-<h3 id="ch1">Module 1</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1">Module 1</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Introduction to JavaScript Programming</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This module is designed to provide learners with a comprehensive introduction to 
 JavaScript programming. Throughout the module, learners will gain hands-on experience 
 working with JavaScript and will develop a deep understanding of its core features and 
@@ -66,9 +95,9 @@ concepts to create basic programs that are modular, maintainable, and easy to te
 the end of the module, learners will be proficient in creating simple and effective
 JavaScript programs. They will be able to apply best practices and coding standards to 
 write high-quality code that meets the needs of their clients and users.</p>
-
-<h3 id="ch1-object">Learning Objectives</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch1-object">Learning Objectives</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Understanding the different data types in JavaScript and how to use them.</li>
   <li>Utilize various operators in JavaScript, such as arithmetic, comparison and logical operators.</li>
@@ -76,38 +105,34 @@ write high-quality code that meets the needs of their clients and users.</p>
   <li>Develop proficiency in defining and using functions to modularize code and improve code readability.</li>
 </ul>	
 
-16 videos, 3 readings
+16 lessons, 3 readings
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-1.  [Course
-    Introduction](https://www.coursera.org/lecture/javascript-for-web-development/course-introduction-video-3k9Hn)
-    -- JS for Web Development
-
-> **1.1** Syllabus
-### [**Week 1: jQuery Plugins and Capturing the Scroll Event**](#ch1)
->#### [**1.00 Welcome!**](#ch1-00)
->#### [**1.01 Module 1 Introduction**](#ch1-01)
->#### [**1.02 Intro to jQuery Plugins**](#ch1-02)
->#### [**1.03 Using Plugins and Essential Steps**](#ch1-03)
->#### [**1.04 Gotchas and Rookie Mistakes**](#ch1-04)
+<blockquote>
+  <h4><a href="https://www.coursera.org/lecture/javascript-for-web-development/course-introduction-video-3k9Hn">
+    1.01 Course Introduction</a> -- JS for Web Development (0:53)</h4>
+</blockquote>
+<ul>
+  <li><a href="ch1-01">1.01 Syllabus</a></li>
+</ul>
+<blockquote>
+  <h4><a href="ch1-02">1.02 Getting Started with JavaScript</a></h4>
+  <h4><a href="ch1-03">1.03 About this Lesson</a></h4>
+  <h4><a href="ch1-04">1.04 Variables in JavaScript</a></h4>
+  <h4><a href="ch1-05">1.05 Data Types in JavaScript</a></h4>
+  <h4><a href="ch1-06">1.06 Using Arithmentic and Comparison Operators</a></h4>
+  <h4><a href="ch1-07">1.07 Arrays in JavaScript</a></h4>
+  <h4><a href="ch1-08">1.08 Working with Strings</a></h4>
+>#### [**1.0X Writing Your First JavaScript Program**](#ch1-04)
+  <h4><a href="ch1-08">1.08 String Manipulation</a></h4>
+  <h4><a href="ch1-09">1.09 Conditional Statements (if/else, switch)</a></h4>
+  <h4><a href="ch1-10">1.10 Looping Structures (For, While, Do-While)</a></h4>
+  <h4><a href="ch1-11">1.11 Functions and Scope</a></h4>
+  
 <h2>Getting Started with JavaScript</h2>
-
-2.  About this lesson (0:38)
-
-3.  Introduction to JavaScript
-
-4.  Setting up your development environment (2:46)
-
-5.  Writing your first JavaScript program
 
 <h2>Variables, Data Types, and Operators</h2>
 
-6.  About this lesson
-
-7.  Variables in Javascript
-
-8.  Data Types in Javascript
-
-9.  Using arithmetic and comparison operators
 
 10. Arrays in Javascript (5:41)
 
@@ -116,8 +141,9 @@ write high-quality code that meets the needs of their clients and users.</p>
 12. String Manipulation
 
 > **12.1** Variables, Operators, and Strings
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Control Structures and Functions</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 13. About this lesson
 
@@ -129,9 +155,11 @@ write high-quality code that meets the needs of their clients and users.</p>
 
 > **16.1** Control Statements
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Module 2
-
-DOM Manipulation and Event Handling
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="">DOM Manipulation and Event Handling</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 This module is designed to provide learners with a comprehensive
 understanding of how to manipulate the Document Object Model (DOM) using
@@ -157,9 +185,11 @@ Understand how to use events and event listeners in JavaScript to respond to use
 Apply event listeners to respond to user input, such as clicks and key presses.
 Develop proficiency in creating interactive user interfaces using JavaScript.
 
-13 videos, 3 readings
+13 lessons, 3 readings
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Manipulating the DOM</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.  [About the
     DOM](https://www.coursera.org/lecture/javascript-for-web-development/about-this-lesson-IT7ub)
@@ -196,10 +226,11 @@ Develop proficiency in creating interactive user interfaces using JavaScript.
 
 > **13.1** Advanced DOM Manipulation
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Module 3
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Advanced JavaScript Techniques and jQuery
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This module is designed to provide learners with a comprehensive
 understanding of advanced JavaScript techniques and the jQuery library.
 Throughout the module, learners will gain hands-on experience working
@@ -219,9 +250,11 @@ Develop the ability to write efficient and effective JavaScript code using advan
 Master the use of the jQuery library to simplify DOM manipulation and event handling in JavaScript, and enhance interactivity of web pages.
 Build a project utilizing JavaScript.
 
-12 videos, 2 readings
+12 lessons, 2 readings
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Advanced DOM Manipulation</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.  [What you will learn in this
     Lesson](https://www.coursera.org/lecture/javascript-for-web-development/what-you-will-learn-in-this-lesson-ODHZ5)
@@ -236,7 +269,9 @@ Build a project utilizing JavaScript.
 
 <h2>Introduction to jQuery</h2>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Advanced JavaScript Techniques</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 5.  What you will learn in this Lesson
 
@@ -250,15 +285,18 @@ Build a project utilizing JavaScript.
 
 > **9.1** jQuery
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Project Building</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 10. Project Building - Part 1
 
 11. Project Building - Part 2
 
 12. Project Building - Part 3
-
+<!--********************************************************************************************-->
 **Syllabus**
+<!--********************************************************************************************-->
 
 This course is designed for beginners who want to learn how to use
 JavaScript to add dynamic and interactive features to their websites. In
@@ -275,9 +313,9 @@ By the end of the course, you will have a solid foundation in JavaScript
 programming and a clear understanding of how to use it for web
 development. You will also have the skills to create dynamic and
 interactive websites that can respond to user input.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Module 1: Introduction to JavaScript Programming**
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This module is designed to provide you with a comprehensive introduction
 to JavaScript programming. Throughout the module, you will gain hands-on
 experience working with JavaScript and develop a deep understanding of
@@ -292,9 +330,9 @@ By the end of the module, you will be proficient in creating simple and
 effective JavaScript programs and will be able to apply best practices
 and coding standards to write high-quality code that meets the needs of
 your clients and users.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Module 2: DOM Manipulation and Event Handling**
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This module is designed to provide you with a comprehensive
 understanding of how to manipulate the Document Object Model (DOM) using
 JavaScript and how to handle events in JavaScript. Throughout the
@@ -313,9 +351,9 @@ using JavaScript and will be able to handle events to make your web
 pages more interactive. You will be able to apply best practices and
 coding standards to write high-quality code that meets the needs of your
 clients and users.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Module 3: Advanced JavaScript Techniques and jQuery**
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This module is designed to provide you with a comprehensive
 understanding of advanced JavaScript techniques and the jQuery library.
 Throughout the module, you will gain hands-on experience working with
@@ -330,8 +368,10 @@ handle events, and manipulate the DOM more easily.
 
 By the end of the module, you will build a hands-on project that will
 bring learning to life.
-
-1. About this Lesson: JS for Web Dev (0:38)
+<!-- end of syllabus -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+1.01 About this Lesson: JS for Web Dev (0:38)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In this lesson, you will be introduced to the world of
 JavaScript,  a high level programming language that is widely used for
@@ -348,8 +388,9 @@ beginner or have some programming experience, this lesson will provide
 you with a solid foundation in JavaScript programming. See you in the
 next lesson.
 
-2. Introduction to JavaScript (5:33)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+1.02 Introduction to JavaScript (5:33)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi there. In this lesson we will learn some history and introduction
 related to JavaScript. So let&apos;s get started. 
 
@@ -444,12 +485,12 @@ JavaScript engine. With its versatility and popularity, JavaScript has
 become a fundamental language for modern web development. This is all
 for this lesson. In the next lesson, we will see how to set up your
 development environment.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 3. **Setting Up Your Development Environment (2:46)**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+Hi there, in the previous lesson, we saw introduction to JavaScript. 
 
-Hi there, in the previous video, we saw introduction to JavaScript. 
-
-Now in this video, we will set up our development environment for
+Now in this lesson, we will set up our development environment for
 JavaScript.  So let&apos;s get started. To set up your development
 environment, you need a code editor, a web browser, and a JavaScript
 engine. A code editor enables us to write and organize our code with
@@ -489,15 +530,15 @@ example, to build server side applications or command line tools. 
 
 So once you have these tools set up, you can start writing and running
 JavaScript code in your code editor and test it on your web browser or
-JavaScript engine. So this is all for this video. In the next video, we
+JavaScript engine. So this is all for this lesson. In the next lesson, we
 will write our very first JavaScript program. See you in the next
-video. Thank you. 
+lesson. Thank you. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+4. **Writing Your First JavaScript Program (4:39)**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-4. **Writing Your First JavaScript Program**
-
-Hi there, in the previous video, you have set up your development
-environment. Now in this lesson, you will write your first JavaScript
-program. 
+Hi there, in the previous lesson, you have set up your development environment. Now in 
+this lesson, you will write your first JavaScript program. 
 
 Let&apos;s get started. Let&apos;s look at some basic steps to write the first
 JavaScript program. 
@@ -521,8 +562,64 @@ steps and let&apos;s try our first JavaScript program. I will go to my
 desktop and I will create a new folder and let&apos;s rename it as
 JavaScript.
 
+Now, we can open up our Visual Studio Code. You can use any other code editor if you want 
+and then I'll open this JavaScript folder. Now this JavaScript folder is empty. We have 
+to create a file, let's call it as hello.js. This is for JavaScript extension. Let's 
+write our first program. Here you can simply say console.log and let's say Hello World. 
+What it does is it prints Hello World in the console. It is as easy as that. This is the 
+first JavaScript code. How to run it. There are couple of ways. The first way is to use 
+node js. You can go here to the VS Code, you can open up your terminal, and ensure that 
+you are in the directory. You can see that here, the directory is this JavaScript folder 
+and then I can say node hello.js. As soon as I press enter, you will see the output on 
+the console. That is Hello World. This is one way. Other way is that you can directly go 
+to the Google and you can right-click on Inspect. It gives you a Chrome Developer Tools 
+and here what you can do is you can paste this or you can write the code. Let's say 
+console.log Hello World. As soon as I press on Enter, it runs the code and the output 
+is printed here. The third way is to use an html file. What we can do is we can create 
+a new index.html file and you have to use a boilerplate here. You can use this exclamatory 
+mark and this is a shortcut where you can create a basic boilerplate code. What we could 
+do here is we have hello.js file. Either you can link this file into your index.html 
+using a script tag or you can directly write JavaScript in your script tag. Let's say 
+console.log Hello World. How to check it in the browser, you can directly click on 
+index.html and copy the path. Once you copy the path, you can go to the browser and you 
+can paste it here. This is a blank screen because there is no HTML tag at this point. 
+But as soon as you click on Inspect, you will see in the console the Hello World is 
+printed. This is a third way in which you can execute your JavaScript code. 
+Congratulations, you have written and executed your first JavaScript program. This is a 
+simple example, but it demonstrates the basic structure and syntax of a JavaScript 
+program. This is all for this lesson. See you in the next lesson. Thank you.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+**About this Lesson (0:52)**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+Now, we can open up our Visual Studio Code. You can use any other code editor if you want 
+and then I'll open this JavaScript folder. Now this JavaScript folder is empty. We have 
+to create a file, let's call it as hello.js. This is for JavaScript extension. Let's write 
+our first program. Here you can simply say console.log and let's say Hello World. What it 
+does is it prints Hello World in the console. It is as easy as that. This is the first 
+JavaScript code. How to run it. There are couple of ways. The first way is to use node 
+js. You can go here to the VS Code, you can open up your terminal, and ensure that you 
+are in the directory. You can see that here, the directory is this JavaScript folder and 
+then I can say node hello.js. As soon as I press enter, you will see the output on the 
+console. That is Hello World. This is one way. Other way is that you can directly go to 
+the Google and you can right-click on Inspect. It gives you a Chrome Developer Tools and 
+here what you can do is you can paste this or you can write the code. Let's say console.log 
+Hello World. As soon as I press on Enter, it runs the code and the output is printed here. 
+The third way is to use an html file. What we can do is we can create a new index.html 
+file and you have to use a boilerplate here. You can use this exclamatory mark and this 
+is a shortcut where you can create a basic boilerplate code. What we could do here is we 
+have hello.js file. Either you can link this file into your index.html using a script tag 
+or you can directly write JavaScript in your script tag. Let's say console.log Hello World. 
+How to check it in the browser, you can directly click on index.html and copy the path. 
+Once you copy the path, you can go to the browser and you can paste it here. This is a 
+blank screen because there is no HTML tag at this point. But as soon as you click on 
+Inspect, you will see in the console the Hello World is printed. This is a third way in 
+which you can execute your JavaScript code. Congratulations, you have written and 
+executed your first JavaScript program. This is a simple example, but it demonstrates the 
+basic structure and syntax of a JavaScript program. This is all for this lesson. See you 
+in the next lesson. Thank you.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Variable, Data Types & Operators (7:12)**
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi there. In this lesson we will learn variables in JavaScript, so
 let&apos;s get started. 
 
@@ -652,7 +749,7 @@ entire function or global scope, which can make it harder to
 reason about your code and avoid bugs. 
 
 Now all these terms, functions and global scope you will be looking at
-in further videos in detail. 
+in further lessons in detail. 
 
 For now, let&apos;s also see how we can create a variable using var. 
 
@@ -695,12 +792,12 @@ control over variable assignment. 
 While var can still be used, it is generally considered outdated
 and should be avoided in new code wherever possible. 
 
-In the next video, we will see data types in JavaScript. 
-
+In the next lesson, we will see data types in JavaScript. 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Data Types in JavaScript (8:58)
-
-Hi there. In the previous video we learned variables in JavaScript. Now
-in this video we will learn data types in JavaScript. So let&apos;s get
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+Hi there. In the previous lesson we learned variables in JavaScript. Now
+in this lesson we will learn data types in JavaScript. So let&apos;s get
 started. 
 
 In JavaScript, a data type represents the type of data that can be
@@ -737,13 +834,9 @@ A data type that represents a sequence of characters is a String. 
 In JavaScript, Strings are represented using a String keyword. 
 
 Let&apos;s see an example. If you wanted to create a String, 
-
 you can say let and we can say name, and the name we want to give 
-
 is a string that is a sequence of characters. Let&apos;s give it John. This
-creates 
-
-a variable name of type string with a value of John. Again, if you want
+creates a variable name of type string with a value of John. Again, if you want
 to check the type, you can use this type of operator here, but this is
 how you represent a string.
 
@@ -760,11 +853,13 @@ using a null keyword. It is a separate data type, and if you want to
 create or give a value to a variable, you can just say let and you
 can create any variable, let&apos;s say x
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Using Arithmetic and Comparison Operators (8:38)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there. In the previous video we learned data types in JavaScript. 
+Hi there. In the previous lesson we learned data types in JavaScript. 
 
-Now in this video we will learn about arithmetic and comparison
+Now in this lesson we will learn about arithmetic and comparison
 operators in JavaScript. 
 
 So let&apos;s get started.
@@ -963,9 +1058,11 @@ standing how to use them is very essential for the beginners. 
 
 In the next lesson, we will understand arrays in JavaScript. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Arrays in JavaScript (5:41)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there. In the previous video, we learned arithmetic and comparison
+Hi there. In the previous lesson, we learned arithmetic and comparison
 operators in JavaScript. 
 
 Now in this lesson we will learn arrays in JavaScript so let&apos;s get
@@ -1115,11 +1212,13 @@ variable name. 
 In the next lesson, we will understand about strings and string
 manipulation in JavaScript. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Working with Strings (6:17)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned about arrays. 
 
-Now in this video we will learn strings in JavaScript. Let&apos;s get
+Now in this lesson we will learn strings in JavaScript. Let&apos;s get
 started. 
 
 In JavaScript, the textual data is stored as strings. 
@@ -1267,14 +1366,16 @@ It means it is possible not to change a character. 
 The length of a string can be found using.length property and individual
 characters accessed using the square bracket notation. 
 
-In the next video, we will see string manipulation in JavaScript. Thank
+In the next lesson, we will see string manipulation in JavaScript. Thank
 you.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 String Manipulation (6:34)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there, in the previous video we learned strings. 
+Hi there, in the previous lesson we learned strings. 
 
-Now in this video we will learn string manipulation in JavaScript. 
+Now in this lesson we will learn string manipulation in JavaScript. 
 
 So let&apos;s get started.
 
@@ -1415,11 +1516,14 @@ Then you can also explore trim() method for removing the white space.
 Note that, each of these methods returns a new string and does not
 modify the original one. 
 
-This is all for this video, see you in the next video. 
+This is all for this lesson, see you in the next lesson. 
 
 Thank you.
 
-**Learn more about Variables, Operators, and Strings**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+**Reading Materials**
+1.XX **Learn more about Variables, Operators, and Strings**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 **Understanding variables and data types**
 
@@ -1431,8 +1535,8 @@ manipulated in a program.
 Variables in JavaScript are containers that hold reusable data. It is
 the basic unit of storage in a program. 
 
-[Read
-more](https://www.geeksforgeeks.org/variables-datatypes-javascript/)
+<p><a href="https://www.geeksforgeeks.org/variables-datatypes-javascript/">
+Read more on Understanding Variables &amp; Data Types</a>.</p>
 
 **Using arithmetic and comparison operators**
 
@@ -1440,8 +1544,8 @@ Arithmetic operators are used to perform arithmetic operations on the
 operands. The following operators are known as JavaScript arithmetic
 operators. The JavaScript comparison operator compares the two operands.
 
-[Read
-more](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math">
+Read more on Using Arithmetic &amp; Comparison Operators</a>.</p>
 
 **Working with strings and string manipulation**
 
@@ -1450,8 +1554,11 @@ form. Some of the most-used operations on strings are to check their
 length, build and concatenate them using the + and += string operators,
 check for the existence or location of substrings with the indexOf()
 method, or extract substrings with the substring() method.
-
-Control Structures & Functions (0:48)
+<p><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings">
+Read more on Handling Text &amp; Strings in JS</a>.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+About this Lesson: Control Structures & Functions (0:48)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In this lesson, you will learn about control structures and
 functions in JavaScript. 
@@ -1477,9 +1584,11 @@ By the end of this lesson, you will have a strong foundation in control
 structures and functions, which are fundamental concepts in
 JavaScript, and essential to build more complex programs. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Conditional Statements (if/else, switch) (7:17)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there. In this video, we will learn about conditional statements like
+Hi there. In this lesson, we will learn about conditional statements like
 if/else, and search in JavaScript. Let&apos;s get started. 
 
 Let&apos;s talk about if/else first. 
@@ -1649,15 +1758,17 @@ By using these conditional statements, you can control the flow of your
 program and execute specific code paths depending on various
 conditions. 
 
-In the next video, we will learn about looping structures for and
+In the next lesson, we will learn about looping structures for and
 while. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Looping Structures (For, While, Do..While) (6:43)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. 
 
 In the previous lesson we learned conditional statements. Now in this
-video we will learn about looping structures and specifically about for,
+lesson we will learn about looping structures and specifically about for,
 while, and do-while loops. 
 
 So let&apos;s get started. 
@@ -1802,12 +1913,14 @@ loop ensures that the code block executes at least once. 
 So these loops are essential for automating repetitive tasks
 for controlling the program flow. 
 
-In the next video, we will understand about functions and scope. 
+In the next lesson, we will understand about functions and scope. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Functions and Scope (7:50)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there. In the previous video we learned about looping structures such
-as for while and do-while loop in JavaScript. Now in this video, we will
+Hi there. In the previous lesson we learned about looping structures such
+as for while and do-while loop in JavaScript. Now in this lesson, we will
 learn about functions and scope. Let&apos;s get started. Let&apos;s talk about
 functions in JavaScript first. Functions are a block of code that
 perform a specific task. They allow you to group reusable code and
@@ -1891,9 +2004,7 @@ logGlobal. 
 Now it does not accept any arguments, so we are just calling it like
 this. 
 
-If I click on Save, you can see that it prints 
-
-the output that I am a global variable. In this example, this global
+If I click on Save, you can see that it prints the output that I am a global variable. In this example, this global
 variable is defined outside of the function and can be accessed
 inside the logGlobal function and almost anywhere in the code. 
 
@@ -1951,7 +2062,9 @@ structured programs and avoid naming conflicts between variables. 
 
 Further Reading on Control Statements
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Conditional statements (if/else, switch)**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In JavaScript we have the following conditional statements:
 
@@ -1969,7 +2082,9 @@ In JavaScript we have the following conditional statements:
 -   The if Statement - Use the if statement to specify a block of
     JavaScript code to be executed if a condition is true.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Looping structures (for, while)**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The JavaScript loops are used to iterate the piece of code using for,
 while, do while or for-in loops. It makes the code compact. It is mostly
@@ -1993,9 +2108,11 @@ and then call that code whenever you need it using a single short
 command --- rather than having to type out the same code multiple
 times. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Module 2: Manipulating the DOM
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 About the DOM (0:46)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In this lesson, we will be exploring the Document Object Model
 and how to manipulate it with JavaScript. The DOM is a programming
@@ -2011,9 +2128,11 @@ DOM and how to use JavaScript to interact with it. Which will provide
 you with the necessary skills to create more advanced and interactive
 web pages.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Understanding the Document Object Model (DOM) (3:51)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi, there. In this video we will learn DOM and HTML. 
+Hi, there. In this lesson we will learn DOM and HTML. 
 
 So let&apos;s get started. 
 
@@ -2101,14 +2220,16 @@ changing their properties or adding and removing nodes altogether. 
 The DOM is a powerful tool for web development and it allows developers
 to create dynamic interactive webpages. 
 
-In the next video, we will learn how to access and actually manipulate
+In the next lesson, we will learn how to access and actually manipulate
 the DOMs with JavaScript. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Accessing DOM elements with JavaScript (7:21)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there, in the previous lesson we learned DOM in JavaScript. 
 
-Now in this video we will see how to access DOM using JavaScript
+Now in this lesson we will see how to access DOM using JavaScript
 so let&apos;s get started. 
 
 Accessing DOM elements with JavaScript is a key skill for web
@@ -2242,19 +2363,21 @@ getElementsByTagName, querySelector and querySelectorAll. 
 
 Once you have a reference to an element you can modify its
 attributes, content and style or create new elements using other methods
-that we would be looking at in a separate video. 
+that we would be looking at in a separate lesson. 
 
 With these tools you can create dynamic and interactive web pages that
 responds to user input and update in real time. 
 
 In the next lesson we will see how to manipulate DOM using JavaScript. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Modifying styles and attributes with JS (6:17)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned how to manipulate DOM
 elements with JavaScript. 
 
-Now in this video we will learn how to modify styles and attributes
+Now in this lesson we will learn how to modify styles and attributes
 using its own methods. 
 
 Let&apos;s get started. Modifying styles and attributes with
@@ -2375,12 +2498,14 @@ can remove an attribute from an element. 
 These capabilities allow developers to create interactive webpages that
 can respond to user input and change in real-time. 
 
-In the next video, we will learn about events and event listeners in
+In the next lesson, we will learn about events and event listeners in
 JavaScript. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Read more about DOM Manipulation
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Understanding the Document Object Model (DOM)**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The W3C Document Object Model (DOM) is a platform and language-neutral
 interface that allows programs and scripts to dynamically access and
@@ -2397,7 +2522,9 @@ The W3C DOM standard is separated into 3 different parts:
 [Read
 more](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Accessing and manipulating DOM elements with JavaScript**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 When writing web pages and apps, one of the most common things you&apos;ll
 want to do is manipulate the document structure in some way. This is
@@ -2444,7 +2571,9 @@ By the end of this lesson, you will have a solid understanding of how to
 handle events in JavaScript, and you will be able to create dynamic
 and engaging web pages that responds to user input. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Understanding Events & Event Listeners (3:49)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. 
 
@@ -2547,10 +2676,12 @@ Overall, events are fundamental part of creating interactive web
 pages with JavaScript that allows us to create dynamic and responsive
 web experience for the user. 
 
-This is all for this video, in the next video, we will understand how to
+This is all for this lesson, in the next lesson, we will understand how to
 respond to a user input such as click or keypresses events. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Responding to User inputs (clicks, key presses) (6:16)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there, in the previous lesson we learned events and event listeners
 in JavaScript. 
@@ -2695,12 +2826,14 @@ listeners and execute the desired functionality. 
 In the next lesson we will create interactive user interfaces with
 events. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Creating interactive user interfaces with events (4:59)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned how to respond to user
 input, such as clicks and key pressed event. 
 
-Now in this video, we will create an interactive user interface
+Now in this lesson, we will create an interactive user interface
 using events. Let&apos;s get started. 
 
 Creating interactive user interfaces with events is a key part of
@@ -2833,7 +2966,9 @@ app. 
 
 Further reading on event handling
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Understanding events and event listeners**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Javascript has events to provide a dynamic interface to a webpage. These
 events are hooked to elements in the Document Object Model(DOM).
@@ -2844,7 +2979,9 @@ external script.
 
 [Read more](https://www.w3schools.com/css/css3_text_effects.asp)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Responding to user input (clicks, key presses)**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Event handlers can be used to handle and verify user input, user
 actions, and browser actions:
@@ -2859,7 +2996,9 @@ actions, and browser actions:
 
 [Read more](https://www.w3schools.com/js/js_events.asp)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Responding to user input (clicks, key presses)**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 CSS is the mechanism for adding style to various web documents. Text
 Effects allows us to apply different types of effects on the text used
@@ -2867,7 +3006,9 @@ in an HTML document.
 
 [Read more](https://www.w3schools.com/css/css3_text_effects.asp)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Creating interactive user interfaces with events**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The UI Events API defines a system for handling user interactions such
 as mouse and keyboard input. This includes:
@@ -2879,7 +3020,9 @@ interface.
 
 [Read more](https://developer.mozilla.org/en-US/docs/Web/API/UI_Events)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Advanced DOM Manipulation (what you will learn) (0:59)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. 
 
@@ -3050,12 +3193,14 @@ rich and engaging user experience for the users. 
 In the next lesson, we will see how to use Ajax to load content
 dynamically. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Using AJAX to load content dynamically (7:03)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there. In the previous video, we learned how to create a new move DOM
+Hi there. In the previous lesson, we learned how to create a new move DOM
 elements using JavaScript. 
 
-Now in this video, we will learn how to use AJAX to load content
+Now in this lesson, we will learn how to use AJAX to load content
 dynamically. Let&apos;s get started. 
 
 AJAX or Asynchronous JavaScript and XML is a technique used in web
@@ -3214,12 +3359,14 @@ full page refresh. 
 In the next lesson we will see how to handle errors and exceptions in
 JavaScript. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Handling Errors and Exceptions (5:53)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned how to use Ajax to load
 content dynamically. 
 
-Now in this video, we will learn how to handle errors and exceptions in
+Now in this lesson, we will learn how to handle errors and exceptions in
 JavaScript. Let&apos;s get started. 
 
 Handling errors and exception is an important part of writing robust and
@@ -3428,7 +3575,9 @@ and fix errors in your code. 
 This is an important skill to have when building complex Java script
 applications. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Working with Arrays and Objects in JavaScript (8:18)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi, there. In this lesson, we will learn about arrays and objects in
 JavaScript. Let&apos;s get started. 
@@ -3620,7 +3769,9 @@ handling data. 
 In the next lesson, we will understand about closures and scope chain in
 JavaScript. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Understanding Closures and the Scope Chain (11:42)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned about arrays and objects in
 JavaScript. 
@@ -3790,7 +3941,9 @@ applications. 
 
 In the next lesson we will understand about debugging in JavaScript. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Debugging JavaScript Code (7:51)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi, there. 
 
@@ -3845,9 +3998,7 @@ For example, let&apos;s create a function and let&apos;s call it as multiply. 
 This would take parameters a,b, and then we can say
 onsole.log(&apos;Multiplying&apos;, a, &quot;and&quot;, b);. 
 
-Then, we can say return 
-
-a &ast; b;. 
+Then, we can say return a &ast; b;. 
 
 After that, let&apos;s create a result variable, And let&apos;s invoke the
 function multiply(5,2,); and let&apos;s also say console.log(&apos;Result: &apos;,
@@ -3949,7 +4100,9 @@ thing to every value.
 [Read
 more](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Understanding closures and the scope chain**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Scope is the context environment (also known as lexical environment)
 created when a function is written. This context defines what other data
@@ -3963,7 +4116,9 @@ variables private. Closures are used in event handling and callbacks.
 [Read
 more](https://www.freecodecamp.org/news/deep-dive-into-scope-chains-and-closures-21ee18b71dd9/)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Debugging JavaScript code**
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Refer to the link below for a step-by-step approach.
 
@@ -4005,7 +4160,9 @@ By the end of this lesson, you will have a good understanding of the
 basics of jQuery and how to use it to create interactive and dynamic web
 pages. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 What is jQuery? (5:01)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In this lesson we will learn about what is jQuery. Let&apos;s get
 started. 
@@ -4118,11 +4275,13 @@ code and create rich and interactive web experiences with less effort. 
 
 In the next lesson, we will understand about selectors. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Selectors (7:39)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there. In the previous video we learned about what is jQuery. 
+Hi there. In the previous lesson we learned about what is jQuery. 
 
-Now in this video we will understand jQuery selectors, so let&apos;s get
+Now in this lesson we will understand jQuery selectors, so let&apos;s get
 started. 
 
 jQuery selectors are a powerful feature that allows you to target and
@@ -4275,13 +4434,15 @@ relationships, form related selectors, and much more. 
 jQuery selector syntax is designed to closely reassemble CSS
 selectors, making it easy to grasp and use for selecting elements. 
 
-In the next video, we will learn about jQuery effects. 
+In the next lesson, we will learn about jQuery effects. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 jQuery Effects (6:31)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there. In the previous video, we learned about jQuery selectors. 
+Hi there. In the previous lesson, we learned about jQuery selectors. 
 
-Now in this video we will learn jQuery effects. Let&apos;s get started. 
+Now in this lesson we will learn jQuery effects. Let&apos;s get started. 
 
 jQuery effects allows you to add visual transitions and animations to
 HTML elements. 
@@ -4412,17 +4573,19 @@ add dynamic and interactive elements. We have webpages. 
 They provide an extensive set of methods that can be used to create
 eye-catching transitions and animations with ease. 
 
-This is all for this video. 
+This is all for this lesson. 
 
-In the next video, we will learn about jQuery diversing. 
+In the next lesson, we will learn about jQuery diversing. 
 
-See you in the next video. Thank you.
+See you in the next lesson. Thank you.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 jQuery Traversing (5:33)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there. In the previous video, we learned about jQuery effects. 
+Hi there. In the previous lesson, we learned about jQuery effects. 
 
-Now in this video we will understand about jQuery traversing. Let&apos;s get
+Now in this lesson we will understand about jQuery traversing. Let&apos;s get
 started. 
 
 JQuery provides powerful methods for traversing the DOM, that is
@@ -4551,7 +4714,7 @@ an essential skill for working with complex web applications. 
 
 Further Reading on jQuery
 
-**What is Jquery?**
+**What is jQuery?**
 
 jQuery is a fast, small, cross-platform and feature-rich JavaScript
 library. It is designed to simplify the client-side scripting of HTML.
@@ -4587,11 +4750,13 @@ find, filter or select a particular or entire element.
 
 [Read more](https://www.geeksforgeeks.org/jquery-traversing/)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Project Building, Part 1 (5:35)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. 
 
-In this video we will talk about how to create the project structure
+In this lesson we will talk about how to create the project structure
 and how to get started in creating a Todo app. 
 
 So let&apos;s get started. 
@@ -4704,15 +4869,17 @@ And this would be empty because the list would be generated dynamically,
 right, the task would be generated dynamically whenever user types in
 the input. 
 
-In the next video we will try to add functionality and before that we
+In the next lesson we will try to add functionality and before that we
 will add some styles to it. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Project Building, Part 2 (10:46)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there, in the previous video we created the HTML structure of our
+Hi there, in the previous lesson we created the HTML structure of our
 Todo app. 
 
-Now in this video we will add styles to it and also some functionality
+Now in this lesson we will add styles to it and also some functionality
 to the app. 
 
 So let&apos;s move back to the VS code and this was our HTML structure. 
@@ -4908,16 +5075,18 @@ So now let&apos;s create a function called deleteTask and that&apos;s it. 
 So we have written the code for add task function and we have added the
 event as well.
 
-This is all for this video, in the next video we will test this function
+This is all for this lesson, in the next lesson we will test this function
 out and you will complete our application and then we can also discuss
 about how you can enhance this application. 
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Project Building, Part 3 (6:03)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-Hi there, in the previous videos we have created the HTML structure
+Hi there, in the previous lessons we have created the HTML structure
 and added the functionality for add a task. 
 
-Now in this video we will complete the app and make it working. 
+Now in this lesson we will complete the app and make it working. 
 
 So let&apos;s go to the VS code and here we already created the function add
 task. 
