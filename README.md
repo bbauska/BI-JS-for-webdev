@@ -1,3 +1,14 @@
+---
+title: |
+  JS Web Dev
+  by 
+author: "Brian Bauska (bbauska)"
+date first editted: "11/20/2024 9+pm"
+date late editted: "11/21/2024 1+pm"
+output: 
+  markdown:
+    with some style
+---
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ readme.md of JS-Web-Dev (Coursera/Board Infinity) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
