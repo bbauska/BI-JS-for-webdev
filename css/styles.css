@@ -13,13 +13,13 @@ ul li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   padding: 14.5px;  /* 10px */
-  line-height:110%;
+  line-height:150%;
 }
 ol li {
   font-size: 14.5px;
   font-family: Bahnschrift, Inter, Helvetic, sans-serif;
   padding: 14.5px;  /* 10px */
-  line-height:110%;
+  line-height:150%;
 }
 
 p { 
@@ -102,10 +102,10 @@ details > p {
   background-color: #fff;  /* white */
   padding: 2px 6px;
   margin: 0;
-  box-shadow: 3px 3px 4px #00008b;  /* dark blue*/
+  box-shadow: 3px 3px 4px #00008b;  /* dark blue */
 }
 details[open] > summary {
-  background-color: yellow;
+  background-color: #ffff00;  /* pure yellow */
 }
 
 background: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%)
@@ -136,7 +136,7 @@ body {
   border-radius: 1px;
 }
 #myBtn:hover {
-  background-color: #555;  /* very dark gray */
+  background-color: #555555;  /* very dark gray */
 }
 
 pre > code {
@@ -156,7 +156,6 @@ pre {
 }
 pre code,
 pre .line-number {
-  /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
   font:normal normal 10px/12px consolas,Courier,Monospace;
   color:black;
   display:block;
