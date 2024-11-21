@@ -1,7 +1,6 @@
 ---
 title: |
   JS Web Dev
-  by 
 author: "Brian Bauska (bbauska)"
 date first editted: "11/20/2024 9+pm"
 date late editted: "11/21/2024 1+pm"
