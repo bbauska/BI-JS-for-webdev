@@ -3,7 +3,7 @@ title: |
   JS Web Dev
 author: "Brian Bauska (bbauska)"
 date first editted: "11/20/2024 9+pm"
-date late editted: "11/21/2024 1+pm"
+date late editted: "11/21/2024 7+pm"
 output: 
   markdown:
     with some style
@@ -65,9 +65,12 @@ write high-quality code that meets the needs of their clients and users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Understanding the different data types in JavaScript and how to use them.</li>
-  <li>Utilize various operators in JavaScript, such as arithmetic, comparison and logical operators.</li>
-  <li>Utilize control structures, such as conditional statements and loops, to control program flow.</li>
-  <li>Develop proficiency in defining and using functions to modularize code and improve code readability.</li>
+  <li>Utilize various operators in JavaScript, such as arithmetic, comparison and 
+    logical operators.</li>
+  <li>Utilize control structures, such as conditional statements and loops, to control 
+    program flow.</li>
+  <li>Develop proficiency in defining and using functions to modularize code and improve 
+    code readability.</li>
 </ul>	
 
 16 lessons, 3 readings
@@ -75,29 +78,37 @@ write high-quality code that meets the needs of their clients and users.</p>
 
 <blockquote>
   <h4><a href="https://www.coursera.org/lecture/javascript-for-web-development/course-introduction-video-3k9Hn">
-    1.01 Course Introduction</a> -- JS for Web Development (0:53)</h4>
+    1.1 Course Introduction</a> -- JS for Web Development (0:53)</h4>
 </blockquote>
 <ul>
-  <li><a href="ch1-01">1.01 Syllabus</a></li>
+  <li><a href="ch1-1-1">1.1.1 Syllabus</a></li>
 </ul>
 <blockquote>
-  <h4><a href="ch1-02">1.02 Getting Started with JavaScript</a></h4>
-  <h4><a href="ch1-03">1.03 About this Lesson</a></h4>
-  <h4><a href="ch1-04">1.04 Variables in JavaScript</a></h4>
-  <h4><a href="ch1-05">1.05 Data Types in JavaScript</a></h4>
-  <h4><a href="ch1-06">1.06 Using Arithmentic and Comparison Operators</a></h4>
-  <h4><a href="ch1-07">1.07 Arrays in JavaScript</a></h4>
-  <h4><a href="ch1-08">1.08 Working with Strings</a></h4>
+  <h4><a href="ch1-02">1.2 About this Lesson</a></h4>
+  <h4><a href="ch1-03">1.3 Introduction to JavaScript</a></h4>
+  <h4><a href="ch1-04">1.4 Setting up your development environment</a></h4>
+  <h4><a href="ch1-05">1.5 Writing your first JavaScript program</a></h4>
+  <h4><a href="ch1-06">1.6 About this lesson (0:52)</a></h4>
+  <h4><a href="ch1-07">1.7 Variables in JavaScript (7:12)</a></h4>
+  <h4><a href="ch1-08">1.8 Data Types in JavaScript</a></h4>
+  <h4><a href="ch1-09">1.9 Using Arithmentic and Comparison Operators</a></h4>
+  <h4><a href="ch1-10">1.10 Arrays in JavaScript</a></h4>
+  <h4><a href="ch1-11">1.11 Working with Strings</a></h4>
+  <h4><a href="ch1-12">1.12 String Manipulation</a></h4>
 </blockquote>
 <ul>
-  <li><a href="ch1-04">1.04 Writing Your First JavaScript Program</a></li>
+  <li><a href="ch1-12-1">1.12.1 Variables, Operators, and Strings</a></li>
 </ul>
 <blockquote>
-  <h4><a href="ch1-08">1.08 String Manipulation</a></h4>
-  <h4><a href="ch1-09">1.09 Conditional Statements (if/else, switch)</a></h4>
-  <h4><a href="ch1-10">1.10 Looping Structures (For, While, Do-While)</a></h4>
-  <h4><a href="ch1-11">1.11 Functions and Scope</a></h4>
+  <h4><a href="ch1-13">1.13 About this lesson (0:48)</a></h4>
+  <h4><a href="ch1-14">1.14 Conditional Statements (if/else, switch)</a></h4>
+  <h4><a href="ch1-15">1.15 Looping Structures (For, While, Do-While)</a></h4>
+  <h4><a href="ch1-16">1.16 Functions and Scope</a></h4>
 </blockquote>
+<ul>
+  <li><a href="ch1-16-1">1.16.1 Control Statements</a></li>
+</ul>
+
 <h2>Getting Started with JavaScript</h2>
 
 <h2>Variables, Data Types, and Operators</h2>
@@ -146,13 +157,13 @@ standards to write high-quality code that meets the needs of their
 clients and users.
 
 Learning Objectives
-Use JavaScript to access and manipulate HTML elements in the DOM, such as changing text, styles, and attributes.
-Understand how to use events and event listeners in JavaScript to respond to user interactions with the DOM.
-Apply event listeners to respond to user input, such as clicks and key presses.
-Develop proficiency in creating interactive user interfaces using JavaScript.
+Use JavaScript to access and manipulate HTML elements in the DOM, such as changing text, 
+styles, and attributes. Understand how to use events and event listeners in JavaScript to 
+respond to user interactions with the DOM. Apply event listeners to respond to user input, 
+such as clicks and key presses. Develop proficiency in creating interactive user interfaces 
+using JavaScript.
 
 13 lessons, 3 readings
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Manipulating the DOM</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
