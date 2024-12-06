@@ -2,8 +2,9 @@
 title: |
   JS Web Dev
 author: "Brian Bauska (bbauska)"
-date first editted: "11/20/2024 9+pm"
+date first created: "11/20/2024 9+pm"
 date late editted: "11/21/2024 7+pm"
+date late editted: "12/06/2024 2+pm"
 output: 
   markdown:
     with some style
@@ -39,11 +40,10 @@ influential jQuery library. With jQuery, you&apos;ll discover streamlined method
 sophisticated DOM manipulations and enhanced event handling, paving the way for the 
 creation of intricate web application functionalities.</p>
 
-<p>By the end of the course, you will have a solid foundation in JavaScript
-programming and a clear understanding of how to use it for web
-development. You will also have the skills to design and develop
-dynamic, interactive web applications that resonate with the
-contemporary digital landscape. This course takes 3 weeks to complete.</p>
+<p>By the end of the course, you will have a solid foundation in JavaScript programming 
+and a clear understanding of how to use it for web development. You will also have the 
+skills to design and develop dynamic, interactive web applications that resonate with 
+the contemporary digital landscape. This course takes 3 weeks to complete.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1">Module 1</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -65,15 +65,15 @@ write high-quality code that meets the needs of their clients and users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Understanding the different data types in JavaScript and how to use them.</li>
-  <li>Utilize various operators in JavaScript, such as arithmetic, comparison and 
-    logical operators.</li>
+  <li>Utilize various operators in JavaScript, such as arithmetic, comparison and logical 
+    operators.</li>
   <li>Utilize control structures, such as conditional statements and loops, to control 
     program flow.</li>
   <li>Develop proficiency in defining and using functions to modularize code and improve 
     code readability.</li>
 </ul>	
 
-16 lessons, 3 readings
+<p><small><small>16 lessons, 3 readings</small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <blockquote>
@@ -122,54 +122,48 @@ write high-quality code that meets the needs of their clients and users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Control Structures and Functions</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <blockquote>
   <h4><a href="ch1-15">1.15 About this next lesson (m:ss)</a></h4>
   <h4><a href="ch1-16">1.16. Conditional statements (if/else, switch)</a></h4>
   <h4><a href="ch1-17">1.17 Looping structures (For, While, Do-While)</a></h4>
   <h4><a href="ch1-18">1.18 Functions and Scope</a></h4>
+  <h4><a href="ch1-19">1.19 Control Statements</a></h4>
 </blockquote>
-<ul>
-  <li><a href="ch1-19">1.19 Control Statements</a></li>
-</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2">Module 2</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="">DOM Manipulation and Event Handling</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>This module is designed to provide learners with a comprehensive understanding of how 
+to manipulate the Document Object Model (DOM) using JavaScript and how to handle events 
+in JavaScript. Throughout the module, learners will gain hands-on experience working with 
+the DOM and will develop a deep understanding of how to make dynamic and interactive
+web pages.</p>
 
-This module is designed to provide learners with a comprehensive
-understanding of how to manipulate the Document Object Model (DOM) using
-JavaScript and how to handle events in JavaScript. Throughout the
-module, learners will gain hands-on experience working with the DOM and
-will develop a deep understanding of how to make dynamic and interactive
-web pages.
+<p>The module will cover the key concepts of the DOM, including how to access and 
+manipulate DOM elements using JavaScript, and how to use event listeners to respond to 
+user input, such as clicks and key presses. Learners will understand how to use these 
+concepts to create interactive web pages that are responsive to user input. By the end 
+of the module, learners will be proficient in manipulating the DOM using JavaScript and 
+will be able to handle events to make their web pages more interactive. They will be 
+able to apply best practices and coding standards to write high-quality code that meets 
+the needs of their clients and users.</p>
 
-The module will cover the key concepts of the DOM, including how to
-access and manipulate DOM elements using JavaScript, and how to use
-event listeners to respond to user input, such as clicks and key
-presses. Learners will understand how to use these concepts to create
-interactive web pages that are responsive to user input. By the end of
-the module, learners will be proficient in manipulating the DOM using
-JavaScript and will be able to handle events to make their web pages
-more interactive. They will be able to apply best practices and coding
-standards to write high-quality code that meets the needs of their
-clients and users.
+<h3>Learning Objectives</h3>
 
-Learning Objectives
-Use JavaScript to access and manipulate HTML elements in the DOM, such as changing text, 
+<p>Use JavaScript to access and manipulate HTML elements in the DOM, such as changing text, 
 styles, and attributes. Understand how to use events and event listeners in JavaScript to 
 respond to user interactions with the DOM. Apply event listeners to respond to user input, 
 such as clicks and key presses. Develop proficiency in creating interactive user interfaces 
-using JavaScript.
+using JavaScript.</p>
 
-13 lessons, 3 readings
+<p><small><small>13 lessons, 3 readings</small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Manipulating the DOM</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-1.  [About the
-    DOM](https://www.coursera.org/lecture/javascript-for-web-development/about-this-lesson-IT7ub)
+1.  <a href="https://www.coursera.org/lecture/javascript-for-web-development/about-this-lesson-IT7ub"
+      >About the DOM</a>
 
 2.  Understanding the Document Object Model (DOM)
 
