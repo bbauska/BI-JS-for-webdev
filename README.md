@@ -77,58 +77,36 @@ write high-quality code that meets the needs of their clients and users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <blockquote>
-  <h4><a href="https://www.coursera.org/lecture/javascript-for-web-development/course-introduction-video-3k9Hn">
-    1.1 Course Introduction</a> -- JS for Web Development (0:53)</h4>
+  <h4><a href="ch1-1">1.1 Course Introduction</a> -- JS for Web Development (0:53)</h4>
 </blockquote>
 <ul>
   <li><a href="ch1-1-1">1.1.1 Syllabus</a></li>
 </ul>
 <blockquote>
-  <h4><a href="ch1-02">1.2 About this Lesson</a></h4>
-  <h4><a href="ch1-03">1.3 Introduction to JavaScript</a></h4>
-  <h4><a href="ch1-04">1.4 Setting up your development environment</a></h4>
-  <h4><a href="ch1-05">1.5 Writing your first JavaScript program</a></h4>
-  <h4><a href="ch1-06">1.6 About this lesson (0:52)</a></h4>
-  <h4><a href="ch1-07">1.7 Variables in JavaScript (7:12)</a></h4>
-  <h4><a href="ch1-08">1.8 Data Types in JavaScript</a></h4>
-  <h4><a href="ch1-09">1.9 Using Arithmentic and Comparison Operators</a></h4>
-  <h4><a href="ch1-10">1.10 Arrays in JavaScript</a></h4>
-  <h4><a href="ch1-11">1.11 Working with Strings</a></h4>
-  <h4><a href="ch1-12">1.12 String Manipulation</a></h4>
+  <h4><a href="ch1-2">1.2 About this Lesson (0:38)</a></h4>
+  <h4><a href="ch1-3">1.3 Introduction to JavaScript (5:33)</a></h4>
+  <h4><a href="ch1-4">1.4 Setting up your development environment (2:46)</a></h4>
+  <h4><a href="ch1-5">1.5 Writing your first JavaScript program (4:39)</a></h4>
+  <h4><a href="ch1-6">1.6 About this lesson (0:52)</a></h4>
+  <h4><a href="ch1-7">1.7 Variables in JavaScript (7:12)</a></h4>
+  <h4><a href="ch1-8">1.8 Data Types in JavaScript (8:58)</a></h4>
+  <h4><a href="ch1-9">1.9 Using Arithmentic and Comparison Operators (8:38)</a></h4>
+  <h4><a href="ch1-10">1.10 Arrays in JavaScript (5:41)</a></h4>
+  <h4><a href="ch1-11">1.11 Working with Strings (6:17)</a></h4>
+  <h4><a href="ch1-12">1.12 String Manipulation (6:34)</a></h4>
 </blockquote>
 <ul>
   <li><a href="ch1-12-1">1.12.1 Variables, Operators, and Strings</a></li>
 </ul>
 <blockquote>
   <h4><a href="ch1-13">1.13 About this lesson (0:48)</a></h4>
-  <h4><a href="ch1-14">1.14 Conditional Statements (if/else, switch)</a></h4>
-  <h4><a href="ch1-15">1.15 Looping Structures (For, While, Do-While)</a></h4>
-  <h4><a href="ch1-16">1.16 Functions and Scope</a></h4>
+  <h4><a href="ch1-14">1.14 Conditional Statements (if/else, switch) (7:17)</a></h4>
+  <h4><a href="ch1-15">1.15 Looping Structures (For, While, Do-While) (6:43)</a></h4>
+  <h4><a href="ch1-16">1.16 Functions and Scope (7:50)</a></h4>
 </blockquote>
 <ul>
   <li><a href="ch1-16-1">1.16.1 Control Statements</a></li>
 </ul>
-
-<h2>Getting Started with JavaScript</h2>
-
-<h2>Variables, Data Types, and Operators</h2>
-
-<blockquote>
-  <h4><a href="ch1-12">1.12 Arrays in Javascript (5:41)</a></h4>
-  <h4><a href="ch1-13">1.13 Working with Strings</a><h4>
-  <h4><a href="ch1-14">1.14 String Manipulation</a></h4>
-</blockquote>
-<h2>Variables, Operators, and Strings</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Control Structures and Functions</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<blockquote>
-  <h4><a href="ch1-15">1.15 About this next lesson (m:ss)</a></h4>
-  <h4><a href="ch1-16">1.16. Conditional statements (if/else, switch)</a></h4>
-  <h4><a href="ch1-17">1.17 Looping structures (For, While, Do-While)</a></h4>
-  <h4><a href="ch1-18">1.18 Functions and Scope</a></h4>
-  <h4><a href="ch1-19">1.19 Control Statements</a></h4>
-</blockquote>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2">Module 2</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -161,46 +139,41 @@ using JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Manipulating the DOM</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-1.  <a href="https://www.coursera.org/lecture/javascript-for-web-development/about-this-lesson-IT7ub"
-      >About the DOM</a>
-
-2.  Understanding the Document Object Model (DOM)
-
-3.  Accessing DOM elements with JavaScript
-
-4.  Manipulating DOM elements with JavaScript
-
-5.  Modifying styles and attributes with JavaScript
-
-> **5.1** DOM Manipulation
-
-6.  What you will learn in this Lesson
-
-7.  Understanding events and event listeners
-
-8.  Responding to user input (clicks, key presses)
-
-9.  Creating interactive user interfaces with events
-
-> **9.1 E**vent Handling
+<blockquote>
+  <h4><a href="ch2-1">2.1 About the DOM (0:46)</a></h4>
+  <h4><a href="ch2-2">2.2 Understanding the Document Object Model (DOM) (3:51)</a></h4>
+  <h4><a href="ch2-3">2.3 Accessing DOM elements with JavaScript (7:21)</a></h4>
+  <h4><a href="ch2-4">2.4 Manipulating DOM elements with JavaScript (7:10)</a></h4>
+  <h4><a href="ch2-5">2.5 Modifying styles and attributes with JavaScript (6:17)</a></h4>
+</blockquote>
+<ul>
+  <li><a href="ch2-5-1">2.5.1 DOM Manipulation</a></li>
+</ul>
+<blockquote>
+  <h4><a href="ch2-6">2.6 What you will learn in this Lesson (0:47)</a></h4>
+  <h4><a href="ch2-7">2.7 Understanding events and event listeners (3:49)</a></h4>
+  <h4><a href="ch2-8">2.8 Responding to user input (clicks, key presses) (6:16)</a></h4>
+  <h4><a href="ch2-9">2.9 Creating interactive user interfaces with events (4:59)</a></h4>
+</blockquote>
+<ul>
+  <li><a href="ch2-9-1">2.9.1 Event Handling</li>
+</ul>
 
 <h2>Event Handling</h2>
 
-10. What you will learn in this Lesson (mm:ss)
-
-11. Creating and removing DOM elements with JavaScript
-
-12. Using AJAX to load content dynamically
-
-13. Handling errors and exceptions
-
-> **13.1** Advanced DOM Manipulation
-
+<blockquote>
+  <h4><a href="ch2-10">2.10 What you will learn in this Lesson (0:59)</a></h4>
+  <h4><a href="ch2-11">2.11 Creating and removing DOM elements with JavaScript (6:36)</a></h4>
+  <h4><a href="ch2-12">2.12 Using AJAX to load content dynamically (7:03)</a></h4>
+  <h4><a href="ch2-13">2.13 Handling errors and exceptions (5:53)</a></h4>
+</blockquote>
+<ul>
+  <li><a href="ch2-13-1">2.13.1 Advanced DOM Manipulation</a></li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Module 3
+<h2>Module 3</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Advanced JavaScript Techniques and jQuery
+<h3>Advanced JavaScript Techniques and jQuery</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This module is designed to provide learners with a comprehensive
 understanding of advanced JavaScript techniques and the jQuery library.
@@ -216,58 +189,46 @@ animations, handle events, and manipulate the DOM more easily. By the
 end of the module, lerners will build a hands on project that will bring
 thier learning to life.
 
-Learning Objectives
-Develop the ability to write efficient and effective JavaScript code using advanced techniques.
+<h3>Learning Objectives</h3>
+
+<p>Develop the ability to write efficient and effective JavaScript code using advanced techniques.
 Master the use of the jQuery library to simplify DOM manipulation and event handling in JavaScript, and enhance interactivity of web pages.
-Build a project utilizing JavaScript.
+Build a project utilizing JavaScript.</p>
 
-12 lessons, 2 readings
-
+<p><small><small>12 lessons, 2 readings</small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Advanced DOM Manipulation</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-1.  [What you will learn in this
-    Lesson](https://www.coursera.org/lecture/javascript-for-web-development/what-you-will-learn-in-this-lesson-ODHZ5)
-
-2.  Working with arrays and objects in JavaScript
-
-3.  Understanding closures and the scope chain
-
-4.  Debugging JavaScript code
-
-> **4.1** Advanced JS Techniques
-
+<blockquote>
+  <h4><a href="ch3-1">3.1 What you will learn in this Lesson (0:50)</a></h4>
+  <h4><a href="ch3-2">3.2 Working with arrays and objects in JavaScript (8:18)</a></h4>
+  <h4><a href="ch3-3">3.3 Understanding closures and the scope chain (11:42)</a></h4>
+  <h4><a href="ch3-4">3.4 Debugging JavaScript code (7:51)</a></h4>
+</blockquote>
+<ul>
+  <li><a href="ch3-4-1">3.4.1 Advanced JS Techniques</a></li>
+</ul>
+<blockquote>
+  <h4><a href="ch3-5">3.5 What you will learn in this Lesson (1:18)</a></h4>
+</blockquote>
 <h2>Introduction to jQuery</h2>
-
+<blockquote>
+  <h4><a href="ch3-6">3.6 What is jQuery? (5:01)</a></h4>
+  <h4><a href="ch3-7">3.7 jQuery Selector (7:39)</a></h4>
+  <h4><a href="ch3-8">3.8 jQuery Effects (6:31)</a></h4>
+  <h4><a href="ch3-9">3.9 jQuery Traversing (5:33)</a></h4>
+</blockquote>
+<ul>
+  <li><a href="ch3-9-1">3.9.1 jQuery</a></li>
+</ul>
+<blockquote>
+  <h4><a href="ch3-10">3.10 Project Building - Part 1 (5:35)</a></h4>
+  <h4><a href="ch3-11">3.11 Project Building - Part 2 (10:46)</a></h4>
+  <h4><a href="ch3-12">3.12 Project Building - Part 3 (6:03)</a></h4>
+</blockquote>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Advanced JavaScript Techniques</h2>
+<h3 id="ch1-1-1">1.1.1 Syllabus</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-5.  What you will learn in this Lesson
-
-6.  What is jQuery?
-
-7.  jQuery Selectors
-
-8.  jQuery Effects
-
-9.  jQuery Traversing
-
-> **9.1** jQuery
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Project Building</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-10. Project Building - Part 1
-
-11. Project Building - Part 2
-
-12. Project Building - Part 3
-<!--********************************************************************************************-->
-**Syllabus**
-<!--********************************************************************************************-->
 
 This course is designed for beginners who want to learn how to use
 JavaScript to add dynamic and interactive features to their websites. In
@@ -285,7 +246,7 @@ programming and a clear understanding of how to use it for web
 development. You will also have the skills to create dynamic and
 interactive websites that can respond to user input.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-**Module 1: Introduction to JavaScript Programming**
+<h2 id="ch1">Module 1: Introduction to JavaScript Programming</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This module is designed to provide you with a comprehensive introduction
 to JavaScript programming. Throughout the module, you will gain hands-on
@@ -302,7 +263,7 @@ effective JavaScript programs and will be able to apply best practices
 and coding standards to write high-quality code that meets the needs of
 your clients and users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-**Module 2: DOM Manipulation and Event Handling**
+<h2 id="ch2">Module 2: DOM Manipulation and Event Handling</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This module is designed to provide you with a comprehensive
 understanding of how to manipulate the Document Object Model (DOM) using
@@ -323,7 +284,7 @@ pages more interactive. You will be able to apply best practices and
 coding standards to write high-quality code that meets the needs of your
 clients and users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-**Module 3: Advanced JavaScript Techniques and jQuery**
+<h2 id="ch3">Module 3: Advanced JavaScript Techniques and jQuery</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This module is designed to provide you with a comprehensive
 understanding of advanced JavaScript techniques and the jQuery library.
@@ -341,7 +302,7 @@ By the end of the module, you will build a hands-on project that will
 bring learning to life.
 <!-- end of syllabus -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-1.01 About this Lesson: JS for Web Dev (0:38)
+<h3 id="ch1-2">1.2 About this Lesson: JS for Web Dev (0:38)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In this lesson, you will be introduced to the world of
@@ -360,7 +321,7 @@ you with a solid foundation in JavaScript programming. See you in the
 next lesson.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-1.02 Introduction to JavaScript (5:33)
+<h3 id="ch1-3">1.3 Introduction to JavaScript (5:33)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi there. In this lesson we will learn some history and introduction
 related to JavaScript. So let&apos;s get started. 
@@ -457,7 +418,7 @@ become a fundamental language for modern web development. This is all
 for this lesson. In the next lesson, we will see how to set up your
 development environment.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-3. **Setting Up Your Development Environment (2:46)**
+<h3 id="ch1-4">1.4 Setting Up Your Development Environment (2:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi there, in the previous lesson, we saw introduction to JavaScript. 
 
@@ -505,7 +466,7 @@ JavaScript engine. So this is all for this lesson. In the next lesson, we
 will write our very first JavaScript program. See you in the next
 lesson. Thank you. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-4. **Writing Your First JavaScript Program (4:39)**
+<h3 id="ch1-5">1.5 Writing Your First JavaScript Program (4:39)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there, in the previous lesson, you have set up your development environment. Now in 
@@ -560,7 +521,7 @@ Congratulations, you have written and executed your first JavaScript program. Th
 simple example, but it demonstrates the basic structure and syntax of a JavaScript 
 program. This is all for this lesson. See you in the next lesson. Thank you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-**About this Lesson (0:52)**
+<h3 id="ch1-6">1.6 About this Lesson (0:52)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Now, we can open up our Visual Studio Code. You can use any other code editor if you want 
 and then I'll open this JavaScript folder. Now this JavaScript folder is empty. We have 
@@ -589,7 +550,7 @@ executed your first JavaScript program. This is a simple example, but it demonst
 basic structure and syntax of a JavaScript program. This is all for this lesson. See you 
 in the next lesson. Thank you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-**Variable, Data Types & Operators (7:12)**
+<h3 id="ch1-7">1.7 Variable, Data Types & Operators (7:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi there. In this lesson we will learn variables in JavaScript, so
 let&apos;s get started. 
@@ -765,7 +726,7 @@ and should be avoided in new code wherever possible. 
 
 In the next lesson, we will see data types in JavaScript. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Data Types in JavaScript (8:58)
+<h3 id="ch1-8">1.8 Data Types in JavaScript (8:58)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi there. In the previous lesson we learned variables in JavaScript. Now
 in this lesson we will learn data types in JavaScript. So let&apos;s get
@@ -825,7 +786,7 @@ create or give a value to a variable, you can just say let and you
 can create any variable, let&apos;s say x
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Using Arithmetic and Comparison Operators (8:38)
+<h3 id="ch1-9">1.9 Using Arithmetic and Comparison Operators (8:38)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson we learned data types in JavaScript. 
@@ -1030,7 +991,7 @@ standing how to use them is very essential for the beginners. 
 In the next lesson, we will understand arrays in JavaScript. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Arrays in JavaScript (5:41)
+<h3 id="ch1-10">1.10 Arrays in JavaScript (5:41)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned arithmetic and comparison
@@ -1184,7 +1145,7 @@ In the next lesson, we will understand about strings and string
 manipulation in JavaScript. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Working with Strings (6:17)
+<h3 id="ch1-11">1.11 Working with Strings (6:17)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned about arrays. 
@@ -1341,7 +1302,7 @@ In the next lesson, we will see string manipulation in JavaScript. Thank
 you.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-String Manipulation (6:34)
+<h3 id="ch1-12">1.12 String Manipulation (6:34)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there, in the previous lesson we learned strings. 
@@ -1493,7 +1454,7 @@ Thank you.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Reading Materials**
-1.XX **Learn more about Variables, Operators, and Strings**
+1.12 **Learn more about Variables, Operators, and Strings**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 **Understanding variables and data types**
@@ -1528,9 +1489,8 @@ method, or extract substrings with the substring() method.
 <p><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings">
 Read more on Handling Text &amp; Strings in JS</a>.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-About this Lesson: Control Structures & Functions (0:48)
+<h3 id="ch1-13">1.13 About this Lesson: Control Structures & Functions (0:48)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In this lesson, you will learn about control structures and
 functions in JavaScript. 
 
@@ -1556,7 +1516,7 @@ structures and functions, which are fundamental concepts in
 JavaScript, and essential to build more complex programs. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Conditional Statements (if/else, switch) (7:17)
+<h3 id="ch1-14">1.14 Conditional Statements (if/else, switch) (7:17)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In this lesson, we will learn about conditional statements like
@@ -1733,7 +1693,7 @@ In the next lesson, we will learn about looping structures for and
 while. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Looping Structures (For, While, Do..While) (6:43)
+<h3 id="ch1-15">1.15 Looping Structures (For, While, Do..While) (6:43)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. 
@@ -1887,7 +1847,7 @@ for controlling the program flow. 
 In the next lesson, we will understand about functions and scope. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Functions and Scope (7:50)
+<h3 id="ch1-16">1.16 Functions and Scope (7:50)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson we learned about looping structures such
