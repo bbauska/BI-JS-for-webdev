@@ -2037,7 +2037,7 @@ times. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Module 2: Manipulating the DOM
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-About the DOM (0:46)
+<h3 id="ch2-1">2.1 About the DOM (0:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In this lesson, we will be exploring the Document Object Model
@@ -2055,7 +2055,7 @@ you with the necessary skills to create more advanced and interactive
 web pages.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Understanding the Document Object Model (DOM) (3:51)
+<h3 id="ch2-2">2.2 Understanding the Document Object Model (DOM) (3:51)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi, there. In this lesson we will learn DOM and HTML. 
@@ -2150,7 +2150,7 @@ In the next lesson, we will learn how to access and actually manipulate
 the DOMs with JavaScript. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Accessing DOM elements with JavaScript (7:21)
+<h3 id="ch2-3">2.3 Accessing DOM elements with JavaScript (7:21)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there, in the previous lesson we learned DOM in JavaScript. 
@@ -2297,7 +2297,7 @@ responds to user input and update in real time. 
 In the next lesson we will see how to manipulate DOM using JavaScript. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Modifying styles and attributes with JS (6:17)
+<h3 id="ch2-5">2.5 Modifying styles and attributes with JS (6:17)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned how to manipulate DOM
@@ -2498,7 +2498,7 @@ handle events in JavaScript, and you will be able to create dynamic
 and engaging web pages that responds to user input. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Understanding Events & Event Listeners (3:49)
+<h3 id="ch2-7">2.7 Understanding Events & Event Listeners (3:49)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. 
@@ -2606,7 +2606,7 @@ This is all for this lesson, in the next lesson, we will understand how to
 respond to a user input such as click or keypresses events. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Responding to User inputs (clicks, key presses) (6:16)
+<h3 id="ch2-8">2.8 Responding to User inputs (clicks, key presses) (6:16)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there, in the previous lesson we learned events and event listeners
@@ -2753,7 +2753,7 @@ In the next lesson we will create interactive user interfaces with
 events. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Creating interactive user interfaces with events (4:59)
+<h3 id="ch2-9">2.9 Creating interactive user interfaces with events (4:59)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned how to respond to user
@@ -3120,7 +3120,7 @@ In the next lesson, we will see how to use Ajax to load content
 dynamically. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Using AJAX to load content dynamically (7:03)
+<h3 id="ch2-12">2.12 Using AJAX to load content dynamically (7:03)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned how to create a new move DOM
@@ -3286,7 +3286,7 @@ In the next lesson we will see how to handle errors and exceptions in
 JavaScript. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Handling Errors and Exceptions (5:53)
+<h3 id="ch2-13">2.13 Handling Errors and Exceptions (5:53)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned how to use Ajax to load
@@ -3502,7 +3502,7 @@ This is an important skill to have when building complex Java script
 applications. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Working with Arrays and Objects in JavaScript (8:18)
+<h3 id="ch3-2">3.2 Working with Arrays and Objects in JavaScript (8:18)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi, there. In this lesson, we will learn about arrays and objects in
@@ -3696,7 +3696,7 @@ In the next lesson, we will understand about closures and scope chain in
 JavaScript. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Understanding Closures and the Scope Chain (11:42)
+<h3 id="ch3-3">3.3 Understanding Closures and the Scope Chain (11:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned about arrays and objects in
@@ -3868,7 +3868,7 @@ applications. 
 In the next lesson we will understand about debugging in JavaScript. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Debugging JavaScript Code (7:51)
+<h3 id="ch3-4">3.4 Debugging JavaScript Code (7:51)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi, there. 
@@ -4087,7 +4087,7 @@ basics of jQuery and how to use it to create interactive and dynamic web
 pages. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-What is jQuery? (5:01)
+<h3 id="ch3-6">3.6 What is jQuery? (5:01)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In this lesson we will learn about what is jQuery. Let&apos;s get
@@ -4202,7 +4202,7 @@ code and create rich and interactive web experiences with less effort. 
 In the next lesson, we will understand about selectors. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Selectors (7:39)
+<h3 id="ch3-7">3.7 jQuery Selectors (7:39)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson we learned about what is jQuery. 
@@ -4363,7 +4363,7 @@ selectors, making it easy to grasp and use for selecting elements. 
 In the next lesson, we will learn about jQuery effects. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-jQuery Effects (6:31)
+<h3 id="ch3-8">3.8 jQuery Effects (6:31)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned about jQuery selectors. 
@@ -4506,7 +4506,7 @@ In the next lesson, we will learn about jQuery diversing. 
 See you in the next lesson. Thank you.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-jQuery Traversing (5:33)
+<h3 id="ch3-9">3.9 jQuery Traversing (5:33)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned about jQuery effects. 
@@ -4677,7 +4677,7 @@ find, filter or select a particular or entire element.
 [Read more](https://www.geeksforgeeks.org/jquery-traversing/)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Project Building, Part 1 (5:35)
+<h3 id="ch3-10">3.10 Project Building, Part 1 (5:35)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. 
@@ -4799,7 +4799,7 @@ In the next lesson we will try to add functionality and before that we
 will add some styles to it. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Project Building, Part 2 (10:46)
+<h3 id="ch3-11">3.11 Project Building, Part 2 (10:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there, in the previous lesson we created the HTML structure of our
@@ -5006,9 +5006,8 @@ out and you will complete our application and then we can also discuss
 about how you can enhance this application. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Project Building, Part 3 (6:03)
+<h3 id="ch3-12">3.12 Project Building, Part 3 (6:03)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there, in the previous lessons we have created the HTML structure
 and added the functionality for add a task. 
 
