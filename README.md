@@ -45,9 +45,8 @@ and a clear understanding of how to use it for web development. You will also ha
 skills to design and develop dynamic, interactive web applications that resonate with 
 the contemporary digital landscape. This course takes 3 weeks to complete.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1">Module 1</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3>Introduction to JavaScript Programming</h3>
+<p id="toc"></p>
+<h2 id="ch1">Module 1: Introduction to JavaScript Programming</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This module is designed to provide learners with a comprehensive introduction to 
 JavaScript programming. Throughout the module, learners will gain hands-on experience 
@@ -61,7 +60,7 @@ the end of the module, learners will be proficient in creating simple and effect
 JavaScript programs. They will be able to apply best practices and coding standards to 
 write high-quality code that meets the needs of their clients and users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-object">Learning Objectives</h2>
+<h3 id="ch1-obj">Learning Objectives</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Understanding the different data types in JavaScript and how to use them.</li>
@@ -75,42 +74,39 @@ write high-quality code that meets the needs of their clients and users.</p>
 
 <p><small><small>16 lessons, 3 readings</small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 <blockquote>
-  <h4><a href="ch1-1">1.1 Course Introduction</a> -- JS for Web Development (0:53)</h4>
+  <h4><a href="#ch1-1">1.1 Course Introduction</a> -- JS for Web Development (0:53)</h4>
 </blockquote>
 <ul>
-  <li><a href="ch1-1-1">1.1.1 Syllabus</a></li>
+  <li><a href="#ch1-1-1">1.1.1 Syllabus</a></li>
 </ul>
 <blockquote>
-  <h4><a href="ch1-2">1.2 About this Lesson (0:38)</a></h4>
-  <h4><a href="ch1-3">1.3 Introduction to JavaScript (5:33)</a></h4>
-  <h4><a href="ch1-4">1.4 Setting up your development environment (2:46)</a></h4>
-  <h4><a href="ch1-5">1.5 Writing your first JavaScript program (4:39)</a></h4>
-  <h4><a href="ch1-6">1.6 About this lesson (0:52)</a></h4>
-  <h4><a href="ch1-7">1.7 Variables in JavaScript (7:12)</a></h4>
-  <h4><a href="ch1-8">1.8 Data Types in JavaScript (8:58)</a></h4>
-  <h4><a href="ch1-9">1.9 Using Arithmentic and Comparison Operators (8:38)</a></h4>
-  <h4><a href="ch1-10">1.10 Arrays in JavaScript (5:41)</a></h4>
-  <h4><a href="ch1-11">1.11 Working with Strings (6:17)</a></h4>
-  <h4><a href="ch1-12">1.12 String Manipulation (6:34)</a></h4>
+  <h4><a href="#ch1-2">1.2 About this Lesson (0:38)</a></h4>
+  <h4><a href="#ch1-3">1.3 Introduction to JavaScript (5:33)</a></h4>
+  <h4><a href="#ch1-4">1.4 Setting up your development environment (2:46)</a></h4>
+  <h4><a href="#ch1-5">1.5 Writing your first JavaScript program (4:39)</a></h4>
+  <h4><a href="#ch1-6">1.6 About this lesson (0:52)</a></h4>
+  <h4><a href="#ch1-7">1.7 Variables in JavaScript (7:12)</a></h4>
+  <h4><a href="#ch1-8">1.8 Data Types in JavaScript (8:58)</a></h4>
+  <h4><a href="#ch1-9">1.9 Using Arithmentic and Comparison Operators (8:38)</a></h4>
+  <h4><a href="#ch1-10">1.10 Arrays in JavaScript (5:41)</a></h4>
+  <h4><a href="#ch1-11">1.11 Working with Strings (6:17)</a></h4>
+  <h4><a href="#ch1-12">1.12 String Manipulation (6:34)</a></h4>
 </blockquote>
 <ul>
-  <li><a href="ch1-12-1">1.12.1 Variables, Operators, and Strings</a></li>
+  <li><a href="#ch1-12-1">1.12.1 Variables, Operators, and Strings</a></li>
 </ul>
 <blockquote>
-  <h4><a href="ch1-13">1.13 About this lesson (0:48)</a></h4>
-  <h4><a href="ch1-14">1.14 Conditional Statements (if/else, switch) (7:17)</a></h4>
-  <h4><a href="ch1-15">1.15 Looping Structures (For, While, Do-While) (6:43)</a></h4>
-  <h4><a href="ch1-16">1.16 Functions and Scope (7:50)</a></h4>
+  <h4><a href="#ch1-13">1.13 About this lesson (0:48)</a></h4>
+  <h4><a href="#ch1-14">1.14 Conditional Statements (if/else, switch) (7:17)</a></h4>
+  <h4><a href="#ch1-15">1.15 Looping Structures (For, While, Do-While) (6:43)</a></h4>
+  <h4><a href="#ch1-16">1.16 Functions and Scope (7:50)</a></h4>
 </blockquote>
 <ul>
-  <li><a href="ch1-16-1">1.16.1 Control Statements</a></li>
+  <li><a href="#ch1-16-1">1.16.1 Control Statements</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch2">Module 2</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3 id="">DOM Manipulation and Event Handling</h3>
+<h2 id="ch2">Module 2:  DOM Manipulation and Event Handling</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This module is designed to provide learners with a comprehensive understanding of how 
 to manipulate the Document Object Model (DOM) using JavaScript and how to handle events 
@@ -126,9 +122,9 @@ of the module, learners will be proficient in manipulating the DOM using JavaScr
 will be able to handle events to make their web pages more interactive. They will be 
 able to apply best practices and coding standards to write high-quality code that meets 
 the needs of their clients and users.</p>
-
-<h3>Learning Objectives</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch2-obj">Learning Objectives</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Use JavaScript to access and manipulate HTML elements in the DOM, such as changing text, 
 styles, and attributes. Understand how to use events and event listeners in JavaScript to 
 respond to user interactions with the DOM. Apply event listeners to respond to user input, 
@@ -137,43 +133,41 @@ using JavaScript.</p>
 
 <p><small><small>13 lessons, 3 readings</small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Manipulating the DOM</h2>
+<h3>Manipulating the DOM</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <blockquote>
-  <h4><a href="ch2-1">2.1 About the DOM (0:46)</a></h4>
-  <h4><a href="ch2-2">2.2 Understanding the Document Object Model (DOM) (3:51)</a></h4>
-  <h4><a href="ch2-3">2.3 Accessing DOM elements with JavaScript (7:21)</a></h4>
-  <h4><a href="ch2-4">2.4 Manipulating DOM elements with JavaScript (7:10)</a></h4>
-  <h4><a href="ch2-5">2.5 Modifying styles and attributes with JavaScript (6:17)</a></h4>
+  <h4><a href="#ch2-1">2.1 About the DOM (0:46)</a></h4>
+  <h4><a href="#ch2-2">2.2 Understanding the Document Object Model (DOM) (3:51)</a></h4>
+  <h4><a href="#ch2-3">2.3 Accessing DOM elements with JavaScript (7:21)</a></h4>
+  <h4><a href="#ch2-4">2.4 Manipulating DOM elements with JavaScript (7:10)</a></h4>
+  <h4><a href="#ch2-5">2.5 Modifying styles and attributes with JavaScript (6:17)</a></h4>
 </blockquote>
 <ul>
-  <li><a href="ch2-5-1">2.5.1 DOM Manipulation</a></li>
+  <li><a href="#ch2-5-1">2.5.1 DOM Manipulation</a></li>
 </ul>
 <blockquote>
-  <h4><a href="ch2-6">2.6 What you will learn in this Lesson (0:47)</a></h4>
-  <h4><a href="ch2-7">2.7 Understanding events and event listeners (3:49)</a></h4>
-  <h4><a href="ch2-8">2.8 Responding to user input (clicks, key presses) (6:16)</a></h4>
-  <h4><a href="ch2-9">2.9 Creating interactive user interfaces with events (4:59)</a></h4>
+  <h4><a href="#ch2-6">2.6 What you will learn in this Lesson (0:47)</a></h4>
+  <h4><a href="#ch2-7">2.7 Understanding events and event listeners (3:49)</a></h4>
+  <h4><a href="#ch2-8">2.8 Responding to user input (clicks, key presses) (6:16)</a></h4>
+  <h4><a href="#ch2-9">2.9 Creating interactive user interfaces with events (4:59)</a></h4>
 </blockquote>
 <ul>
-  <li><a href="ch2-9-1">2.9.1 Event Handling</li>
+  <li><a href="#ch2-9-1">2.9.1 Event Handling</li>
 </ul>
-
-<h2>Event Handling</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Event Handling</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <blockquote>
-  <h4><a href="ch2-10">2.10 What you will learn in this Lesson (0:59)</a></h4>
-  <h4><a href="ch2-11">2.11 Creating and removing DOM elements with JavaScript (6:36)</a></h4>
-  <h4><a href="ch2-12">2.12 Using AJAX to load content dynamically (7:03)</a></h4>
-  <h4><a href="ch2-13">2.13 Handling errors and exceptions (5:53)</a></h4>
+  <h4><a href="#ch2-10">2.10 What you will learn in this Lesson (0:59)</a></h4>
+  <h4><a href="#ch2-11">2.11 Creating and removing DOM elements with JavaScript (6:36)</a></h4>
+  <h4><a href="#ch2-12">2.12 Using AJAX to load content dynamically (7:03)</a></h4>
+  <h4><a href="#ch2-13">2.13 Handling errors and exceptions (5:53)</a></h4>
 </blockquote>
 <ul>
-  <li><a href="ch2-13-1">2.13.1 Advanced DOM Manipulation</a></li>
+  <li><a href="#ch2-13-1">2.13.1 Advanced DOM Manipulation</a></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Module 3</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3>Advanced JavaScript Techniques and jQuery</h3>
+<h2 id="ch3">Module 3: Advanced JavaScript Techniques and jQuery</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 This module is designed to provide learners with a comprehensive
 understanding of advanced JavaScript techniques and the jQuery library.
@@ -188,48 +182,49 @@ handling in JavaScript. They will learn how to use jQuery to create
 animations, handle events, and manipulate the DOM more easily. By the
 end of the module, lerners will build a hands on project that will bring
 thier learning to life.
-
-<h3>Learning Objectives</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ch3-obj">Learning Objectives</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Develop the ability to write efficient and effective JavaScript code using advanced techniques.
 Master the use of the jQuery library to simplify DOM manipulation and event handling in JavaScript, and enhance interactivity of web pages.
 Build a project utilizing JavaScript.</p>
 
 <p><small><small>12 lessons, 2 readings</small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Advanced DOM Manipulation</h2>
+<h3>Advanced DOM Manipulation</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <blockquote>
-  <h4><a href="ch3-1">3.1 What you will learn in this Lesson (0:50)</a></h4>
-  <h4><a href="ch3-2">3.2 Working with arrays and objects in JavaScript (8:18)</a></h4>
-  <h4><a href="ch3-3">3.3 Understanding closures and the scope chain (11:42)</a></h4>
-  <h4><a href="ch3-4">3.4 Debugging JavaScript code (7:51)</a></h4>
+  <h4><a href="#ch3-1">3.1 What you will learn in this Lesson (0:50)</a></h4>
+  <h4><a href="#ch3-2">3.2 Working with arrays and objects in JavaScript (8:18)</a></h4>
+  <h4><a href="#ch3-3">3.3 Understanding closures and the scope chain (11:42)</a></h4>
+  <h4><a href="#ch3-4">3.4 Debugging JavaScript code (7:51)</a></h4>
 </blockquote>
 <ul>
-  <li><a href="ch3-4-1">3.4.1 Advanced JS Techniques</a></li>
+  <li><a href="#ch3-4-1">3.4.1 Advanced JS Techniques</a></li>
 </ul>
 <blockquote>
-  <h4><a href="ch3-5">3.5 What you will learn in this Lesson (1:18)</a></h4>
+  <h4><a href="#ch3-5">3.5 What you will learn in this Lesson (1:18)</a></h4>
 </blockquote>
-<h2>Introduction to jQuery</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Introduction to jQuery</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <blockquote>
-  <h4><a href="ch3-6">3.6 What is jQuery? (5:01)</a></h4>
-  <h4><a href="ch3-7">3.7 jQuery Selector (7:39)</a></h4>
-  <h4><a href="ch3-8">3.8 jQuery Effects (6:31)</a></h4>
-  <h4><a href="ch3-9">3.9 jQuery Traversing (5:33)</a></h4>
+  <h4><a href="#ch3-6">3.6 What is jQuery? (5:01)</a></h4>
+  <h4><a href="#ch3-7">3.7 jQuery Selector (7:39)</a></h4>
+  <h4><a href="#ch3-8">3.8 jQuery Effects (6:31)</a></h4>
+  <h4><a href="#ch3-9">3.9 jQuery Traversing (5:33)</a></h4>
 </blockquote>
 <ul>
-  <li><a href="ch3-9-1">3.9.1 jQuery</a></li>
+  <li><a href="#ch3-9-1">3.9.1 jQuery</a></li>
 </ul>
 <blockquote>
-  <h4><a href="ch3-10">3.10 Project Building - Part 1 (5:35)</a></h4>
-  <h4><a href="ch3-11">3.11 Project Building - Part 2 (10:46)</a></h4>
-  <h4><a href="ch3-12">3.12 Project Building - Part 3 (6:03)</a></h4>
+  <h4><a href="#ch3-10">3.10 Project Building - Part 1 (5:35)</a></h4>
+  <h4><a href="#ch3-11">3.11 Project Building - Part 2 (10:46)</a></h4>
+  <h4><a href="#ch3-12">3.12 Project Building - Part 3 (6:03)</a></h4>
 </blockquote>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-1-1">1.1.1 Syllabus</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 This course is designed for beginners who want to learn how to use
 JavaScript to add dynamic and interactive features to their websites. In
 this course, you will learn the fundamentals of JavaScript programming,
