@@ -299,7 +299,6 @@ bring learning to life.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2">1.2 About this Lesson: JS for Web Dev (0:38)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In this lesson, you will be introduced to the world of
 JavaScript,  a high level programming language that is widely used for
 web development. 
@@ -338,7 +337,7 @@ web browser. This makes it a powerful tool for creating cross platform
 applications that can be used on desktop computers, tablets, and
 smartphones.
 
-So why is it called JavaScript? JavaScript was originally created by
+Why is it called JavaScript? JavaScript was originally created by
 Brendan Eich at Netscape Communications. The language was initially
 called Mocha, but it was later renamed to Live Script. The decision to
 rename the language to JavaScript was largely a marketing decision made
@@ -373,7 +372,6 @@ example, V8 is used by Chrome, SpiderMonkey by Firefox, and Chakra by
 Internet Explorer. 
 
 Each engine has its own unique features and performance characteristics.
-
 What are the tasks that in browser JavaScript can perform? Let&apos;s look
 at some. It can manipulate HTML and CSS. JavaScript can change the style
 and content of elements on a web page.
@@ -455,7 +453,7 @@ also install standalone engines such as Node, JS or Rhino. These engines
 allow you to execute JavaScript code outside of a web browser, for
 example, to build server side applications or command line tools. 
 
-So once you have these tools set up, you can start writing and running
+Once you have these tools set up, you can start writing and running
 JavaScript code in your code editor and test it on your web browser or
 JavaScript engine. So this is all for this lesson. In the next lesson, we
 will write our very first JavaScript program. See you in the next
@@ -463,10 +461,8 @@ lesson. Thank you. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5">1.5 Writing Your First JavaScript Program (4:39)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there, in the previous lesson, you have set up your development environment. Now in 
 this lesson, you will write your first JavaScript program. 
-
 Let&apos;s get started. Let&apos;s look at some basic steps to write the first
 JavaScript program. 
 
@@ -549,125 +545,93 @@ in the next lesson. Thank you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Hi there. In this lesson we will learn variables in JavaScript, so
 let&apos;s get started. 
-
 Let&apos;s say that you have a box of crayons and you want to organize them
 by color. 
 
 You could use different compartments in the box to store each color
 separately. 
-
 Each compartment would be like a variable and the crayons would be the
 data stored in those variables. 
 
 For example, you could have a compartment for red crayons, a compartment
 for blue crayons, and so on. 
-
 The number of crayons in each compartment could vary depending on how
 many crayons you have of each color. 
 
 In JavaScript, variables work in a similar way. 
-
 You can think of variable as a container that holds a piece of data like
 a crayon. 
-
 The variable has a name that you can choose, just like the compartment
 in the crayon box has a label indicating the color of crayons it holds. 
 
 You can then use these variables to perform calculations or manipulate
 the data stored in them. 
-
 Just like you can move crayons from one compartment to another, you can
 change the data stored in a variable as needed. 
 
 Most of the time, a JavaScript application needs to work with some
 information. 
-
 Let&apos;s see some examples. 
 
 The first is a social media app. 
-
 In this case, the information might include the user&apos;s name, age, and
 number of followers. 
 
 The second is a music app. 
-
 In this case, the information might include the user&apos;s favorite songs,
 playlist, and artist. 
 
 Variables are used to store this information. 
-
 To create a variable in JavaScript,  you can use let, var, and const
 keyword. 
 
 Let&apos;s understand when to prefer what through some examples. 
-
 Let&apos;s move to the VSCode. 
-
 Here I have index.html ready with us. 
-
 We can just create a new file and let&apos;s call it as variables.js. 
-
 You can use var, let, and const, but when to use what lets see that. 
 
 Before that, let&apos;s use let keyword and let&apos;s say let name to be John.
-
 This is how you create a variable. 
-
 Here you have two process. 
-
 First is that you are saying let name. 
-
 That means you are declaring a variable. 
 
 Then you are assigning the value, that is John in this case, like this. 
-
 This is variable declaration. 
-
 This is variable initialization. 
-
 You can in fact do the initialization and declaration in the same line
 like this, you will use in this fashion. 
 
 Let is the preferred way to declare a variable that can be reassigned
 later in the code. 
-
 It is blocked scope, which means that it can only exist within the block
 of code where it was defined. 
-
 For example, let&apos;s create a variable by the name of count and we can
 give it a value of 0. 
 
 Then you can say count to be 1 and then we can say console.log(count). 
-
 Now we can run this. 
-
 Let&apos;s clear up the terminal and here we can say, let&apos;s save and let&apos;s
 say node variables.js and you can see 1 is printed here. 
-
 Next we can look at const. 
 
 Const is the preferred way to declare a variable that cannot be
 reassigned. 
-
 It is also blocked scope. 
-
 For example, let&apos;s say if you want to use some constants, like let&apos;s
 say Pi. 
-
 We can say const PI and normally the value of Pi is approximately equal
 to 3.14, and then we can say console.log(PI). 
 
 If I click on &quot;Save&quot;, if I run this code, you will see that we get the
 value. 
-
 But now if someone tries to do this, let&apos;s say four or something, in
 that case, it will give an error, as you can see here, that you
 cannot assign it to a constant variable. 
 
 The third one that is left is var keyword. 
-
 Var is older keyword for declaring variables in JavaScript. 
-
 While it can still be used in modern JavaScript, it is generally
 considered outdated because it is not blocked scope. 
 
@@ -683,32 +647,25 @@ For now, let&apos;s also see how we can create a variable using var. 
 We can say var count = 0 and we can use our if condition here. 
 
 Again, we will see if conditions in detail in the conditional spot. 
-
 I can say if true, let&apos;s say var count to be 1 and then we can say
 console.log(count). 
-
 In the down, if you will say console.log(count) as well. 
 
 Let&apos;s clear up the terminal and let&apos;s see the output. 
 
 Here you can see that in both the cases, it is 1, that means it is not
 blocked scope. 
-
 It has shadowed the previous count at this point. 
-
 Earlier it was 0, even though it isn&apos;t a block, that is these curly
 brackets. 
 
 It has overridden the previous count, and now you can see that in both
 the console&apos;s, it is printing 1 and 1 each time. 
-
 Let&apos;s summarize this. 
-
 Overall variables are a way to store and manage data in your code. 
 
 They allow you to refer to a data by name, which makes your code more
 organized and easier to read. 
-
 To create a variable in JavaScript, you can use let, var, and const
 keyword. 
 
@@ -718,7 +675,6 @@ control over variable assignment. 
 
 While var can still be used, it is generally considered outdated
 and should be avoided in new code wherever possible. 
-
 In the next lesson, we will see data types in JavaScript. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-8">1.8 Data Types in JavaScript (8:58)</h3>
@@ -754,10 +710,7 @@ you can see it gives the type as bigInt in the console. BigInt rhombus
 are rarely needed. 
 
 But still if you want, you can use them like this.Next data type is
-String. 
-
-A data type that represents a sequence of characters is a String. 
-
+String. A data type that represents a sequence of characters is a String. 
 In JavaScript, Strings are represented using a String keyword. 
 
 Let&apos;s see an example. If you wanted to create a String, 
@@ -771,7 +724,7 @@ The next one is Boolean, a data type that represents a logical value. It
 could be either true or false. In JavaScript, Booleans are represented
 using a Boolean keyword. Let&apos;s see an example. 
 
-So to create a variable that holds Boolean value, you can say let and we
+To create a variable that holds Boolean value, you can say let and we
 can give any variable name like is True or something. And we can just
 give it a value of true. So this creates a variable isTrue of type
 Boolean with a value of true. Next is Null. It is a data type that
@@ -779,114 +732,79 @@ represents the intestinal absence of any object value. It is represented
 using a null keyword. It is a separate data type, and if you want to
 create or give a value to a variable, you can just say let and you
 can create any variable, let&apos;s say x
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-9">1.9 Using Arithmetic and Comparison Operators (8:38)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In the previous lesson we learned data types in JavaScript. 
-
 Now in this lesson we will learn about arithmetic and comparison
 operators in JavaScript. 
 
-So let&apos;s get started.
-
+Let&apos;s get started.
 Let&apos;s talk about arithmetic operators first.
-
 Arithmetic operators in JavaScript are used to perform mathematical
 calculations on numerical values. 
 
 As you can see, one of the arithmetic operator is addition.
-
 Then we have subtraction, multiplication, division, modulus and
 exponentiation. 
 
 These are some symbols that you can use for these operators.
-
 Let&apos;s go to the VS code and understand them by examples.
-
-So I&apos;m in my VS code and let&apos;s create two variables first. 
-
-So we can say let x and let&apos;s give it a number 10. 
-
+I&apos;m in my VS code and let&apos;s create two variables first. 
+We can say let x and let&apos;s give it a number 10. 
 And we can say, let y and let&apos;s give it a value of 5. 
 
 We want to perform arithmetic operations, so let&apos;s talk about
 addition. 
-
-So we can say let sum and addition would be x+ y. 
-
+We can say let sum and addition would be x+ y. 
 This is the addition operator.
-
 Then I can just say console.log(sum). 
-
-So the result that is stored for x +y is in the variable sum. 
+The result that is stored for x +y is in the variable sum. 
 
 And as soon as I click on Save and run this program, let&apos;s say node
 operators.js, you can see the output is 15.
-
 Similarly, let&apos;s take the other examples as well. 
-
 If you want to calculate the difference, you can say let difference, and
 this would be equal to x- y. 
-
 This is a subtraction operator. 
-
 For multiplication, you can say let product,
-
 And it would be x into y. 
 
-So we use this star symbol. 
-
+We use this star symbol. 
 This will give you the multiplication of x and y. 
-
 Then we have division, so we can say, let&apos;s create a variable called
 quotient,
-
 And let&apos;s make it equal to, x divided by y. 
-
-So we use this symbol here.
-
+We use this symbol here.
 Then we have modulus, so we normally calculate remainders using a
 modulus, that is a percentage symbol. 
 
-So let&apos;s create a variable, let&apos;s say remainder, and we can make it
+Let&apos;s create a variable, let&apos;s say remainder, and we can make it
 equal to x%y.
-
 Then last we have exponentiation, so for that we have double
 multiplication symbols. 
 
 What do I mean is, let&apos;s create a variable, let result. 
-
 And if you want to calculate the exponential value, you can say x two
 times this and then y. 
-
-So just like we were doing console.log(sum), let&apos;s get all the values
+Just like we were doing console.log(sum), let&apos;s get all the values
 here. 
-
-So we have console.log(sum) then let&apos;s copy and paste and put
+We have console.log(sum) then let&apos;s copy and paste and put
 difference here, then we can put product here. 
-
 And then let&apos;s put quotient here, and then we can say remainder, and in
 the end, we can just say result. 
 
-So let&apos;s click on Save. 
-
+Let&apos;s click on Save. 
 And let me clear up the terminal and I will run this program again.
-
-So let&apos;s say node and we have operators.js. 
-
+Let&apos;s say node and we have operators.js. 
 You can see we get the output. 
-
-So sum is 15, difference is 5 and product is 50. 
+Sum is 15, difference is 5 and product is 50. 
 
 Then quotient is 2, remainder is 0, and the result is 100,000. 
-
-So this is how you can actually use arithmetic operators in JavaScript.
-
+This is how you can actually use arithmetic operators in JavaScript.
 Let&apos;s talk about comparison operators. 
 
-So comparison operators in JavaScript are used to compare values, and in
+Comparison operators in JavaScript are used to compare values, and in
 turn they return a Boolean value that is either true or false based on
 the comparison result. 
 
@@ -898,81 +816,53 @@ similarly for less than and less than equal to. 
 Let&apos;s also understand these using examples. 
 
 Remember, the output will always be a Boolean value.
-
-So let&apos;s go here and let&apos;s comment everything out. 
-
+Let&apos;s go here and let&apos;s comment everything out. 
 Let&apos;s clear up the terminal as well. 
-
 And let&apos;s start with comparison operators.
-
-So let&apos;s take two values. 
+Let&apos;s take two values. 
 
 Let&apos;s say let a to be 10 again and let&apos;s take b to be 5.
-
 Now what we have to do is we have to compare. 
-
-So let&apos;s use an equal to operator first. 
-
-So we can say console.log(a)== b. 
-
+Let&apos;s use an equal to operator first. 
+We can say console.log(a)== b. 
 And what should be the output here? 
-
 Say if I run this program, you will see we get the output as false, 
-
 because 10 is not equal to 5. 
 
 Then we can say not equal to. 
-
-So we can just copy this, the only thing we have to change is the symbol
+We can just copy this, the only thing we have to change is the symbol
 that is not equal to.
-
 And if I run this program now, you will see that we get the value false
-and 
-
-the second one we get the value as true. 
-
+and the second one we get the value as true. 
 And of course, 10 is not equal to 5.
 
 Similarly, we can check for strict equal. 
-
-So strict also checks the data type for it, and then we have strict not
+Strict also checks the data type for it, and then we have strict not
 equal as well. 
-
 The only thing in both the cases is that you have to add one equal to
 sign extra. 
-
-So this is strict equal to and this is strict not equal to. 
+This is strict equal to and this is strict not equal to. 
 
 Again, the output would be same. 
-
-So if I run this program, you will see false true and false true.
-
+If I run this program, you will see false true and false true.
 Then let&apos;s look at the other remaining operators as well. 
-
-So we have greater than, so we can say console.log, this would be a
+We have greater than, so we can say console.log, this would be a
 greater than b, and then we have greater than or equal to. 
 
-So it will be like this.
-
-So let&apos;s see the output, let me clear up the terminal. 
-
+It will be like this.
+Let&apos;s see the output, let me clear up the terminal. 
 And if I run this program you will see we get the output as true and 
-
 true in both the cases. 
 
-So a is yes, greater than b and it also satisfies this condition as
+A is yes, greater than b and it also satisfies this condition as
 well. 
-
 Similarly, we have less than operators. 
-
-So rather than doing this, we can use the opposite bracket. 
-
+Rather than doing this, we can use the opposite bracket. 
 And now we have less than and less than equal to. 
 
-So if I try to run this program, you will see the last two values are
+If I try to run this program, you will see the last two values are
 false and false. 
-
-So let&apos;s summarize this, arithmetic operators in JavaScript are used
+Let&apos;s summarize this, arithmetic operators in JavaScript are used
 for mathematical calculations such as addition, subtraction,
 multiplication, division, etc. 
 
@@ -982,278 +872,195 @@ to, not, equal to, greater than, less than, and so on. 
 
 These operators are fundamental in JavaScript programming and understand
 standing how to use them is very essential for the beginners. 
-
 In the next lesson, we will understand arrays in JavaScript. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-10">1.10 Arrays in JavaScript (5:41)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In the previous lesson, we learned arithmetic and comparison
 operators in JavaScript. 
-
 Now in this lesson we will learn arrays in JavaScript so let&apos;s get
 started. 
 
 In programming an array is a collection of values that are stored under
 a single variable name. 
-
 Arrays can hold any type of value, including numbers, strings, and even
 other areas. 
-
 Each value in an array is accessed through its index, which starts at
 zero for the first value in the array. 
-
 Let&apos;s understand by an example. 
-
 Let&apos;s say that we have array of numbers, and it normally starts with
 square brackets. 
 
 Let&apos;s say we have numbers as 10,20,30,40 and 50. 
-
 In this example, we have an array and you can call 
-
 it as my array or whatever the variable name you want to give. 
-
 It contains five values, 10,20,30,40 and 50. 
 
 Each value is stored in a separate slot in the array, which is
 identified by its index number and how we can identify it? 
-
 The first value in the array 10 is stored in slot zero, and that is
 called list index. 
 
 The second value 20 is stored in slot one, then two, then three, then
 four and then so on. 
-
 Let&apos;s also see the array example in VS Code. 
-
 You can think of array in JavaScript like a drawer with multiple
 compartments. 
-
 Each compartment has a label and you can put things in each
 compartment, for example let&apos;s say that you have a drawer labeled
 fruits.
 
 What we want here is inside the drawer, you have compartments labeled as
 apples, oranges, and bananas. 
-
 You can put one or more fruits in each compartment. 
-
 Similarly, in JavaScript, you can create an array 
-
 called fruits and store multiple values in it. 
-
 The array can contain different types of values, like strings, numbers,
 or even other areas. 
 
 You can access the values in the array by using an index number, just
 like opening a specific compartment in the draw. 
-
 Let&apos;s create an array of fruits. 
-
 We can say let&apos;s put some fruits here. 
-
 This is an array and we can put apples, oranges and let&apos;s also put
 bananas. 
 
 This is an array of strings, all these values are strings. 
-
 How to access the first element in the array? 
-
 We can just say console.log. 
-
 How to access this, you can see fruits and you can use this square
 bracket notation and you could pass the index. 
 
 Fruits at index zero will give you the output as apples. Let&apos;s test it
 out. 
-
 If I click on Save and if I run this program, that is node arrays, you
 will see that we get the values as outputs. 
 
 If you say fruits at index one, you will get oranges. 
-
 There are also some built-in methods 
-
 in JavaScript for arrays, for example let&apos;s say if you want to add a
 new fruit to this array. 
 
 How we can do it, we can say fruits.push. 
-
 Let&apos;s say we want to add grapes. 
-
 Now if I just print out the original array, so let&apos;s say
 console.log, and let&apos;s consume fruits. 
 
 Let&apos;s run the program and you will see here that the grapes has been
 pushed at the end of the array. 
-
 Similarly, we have a pop method as well. 
-
 What we can do is we can say fruits.pop.
 
 If I do console.log fruits again and let&apos;s run this program, you will
 see we get back the original array. 
-
 Why? Because the last value that is grapes is popped out from the end of
 the array. 
-
 There are more built-in methods, but these are some, or you can say the
 most used methods in array. 
 
 Let&apos;s summarize this. 
-
 Array is a collection of values that are stored under a single variable
 name. 
-
 Arrays can hold any type of value including numbers, strings, and even
 other arrays. 
 
 You can also see the syntax here. 
-
 Here we have array of numbers, array of strings and the last one is
 mixed array, that is array of mixed data types. 
-
 You can create an array in JavaScript using square brackets and
 separating the values with comma. 
 
 You can access the values in an array using the index number of the
 value we want to retrieve. 
-
 For example fruits at index one. 
 
 You can modify the values in an array by assigning a new value to a
 specific index. 
-
 Arrays also have built-in methods that you can use to manipulate the
 data in the array. 
 
 Just push to add a value to the end of the array and pop to remove the
 last value from the array. 
-
 Understanding arrays is a very important concept in programming as
 they allow you to store and access multiple values under a single
 variable name. 
 
 In the next lesson, we will understand about strings and string
 manipulation in JavaScript. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-11">1.11 Working with Strings (6:17)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Hi there. In the previous lesson, we learned about arrays. 
-
 Now in this lesson we will learn strings in JavaScript. Let&apos;s get
 started. 
-
 In JavaScript, the textual data is stored as strings. 
-
 There is no separate type for a single character. 
-
 A string is a sequence of characters enclosed in quotes, either single
 quotes, double quotes, or backticks. 
-
 Let&apos;s look at a few examples of strings in JavaScript. 
 
 Let&apos;s go to the VS Code, and here I have a file letter, strings.js. 
-
 Let&apos;s create strings with all the quotes. 
-
 Let&apos;s say let str1, this is a variable and we can use double quotes so
 we can say, hello, world.
-
 Now, this is a string. 
-
 If you want, you can check using type of operator that we will do. 
 
 Second, we can say let str2, and we can just type anything. 
-
 This time, you will note that I&apos;m using a single quote. 
-
 Let&apos;s say this is our string. 
-
 Lastly, we can use backticks as well. 
-
 We can say let str3, this is the third variable, and let&apos;s say 123, and
 this is now a string. 
 
 Of course, if you can consolidate, you will get the outputs on the
 console, but lets just do the type of them. 
-
 Let&apos;s say console.log, typeof str1 then comma, and say typeof str2, and
 then we can say typeof str3. 
-
 Let&apos;s open up the terminal and let&apos;s run this program. 
-
 I&apos;ll say node and string.js. 
-
 You will see that we get the output as a string, string, and string. 
-
 All these are type of steps. 
-
 Single and double quotes are essentially the same. 
-
 Tactics, however, allow us to embed any expression into the string. 
-
 That means they have some extended functionality. 
-
 Let&apos;s see that as well. 
-
 Here I would say console.log, and here we can just use backticks. 
-
 We can say 1 plus 2 to be equal 2, and you can embed an expression using
 a dollar and curly bracket sign. 
 
 We can say 1 plus 2 and it will evaluate the expression and then convert
 it into the string. 
-
 Now if I tried to run this program again, you will see that we get 1
 plus 2 and we get the evaluated expression that is 3 in this case.
 
 You can find the length of a string using the dot length property. 
-
 Let&apos;s see how length property works. 
-
 Here we have a string and let&apos;s say we are taking a str2. 
-
 I recommend the rest of the code. 
-
 Then I can say console.log, and it gives us str2.length.
-
 Many people get confused and they try to access this like this. 
 
 This is not a function, this is not a method, it is a property. 
-
 Property does not have parentheses. 
-
 Now, if I try to run this program, you will see that we have the output
-as 16. 
-
-The length of this is 16.
-
+as 16. The length of this is 16.
 You can access individual characters in a string using the square
 bracket notation. 
-
 Just like an edit to get a character, add some position, let&apos;s say
 pause. 
 
 You can use square brackets or use some built-in methods as well. 
-
 Let&apos;s say if we want to get or access the first letter of the string or
 the first character of the string. 
-
 You can say console.log. 
-
 We can see here str and let&apos;s say you want to get at index zero. 
 
 If I click on Save and if I try to run this program, you will see that
 we get the value as P. You can access more characters using their
 indexes. 
-
 One more important thing to note is that strings are immutable. 
-
 That means strings can be changed in JavaScript, it is impossible to
 change a character. 
 
@@ -1295,31 +1102,23 @@ characters accessed using the square bracket notation. 
 
 In the next lesson, we will see string manipulation in JavaScript. Thank
 you.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-12">1.12 String Manipulation (6:34)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there, in the previous lesson we learned strings. 
-
 Now in this lesson we will learn string manipulation in JavaScript. 
-
-So let&apos;s get started.
-
+Let&apos;s get started.
 String manipulation refers to the process of modifying or manipulating a
 string of characters in some way to achieve a desired output. 
 
 A string in a sequence of characters enclosed in quotes such as, Hello
 World. 
-
-So string manipulation in JavaScript involves manipulating and
+String manipulation in JavaScript involves manipulating and
 transforming strings which are sequence of characters.
 
 Let&apos;s look at some most common techniques for manipulating strings in
 JavaScript.
-
 The first one is, concatenation. 
-
 Concatenation is the process of joining two or more strings together to
 create a new string. In JavaScript you can concatenate strings using the
 plus operator or the concat() method. Let&apos;s look at the examples. 
@@ -1327,7 +1126,7 @@ plus operator or the concat() method. Let&apos;s look at the examples. 
 Let&apos;s go to the VS code, and here I have a file that is
 stringManipulation.js. 
 
-So let&apos;s create two strings, let str1, and this would be Hello. And
+Let&apos;s create two strings, let str1, and this would be Hello. And
 let&apos;s create another string that would be let str2, and this would be
 World. And let&apos;s use these two operators and methods. The plus operator
 can be used to concatenate two or more strings. We can say let result
@@ -1343,14 +1142,11 @@ together. So here we have this result, and let&apos;s say, Let result 2. 
 
 And in this case we will use a concat() method.  We&apos;ll say
 str1.concat. 
-
 And we want to add a space, and then we want to add str2. 
-
 And let&apos;s also do console.log(result2). 
 
 Now if I click on Save, let&apos;s open up the terminal and let&apos;s run this
 program.
-
 would say node stringManipulation.js and you will see in both the cases
 we get the same output. Basically, you can use either a plus operator or
 a concat operator for adding the strings.
@@ -1361,28 +1157,18 @@ substring method to get a substring from a string. Let&apos;s look at both
 the methods.
 
 Here we are in the VS code again, and let me comment these things. 
-
 And let&apos;s look at how to get a substring. 
-
-So first let&apos;s use a slice method.
-
+First let&apos;s use a slice method.
 Let&apos;s comment these as well. 
 
-So we can create a single string, let&apos;s say str, and let&apos;s give it
-Hello World.
-
-And here what we want to do is, we can say let result and we want to get
+We can create a single string, let&apos;s say str, and let&apos;s give it
+Hello World. And here what we want to do is, we can say let result and we want to get
 a portion of it. 
 
-So we can say str.slice. 
-
-And here we can pass let&apos;s say 7 and 12 as the indexes.
-
-So the slice method extracts a section of a string and it returns a new
+We can say str.slice. And here we can pass let&apos;s say 7 and 12 as the indexes.
+The slice method extracts a section of a string and it returns a new
 string without modifying the original string. 
-
 You can pass one or two arguments. 
-
 Here we are passing two arguments. 
 
 If you pass one argument, the slice method will return all the
@@ -1390,36 +1176,27 @@ characters from that index to the end of the string. 
 
 If you pass two arguments, in this case, the slice method will return
 all the characters from the first index up to, but not including the
-second index. 
+second index. Here if I do console.log(result), We should get the output as World. 
 
-So here if I do console.log(result), We should get the output as World. 
-
-So let&apos;s run this program, and you will see we get World as well. 
-
+Let&apos;s run this program, and you will see we get World as well. 
 Let&apos;s also look at a substring method. 
-
-So same what we can do is, we can say let result2 and here we can say
+Same what we can do is, we can say let result2 and here we can say
 str2.substring. 
-
 And here we can pass again, 7 and 12. 
-
-So this substring method extracts a section of a string, and again, it
+This substring method extracts a section of a string, and again, it
 returns a new string without modifying the original string. 
 
 Here also you can pass one or two arguments. 
-
 Here we are passing a two argument. 
 
-So this method will return all the characters from the first index up to
+This method will return all the characters from the first index up to
 but not including the second index. 
-
-So here also, if I do console.log(result2), we should get the same
+Here also, if I do console.log(result2), we should get the same
 output.
-
-So let&apos;s run this program, and you will see that we get world and world
+Let&apos;s run this program, and you will see that we get world and world
 in both the cases.
 
-So let&apos;s summarize this, in JavaScript string manipulation is the
+Let&apos;s summarize this, in JavaScript string manipulation is the
 process of performing operations on strings such as, concatenating,
 extracting, substrings. 
 
@@ -1428,30 +1205,22 @@ of the letters. 
 
 We have seen the most used one, you can of course explore the other ones
 as well. 
-
 Concatenation can be achieved using a plus operator or the concat()
 method that we have seen. 
-
 Substrings() method can be extracted using the slice() method or the
 substring() method. 
 
 You can also explore replace() method to uppercase or lowercase methods
 for casing of the letters. 
-
 Then you can also explore trim() method for removing the white space.
-
 Note that, each of these methods returns a new string and does not
 modify the original one. 
-
 This is all for this lesson, see you in the next lesson. 
-
 Thank you.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Reading Materials**
 1.12 **Learn more about Variables, Operators, and Strings**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 **Understanding variables and data types**
 
 JavaScript is a dynamically typed (also called loosely typed) scripting
@@ -1513,49 +1282,31 @@ JavaScript, and essential to build more complex programs. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-14">1.14 Conditional Statements (if/else, switch) (7:17)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+Hi there. In this lesson, we will learn about conditional statements like if/else, and 
+search in JavaScript. Let&apos;s get started. Let&apos;s talk about if/else first. The 
+if/else statement allows you to execute different blocks of code based on certain 
+conditions. Let&apos;s look at the general syntax. We have if then we have a condition, 
+and then we have a block, and then we have else, and then another block that is curly 
+brackets. 
 
-Hi there. In this lesson, we will learn about conditional statements like
-if/else, and search in JavaScript. Let&apos;s get started. 
-
-Let&apos;s talk about if/else first. 
-
-The if/else statement allows you to execute different blocks of code
-based on certain conditions. 
-
-Let&apos;s look at the general syntax. 
-
-We have if then we have a condition, and then we have a block, and then
-we have else, and then another block that is curly brackets. 
-
-If the if condition is true, you can see that in the comment it has
-written code to be executed if the condition is true, otherwise, it will
-go to the else condition, if the condition is false. 
-
-You can think of a situation where you are deciding whether to go
-outside or stay indoors based on the weather. 
-
-If the weather is sunny, you will go outside, otherwise, you will stay
-indoors. 
+If the if condition is true, you can see that in the comment it has written code to be 
+executed if the condition is true, otherwise, it will go to the else condition, if the 
+condition is false. You can think of a situation where you are deciding whether to go 
+outside or stay indoors based on the weather. If the weather is sunny, you will go 
+outside, otherwise, you will stay indoors. 
 
 Let&apos;s try to create an example using if/else statements around this. 
-
 Here I&apos;m in my VS code and here I have a basic index.html structure
 ready along with index.js file. 
-
 Let&apos;s say const weather this would be a variable that we want to hold
 the value as sunny, it is a string, and then we can say if weather = =
 to sunny. 
 
 In that case, we can say console.log.
-
 It would be double quotes here. 
-
 We can say, let&apos;s go outside, and then we can say else. 
-
 Let&apos;s print out console.log. 
-
 Let&apos;s stay indoors. 
-
 Now if I click on &quot;Save&quot;, you can see that the weather is sunny here. 
 
 If I can go to the inspect and let&apos;s go to console, let&apos;s see what we
@@ -1576,106 +1327,78 @@ to the console. 
 
 Otherwise, the code inside the else block will execute and output would
 be, let&apos;s stay indoors. 
-
 Let&apos;s look at a new type of conditionals, that is switch statements. 
-
 The switch statement is useful when you have multiple conditions to
 check against a single variable. 
 
 It provides a concise way to select one of many code blocks to execute. 
-
 Let&apos;s look at the syntax of switch case statements. 
-
 You have a switch and then you have an expression. 
-
 Based on different values or you can say cases, there are different
 codes that gets executed. 
 
 You can imagine that you are at a restaurant. 
-
 I&apos;m choosing a dish from a menu based on the number associated with
 it. 
-
 Let&apos;s create an example around this. 
-
 Again, I&apos;m in my VS code and let&apos;s comment this out. 
 
 We can say const and we can give our dishNumber variable to be, let&apos;s
 say two. 
-
 Now we can say switch on the basis of dishNumber. 
-
 See dishNumber could be anything yet in our case we are taking it as
 two. 
-
 It could be any number or even any data type that you want. 
 
 We can say if the case is one, that means if the dishNumber is one, we
 can say console or we can just print out, you ordered a burger something
 like that. 
-
 Then we have to break out from the switch case statement. 
-
 We will discuss about this in a minute. 
-
 Next word we can do is we can just copy paste this, and we can create a
 second case. 
 
 In this particular case, what we can do is we can just say, if the case
 is 2, we can say you ordered pizza. 
-
 Similarly, we can create as many cases as we want to. 
-
 Let&apos;s have case 3, and in the third case, it would be a different
 order. 
 
 We can say case 3 here, and let&apos;s say you ordered pasta. 
-
 Then we can have our case for where we can just print out or let&apos;s
 say the order would be you ordered something else. 
-
 If you don&apos;t want this case 4, in the last, you can have a default case
 if, neither of these cases are true. 
 
 That means if dishNumber is not even 1, 2, or 3 so default, it would
 be, let&apos;s say console.log, and we can put here a message like
 sorry, that dish is not available. 
-
 As easy as that. 
-
 If I click on &quot;Save&quot;, if we go here to the console, you can see that
 you ordered pizza is printed because that is the case. 
 
 If I do case 1 here, you will see that it will print you ordered a
-burger. 
-
-This is all switch case statement works. 
+burger. This is all switch case statement works. 
 
 In this example, when this number is two, the code inside the switch
 case second block will get executed and it will output you ordered pizza
 to the console. 
 
 This break statement is important, insert statements. 
-
 It ensures that the code inside the matching case block executes and
 prevents it from falling through the subsequent cases. 
 
 For example, if I remove the break statement from here and from here as
 well, you will see that since case 1 and case 2, 3 do not have any break
 statements, it will run all the cases here after two. 
-
 That means you order pizza, you ordered pasta and the dish is not
 available. 
-
 This is not what we want. 
-
 Always include break statements to break out of the switch statement. 
-
 Let&apos;s summarize this. 
 
 Conditional statements in JavaScript, such as if/else and switch, allows
 you to execute different blocks of code based on specific conditions. 
-
 If/else statements helps you to make decisions while switch
 statements provide a concise way to select code blocks based on
 different cases. 
@@ -1683,16 +1406,12 @@ different cases. 
 By using these conditional statements, you can control the flow of your
 program and execute specific code paths depending on various
 conditions. 
-
 In the next lesson, we will learn about looping structures for and
 while. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-15">1.15 Looping Structures (For, While, Do..While) (6:43)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. 
-
 In the previous lesson we learned conditional statements. Now in this
 lesson we will learn about looping structures and specifically about for,
 while, and do-while loops. 
@@ -1709,26 +1428,20 @@ Loops are essential in programming because they help in reducing code
 duplication, improving efficiency, and making programs more dynamic. 
 
 Let&apos;s look at some **loops**. 
-
 For loop, the for loop is used when you want to repeat a block of code
 for a specific number of times. 
-
 It normally consists of three parts, initialization, where you
 initialize a variable that will control the loop. 
 
 A condition, that is, the condition that determines whether the loop
 should continue executing or stop. 
-
 And the third is, increment and decrement. 
-
 And that means after each iteration of the loop, the variable is
 modified according to the increment or decrement specified there. 
 
 Let&apos;s understand this for loop through an example. 
-
 So let&apos;s go here. And into the VS code and we can say for. This is how
 we start write a for loop. 
-
 And then we can say let i, so this is the first part that is
 initializing. 
 
@@ -1750,15 +1463,13 @@ Let&apos;s look at the second loop, that is, **while** loop. 
 
 The while loop is used when you want to repeat a block of code while a
 condition is true. 
-
 It only has a condition and as long as the condition remains true, the
 loop will continue executing. 
 
 Let&apos;s do the same example using while loop.
+We can say while the condition is true. 
 
-So we can say while the condition is true. 
-
-So what is the condition here? Condition i, i is less than equal to
+What is the condition here? Condition i, i is less than equal to
 5. But then where is i? So we have to declare it. So we can declare it,
 outside, we can say let i to be 1. And then inside it, we can say
 console.log (i). But here, there is a problem i has not been
@@ -1767,84 +1478,64 @@ it, if I click on save, you can see that we get the same output. 
 
 In this example, we start again with i set to 1. The condition is again
 set to i less than equal to 5, and it is checked before each iteration. 
-
 As long as i is less than or equal to 5, the code inside the loop is
 executed, which locks the value of i to the console. 
 
 And after each iteration, i is incremented by 1, that is i++. 
-
 The loop again continues until i become 6 at which point the
 condition will become false and the loop exists. 
 
 Let&apos;s look at the third type of loop, that is, do-while loop. 
-
-So the do-while loop is similar to the while loop, but it checks the
+The do-while loop is similar to the while loop, but it checks the
 condition after the executing the loop block. 
 
 This means that the code inside the loop will always execute at least
 once. 
-
 First, let&apos;s do the same code using do-while loop, and then let&apos;s look
 at the difference as well. 
 
 So we can say let i to be 1. 
-
 And then we can say do, then a block of code, and then we can print out
 the value of i like this. 
-
 And after that, we can say i++, that means incrementing the value of i. 
-
 And then we can check the condition, let&apos;s say while, this condition is
 true. 
 
-So while i is less than equal to 5, that&apos;s it.
-
+While i is less than equal to 5, that&apos;s it.
 Now if I click on Save, you will see that we get the same output. 
-
 But then what is the difference between while and do-while loop? 
-
 While they have been created in a different way. 
 
-So to understand this, I will make the condition false. 
-
+To understand this, I will make the condition false. 
 I will say do run this code while i is greater than 5. 
-
 And you can see that the value of i is 1.
-
 And when we say i is greater than 5, if I click on Save, you will see
 that still it prints 1 and then it checks the code. 
 
 And then it checks the condition that i is not greater than 5, it is
 false, then it does not go into the next iteration, but it will execute
 once even if the condition is false. 
-
 And with the case of while loop, it will definitely not print anything. 
 
-So if we say I is greater than 5, you will see that it will not print
+If we say I is greater than 5, you will see that it will not print
 anything. 
-
-So that is the difference between while and do-while loop. 
-
-So let&apos;s summarize this. 
+That is the difference between while and do-while loop. 
+Let&apos;s summarize this. 
 
 Looping structures in JavaScript such as for, while, and do-while loops
 allow you to repeat a block of code multiple times based on a specific
 conditions. 
-
 The for loop is used when you know the number of iterations in advance. 
 
 While the while loop is suitable for indefinite iterations, the do-while
 loop ensures that the code block executes at least once. 
-
-So these loops are essential for automating repetitive tasks
+These loops are essential for automating repetitive tasks
 for controlling the program flow. 
 
 In the next lesson, we will understand about functions and scope. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-16">1.16 Functions and Scope (7:50)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In the previous lesson we learned about looping structures such
 as for while and do-while loop in JavaScript. Now in this lesson, we will
 learn about functions and scope. Let&apos;s get started. Let&apos;s talk about
@@ -1943,9 +1634,7 @@ For example, let&apos;s create a new function here, and let&apos;s name it as
 logLocal. 
 
 Inside this, we can create variable, let&apos;s say const localVariable. 
-
 We can just hold a string here. 
-
 Let&apos;s say I am a local variable because it is created inside our
 function. 
 
@@ -1987,7 +1676,6 @@ By using functions and understanding scope, you can create more
 structured programs and avoid naming conflicts between variables. 
 
 Further Reading on Control Statements
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Conditional statements (if/else, switch)**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2033,13 +1721,11 @@ store a piece of code that does a single task inside a defined block,
 and then call that code whenever you need it using a single short
 command --- rather than having to type out the same code multiple
 times. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Module 2: Manipulating the DOM
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1">2.1 About the DOM (0:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In this lesson, we will be exploring the Document Object Model
 and how to manipulate it with JavaScript. The DOM is a programming
 interface for web documents that represents the page so that programs
@@ -2053,38 +1739,28 @@ By the end of this lesson, you will have a solid understanding of the
 DOM and how to use JavaScript to interact with it. Which will provide
 you with the necessary skills to create more advanced and interactive
 web pages.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2">2.2 Understanding the Document Object Model (DOM) (3:51)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi, there. In this lesson we will learn DOM and HTML. 
-
 So let&apos;s get started. 
-
 DOM stands for Document Object Model. 
 
 The Document Object Model is a programming interface for web document. 
-
 It represents the HTML or XML document as a tree-like structure where
 each node in the tree corresponds to a different part of the document. 
-
 The dominance for web developers to interact with the contents of a
 webpage using JavaScript. 
 
 It allows them to add, remove, or modify elements dynamically. 
-
 You can imagine a webpage as a tree where each branch represents an
 element in the webpage, such as a paragraph or an image. 
-
 Each leaf represents a property or attribute of that element, such as a
 text inside the paragraph or the source URL of the image. 
-
 This is essentially what DOM is. 
 
 JavaScript can manipulate the DOM by selecting nodes and changing their
 properties or adding and removing nodes altogether. 
-
 For example, you could use JavaScript to change the texts inside a
 paragraph tag or add a new paragraph or image to a page, remove an
 element from the page entirely, or maybe change the attributes of an
@@ -2097,29 +1773,22 @@ given webpage. 
 
 Each node in the tree corresponds to an HTML element or a piece of text
 within that element. 
-
 The nodes are arranged in a parent-child relationship with parent nodes
 higher up in the tree and child nodes branching off from their parent
 nodes below. 
-
 For example, document is the parent tree of this HTML. 
 
 Html is a child of document. 
-
 In this particular diagram, the root node is the document object, which
 represents the entire webpage. 
-
 The first level of the child nodes corresponds to the top-level HTML
 elements, such as HTML then we have head, then we have body as well. 
-
 Each of these nodes have one or more child nodes depending on the
 structure of the webpage. 
 
 Head has further child nodes, body has further child nodes. 
-
 For example, the body node might have child nodes corresponding to a
 header section, a main content area, and a footer section. 
-
 Each of these child nodes might have further child nodes, such as
 paragraphs, images, or other HTML&apos;s. 
 
@@ -2148,85 +1817,62 @@ to create dynamic interactive webpages. 
 
 In the next lesson, we will learn how to access and actually manipulate
 the DOMs with JavaScript. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3">2.3 Accessing DOM elements with JavaScript (7:21)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there, in the previous lesson we learned DOM in JavaScript. 
-
 Now in this lesson we will see how to access DOM using JavaScript
 so let&apos;s get started. 
 
 Accessing DOM elements with JavaScript is a key skill for web
 development. 
-
 As we know that the Document Object Model is a tree-like structure
 that represents the HTML elements of a web page. 
 
 You can use JavaScript to access these elements in various ways. 
-
 To get started you will need to know how to select an element. 
-
 Let&apos;s look at some commonly used DOM selectors in JavaScript. 
-
 First is document.getElementById. 
-
 It returns the element with the specific ID let&apos;s see how we can use
 that. 
 
 So let&apos;s go to the VS code and here I have index.html file. 
-
 I can delete this one and let&apos;s create a very basic boilerplate using
 this shortcut and you can see we have a title document let&apos;s make it
 DOM. 
-
 And in the body we can say h1 of DOM Selectors. 
 
 If I click on save you can see that we have the output on the web page. 
-
 We are talking about document.getElementById. 
-
 Here we can have a div and let&apos;s say hello world. 
-
 And what we can do is we can create one more div and we can just say hi
 there. 
 
 Now the first div we will just give it an ID of let&apos;s say hello. 
-
 We want to access this div out of all these elements we want to
 access the first div of ID hello. 
-
 Here I will have a script tag and I will say document or we can
 say console.log(document.getElementById) and we can pass the ID name
 here. 
 
 The ID is hello we have to pass it in quotes. 
-
 And now if I click on save let&apos;s go to inspect, let&apos;s go to console
 and you can see that we have got this div. 
-
 It&apos;s cool, right? 
-
 We have got this on the basis of ID. 
-
 The next one is document.getElementsByClassName. 
 
 The little difference you will see that it is get elements earlier one
 was get element. 
-
 We can only get one element out of it but here we can get multiple
 elements by class name. 
-
 It returns a collection of all the elements with the specified class
 name. 
 
 For example, if I create an unordered list and inside that I have a li
 of class, let&apos;s say green. 
-
 And we can say item one and we can create one more li or let&apos;s say four
 lis out of which only two has the class of green. 
-
 We can remove these options here. 
 
 If I click on save and if I rather than doing this, what I can do is I
@@ -2234,10 +1880,8 @@ can say let items, I can also put them in a variable. 
 
 I can say document.getElementsByClassName and we can pass the class name
 as green and then we can say console.log items. 
-
 If I click on save if I go here, if I refresh you will see that we get
 an HTML collection. 
-
 It is an array like structure and we get two Li items that has the class
 of green color. Let&apos;s go to the next one. Next one is
 document.getElementsByTagName.
@@ -2251,7 +1895,6 @@ by tag name. 
 Here the tag name is li. We have to pass it like this. If I click on
 save if I go here let&apos;s refresh, you can see that we are getting all
 the li items. 
-
 So this is now a collection of four elements. 
 
 Next one is document.querySelector. It returns the first element that
@@ -2267,7 +1910,6 @@ item one. 
 
 It always returns the first element that matches the specified CSS
 selector. 
-
 But then if you want to get all the classes or you can say all the li
 items that has a class of green. 
 
@@ -2293,16 +1935,12 @@ that we would be looking at in a separate lesson. 
 
 With these tools you can create dynamic and interactive web pages that
 responds to user input and update in real time. 
-
 In the next lesson we will see how to manipulate DOM using JavaScript. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5">2.5 Modifying styles and attributes with JS (6:17)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In the previous lesson, we learned how to manipulate DOM
 elements with JavaScript. 
-
 Now in this lesson we will learn how to modify styles and attributes
 using its own methods. 
 
@@ -2320,9 +1958,7 @@ examples. 
 
 I&apos;m here in my VS Code, and here we have an index or HTML template
 ready with a script tag. 
-
 We can start writing our code. 
-
 Here, in the body I want to create a div, inside this div, I will have a
 span tag. 
 
@@ -2338,27 +1974,20 @@ spanOne and you can make it equal to document.getElementById and we can
 pass the ID name as one. 
 
 Similarly, we can do it for two as well. 
-
 We can say spanTwo and this would be two. 
-
 Now let&apos;s start manipulating these tiles and attributes. 
-
 Let&apos;s talk about attributes first. 
 
 If you want to get the attribute, you can say console.log and let&apos;s say
 if you want to get the attribute of spanOne so we can say spanOne.get
 attribute. 
-
 It is a method, it will take the attributes, we want to get the value of
 attribute name. 
 
 If I click on Save, if I go here, refresh, we get the output as
 first because the name has the value of forced at this point. 
-
 Let&apos;s say we want to change the name. 
-
 That means setting the attribute. 
-
 We can say spanOne.setAttribute. 
 
 This is the method, we can put the attribute name, let&apos;s say name and
@@ -2377,10 +2006,8 @@ and name has been removed. 
 A very short feature is also there that you can just say spanOne.id and
 rather than using set attribute, you can directly give it an id name
 of, let&apos;s say any text. 
-
 If I click on &quot;Save,&quot; if I go here, you will see that in the body
 now seems to this unique word, or letter, you can name it anything. 
-
 You can also change classes using class methods. 
 
 Let&apos;s see if I target spanTwo and I can just say spanTwo.classList.add
@@ -2388,16 +2015,12 @@ and I can add the class, let&apos;s say a new class. 
 
 If I click on &quot;Save,&quot; you will see that in the body under the span div
 ID two v gate a class that is new class. 
-
 If you want to remove, you can just say remove, like this and you can
 pause the class name that you want to remove. 
 
 You can actually manipulate the styles using a style property. 
-
 Let&apos;s do that as well. 
-
 We can say spanOne.style.color and let&apos;s give it red. 
-
 If I click on &quot;Save&quot;, you will see that the text color has changed to
 red. 
 
@@ -2409,7 +2032,6 @@ If I click on Save, you will see that the background of the second span
 has changed to green. 
 
 Let&apos;s summarize this. 
-
 The style property can be used to access and modify CSS styles of an
 element and the classes property can add or remove classes to apply
 styles. 
@@ -2426,13 +2048,11 @@ can respond to user input and change in real-time. 
 
 In the next lesson, we will learn about events and event listeners in
 JavaScript. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Read more about DOM Manipulation
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Understanding the Document Object Model (DOM)**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 The W3C Document Object Model (DOM) is a platform and language-neutral
 interface that allows programs and scripts to dynamically access and
 update the content, structure, and style of a document.
@@ -2496,40 +2116,31 @@ may arise in your code. 
 By the end of this lesson, you will have a solid understanding of how to
 handle events in JavaScript, and you will be able to create dynamic
 and engaging web pages that responds to user input. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-7">2.7 Understanding Events & Event Listeners (3:49)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. 
-
 In the previous lesson, we learned how to modify styles and attributes
 with JavaScript. 
-
 Now, in this lesson, we will understand events and event listeners. 
-
 So let&apos;s get started. 
 
 Events in JavaScript refers to actions or occurrences that happen on a
 web page, such as a mouse click, a keyboard press, or a page load. 
-
 JavaScript provides a way to listen for these events and this point to
 them through event listeners. 
 
 Events are important in JavaScript because they allow us to create
 dynamic and interactive web pages. 
-
 That means, without events, web pages would be static and unresponsive. 
 
 Events provide a way for users to interact with a web page and for web
 pages to react to user input. 
-
 For example, you can consider a web page with a button, in that, when a
 user clicks the button, an event is triggered. 
 
 JavaScript can listen for this event and respond by changing the text on
 the page or performing some other action. 
-
 Another example is, when a user types something in an input field, an
 event is triggered. 
 
@@ -2537,10 +2148,8 @@ JavaScript can listen for this event and respond by validating the input
 or performing some other action. 
 
 To listen for events in JavaScript, we use event listeners. 
-
 Event listeners are functions that are called when a particular event
 is triggered. 
-
 We can attach event listeners to the DOM elements using Add Event
 Listener method. 
 
@@ -2549,9 +2158,7 @@ perform some action in response to the event. 
 
 Let&apos;s look at some common examples of events and how we might use them
 in JavaScript. 
-
 First is, click Events. 
-
 So these are triggered when the user clicks an element on the page, such
 as a button or a link. 
 
@@ -2563,20 +2170,16 @@ field or makes a selection in a drop down menu. 
 
 We can use input events to validate user input or update the page in
 real time. 
-
 Then we have load events, these are triggered when the page finishes
 loading. 
-
 We can use load events to perform actions that depend on the page&apos;s
 content being fully loaded, such as fetching data from an API, or
 initializing a plugin. 
 
 Then we have, mouseover events, these are triggered when the user hovers
 over an element on the page, such as an image or a link. 
-
 We can use mouseover events to add visual effects like toolstips or
 hover states. 
-
 These are just a few examples of the many types of events we can use in
 JavaScript. 
 
@@ -2591,31 +2194,24 @@ Events are important in JavaScript because they allows us to create
 dynamic and interactive web pages. 
 
 To listen for events in JavaScript, we use event listeners. 
-
 Event listeners are functions that are called when a particular event
 is triggered. 
-
 We can attach event listeners to DOM elements using the Add Event
 Listener method. 
-
 Overall, events are fundamental part of creating interactive web
 pages with JavaScript that allows us to create dynamic and responsive
 web experience for the user. 
 
 This is all for this lesson, in the next lesson, we will understand how to
 respond to a user input such as click or keypresses events. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-8">2.8 Responding to User inputs (clicks, key presses) (6:16)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there, in the previous lesson we learned events and event listeners
 in JavaScript. 
 
 Now in this lesson we will learn how to respond to a user input. 
-
-So let&apos;s get started. 
-
+Let&apos;s get started. 
 When building interactive applications or websites, it&apos;s important to
 be able to respond to user input such as clicks or key presses to
 provide a better user experience. 
@@ -2625,118 +2221,84 @@ with the application and executing specific code in response to those
 events. 
 
 Let&apos;s look at some examples.
-
-So first we have Click events. 
-
+First we have Click events. 
 You can use JavaScript to add event listeners to HTML elements
 and detect when they are clicked. 
-
 For example, you could have a button that when clicked, triggers a popup
 window to appear. 
 
 Let&apos;s also see one example in VS code.
-
-So here I am in my VS code and I have an index or 
-
+Here I am in my VS code and I have an index or 
 HTML page ready with minimum HTML template with a script tag as well. 
-
-So first let&apos;s create a button, and we can give here an ID of, let&apos;s
+First let&apos;s create a button, and we can give here an ID of, let&apos;s
 say, my button, and then we can give it, let&apos;s say, a text of click me.
-
 Next we can go inside the script tag and we can write some JavaScript. 
 
 If I click on save first, we will have a button here.
-
 So what I want is currently you can see nothing is happening. 
-
 I want to attach a click event listener on this button.
-
-So what I will do is I will first target the button in the script tag. 
-
-So I&apos;ll say const button, you can use any selector you want. 
+What I will do is I will first target the button in the script tag. 
+I&apos;ll say const button, you can use any selector you want. 
 
 I will use query selector, so document.queryselector, and we can pass
 here the ID of my button like this. 
 
 Next we can attach event listener, so we can say
 button.addeventListener. 
-
 It takes two arguments. 
-
 First, the type of the event that is click in our case, and a callback
 function.
 
 This callback function runs as soon as it triggers this particular
 event. 
-
 At this point I just want to alert, let&apos;s say, hello world. 
-
 If I click on save, if I go here and let&apos;s click on Click Me, and you
 can now see that a pop up comes. 
-
 Why? Because it triggers this click event and this callback function
 runs that just alerts and print, hello world. 
 
-So in this example we are using the Add event listener function to
+In this example we are using the Add event listener function to
 attach a click event, and then we are passing a callback function that
 gets executed when the event is triggered.
 
 Second is key press events. 
-
 You can also detect when a user presses a key on their keyboard
 and execute code in response. 
-
 For example, you could have a search box that automatically updates
 search results as the user types. 
-
 Let&apos;s create that example as well. 
-
-So for that, first of all, we need to have an input field.
-
+For that, first of all, we need to have an input field.
 Let&apos;s delete all this and let&apos;s create an input field. To this input,
 I&apos;ll just give it an ID of, let&apos;s say, search box, and a type of text.
 
 Now in the script tag, we can start writing our JavaScript code. 
-
 Before that you can see the input has already come here on the screen.
-
-So we can see here const, search box, and this variable will hold the
+We can see here const, search box, and this variable will hold the
 element, so we can say document.queryselector. 
 
 And we can pass here the ID as search box.
-
 Next, what we can do is we can just attach an event listener. 
-
 This time the event listener would be key up. 
-
-So the event is key up, and on that, that function will run. 
-
+The event is key up, and on that, that function will run. 
 And into this function, you can just write, code to update search
 results that would go here. 
-
 Or for now, we can say console log.event triggered.
 
-So if I click on save, let&apos;s go to inspect, then to console. 
-
+If I click on save, let&apos;s go to inspect, then to console. 
 And here you will see as soon as I press a key, a, event is triggered. 
-
 As soon as I print s, I have not released the key as of now, as soon as
 I release the event triggers second time. 
 
-So whenever user release the key, this callback function will run. 
-
-So here in the add event listener function is used to attach a key up
+Whenever user release the key, this callback function will run. 
+Here in the add event listener function is used to attach a key up
 event to the search box input element. 
-
-So whenever the user releases a key while typing in the search box, the
+Whenever the user releases a key while typing in the search box, the
 anonymous function passed as the second argument is executed, which
 could include the code to update search results. 
-
-So let&apos;s summarize this. 
+Let&apos;s summarize this. 
 
 Responding to user inputs such as clicks and key presses is an essential
 part of building interactive applications or websites. 
-
 This involves using event listeners to detect when a user interacts
 with the application, and executing specific code in response to those
 events.
@@ -2751,14 +2313,11 @@ listeners and execute the desired functionality. 
 
 In the next lesson we will create interactive user interfaces with
 events. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-9">2.9 Creating interactive user interfaces with events (4:59)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In the previous lesson, we learned how to respond to user
 input, such as clicks and key pressed event. 
-
 Now in this lesson, we will create an interactive user interface
 using events. Let&apos;s get started. 
 
@@ -2780,56 +2339,34 @@ script tag. 
 
 Let&apos;s say that you are building a to-do list application and you want
 to allow users to mark items as completed by clicking on the item. 
-
 Let&apos;s see how we can do that. 
-
 First in the body. 
-
 Let&apos;s have an H1 and we can just create our to-do list. 
-
 At this point, there should be coming in the webpage. 
 
 Next we can have some unordered list. 
-
 Inside this, we can have list items. 
-
 Let&apos;s say we want to buy groceries.
-
 You can see we want to do some laundry work.
-
 Or we can have one mode, 
-
 LI item, let&apos;s say clean house. 
-
 We have a to-do list, and we have these three items in our to-do list. 
 
 Next, we will go to our script tag and we can start writing of a
 JavaScript tool. 
-
 Here I want to target all of the list items. 
-
 I can use different methods like class name or query selector. 
-
 I will say cost list items. 
-
 Here I will use a document.querySelectorAll. 
-
 You can pass the tax letter here. 
-
 It will target all of the list items. 
 
 Then we can run a loop. 
-
 I can say ListItem.forEach. 
-
 For each item it takes a callback function. 
-
 We want to do something. 
-
 On each item what we want to do is we want to attach an event listener. 
-
 I can say item.addEventListener. 
-
 The type of event would be click. 
 
 Then we want to run a callback function.
@@ -2839,33 +2376,22 @@ Here we will say item.classList.toggle. 
 We will add a class that is completed. 
 
 Toggle means just like us on and off button. 
-
 If the class is there it will remove it. 
-
 If the class is not there, it will add it. 
-
 We are talking about a completed class. 
-
 We have to create this class. 
-
 What we can do is below the title, we can have a style tag and we can
 say.completed. 
-
 We can say text decoration to be line through. 
 
 We can give it a color of gray as well. 
-
 If I click on &quot;Save&quot; Let&apos;s test it out. 
-
 If I go here, if I click on, let&apos;s say buy groceries, it cuts. 
-
 It has a line through here as well, here as well. 
-
 When we click on again, since it already has the class, it will remove
 it. 
 
 This is how you can create interactive applications using JavaScript. 
-
 In this example, the HTML page contains an unordered list with three
 to-do items. 
 
@@ -2875,9 +2401,7 @@ line through and a gray color. 
 
 The CSS class is defined here in the head of the HTML using the style
 tag. 
-
 Let&apos;s summarize this. 
-
 Using events is a crucial part of creating interactive user interfaces
 in web applications, events can be used to detect user actions, such as
 clicks and key presses, and trigger specific functionality in response. 
@@ -2885,17 +2409,14 @@ clicks and key presses, and trigger specific functionality in response. 
 By using event listeners to handle user input, web developers can create
 engaging and dynamic applications that provide a seamless user
 experience. 
-
 We have seen some examples of how events can be used to create
 interactive features in real-world applications. Such as to-do list
 app. 
 
 Further reading on event handling
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Understanding events and event listeners**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Javascript has events to provide a dynamic interface to a webpage. These
 events are hooked to elements in the Document Object Model(DOM).
 
@@ -2908,7 +2429,6 @@ external script.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Responding to user input (clicks, key presses)**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Event handlers can be used to handle and verify user input, user
 actions, and browser actions:
 
@@ -2925,13 +2445,11 @@ actions, and browser actions:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Responding to user input (clicks, key presses)**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 CSS is the mechanism for adding style to various web documents. Text
 Effects allows us to apply different types of effects on the text used
 in an HTML document.
 
 [Read more](https://www.w3schools.com/css/css3_text_effects.asp)
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Creating interactive user interfaces with events**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2949,12 +2467,8 @@ interface.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Advanced DOM Manipulation (what you will learn) (0:59)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Hi there. 
-
 In this lesson, we will dive deeper into manipulating the Document
 Object Model with JavaScript. 
-
 You will learn how to create and remove DOM element dynamically using
 JavaScript. 
 
@@ -2965,26 +2479,22 @@ dynamically. 
 You will also learn about AJAX, a powerful technique that allows you to
 load content dynamically from a server without refreshing the entire
 page. 
-
 This is a crucial skill for building fast and responsive Web
 applications that can update their content without interrupting the
 user&apos;s experience. 
 
 Finally, you will learn about handling errors and exception in
 JavaScript. 
-
 This is an important skill for writing robust and error free code, as it
 allows you to detect and handle unexpected errors that might occur
 during runtime. 
 
 You will learn how to use try-catch blocks to catch and handle
 errors, as well as best practices for debugging and testing your code. 
-
 Creating and removing DOM elements with JS (6:36)
 
 Hi there. In this lesson, we will learn how to create and remove DOM
 elements with JavaScript in retail. Let&apos;s get started. 
-
 Creating and removing DOM elements with JavaScript is a fundamental
 technique using web development to dynamically modify the content of web
 pages. 
@@ -2994,9 +2504,7 @@ DOM elements, including createElement, appendChild, append, remove,
 removeChild, and so on. 
 
 Let&apos;s understand this using an example. 
-
 Let&apos;s go to the VS Code and here I have a basic HTML template ready. 
-
 We would also need to have a script tag so that we can write our
 JavaScript code. 
 
@@ -3004,110 +2512,77 @@ Let&apos;s create a basic template first. 
 
 Let&apos;s say we are creating an H1 and let&apos;s say we&apos;re listing some
 favorite foods.
-
 My favorite foods. 
-
 Then we can have an unordered list and we can give you idea of food
 list. 
 
 Here we can have list items. 
-
 Let&apos;s see, we have pizza and we have, let&apos;s say sushi as well. 
-
 Noteworthy will do is we will create two buttons. 
-
 Let&apos;s give this an ID of addButton.
-
 As the ID use suggests, we will add items to it so we can say add
 Tacos. 
-
 Similarly, we can create one more button and we can see here
 removeButton.
 
 As the name suggests, it removes. 
-
 We can say at this point, remove sushi. 
-
 Now we can start writing our JavaScript code. 
-
 If I click on Save, you will see that all of the operators coming here
 on the webpage, and let&apos;s manipulate it, create and remove some items
 from it. 
 
 Let&apos;s select the elements using DOM selectors. 
-
 I&apos;ll say const addButton. 
-
 We can make it equal to document.querySelector and we can just put here
 ID, so ID is #addButton. 
-
 Similarly, what we can do is we can target our removeButton as well. 
-
 We can just copy-paste at this point and similarly, we can target our
 food list. 
-
 Let&apos;s say const foodList and it would be again equal to
 document.querySelector. 
-
 We can pass the ID here like this. 
 
 Now what we want to do is we want to attach event listener. 
-
 I can say addButton.addEventListener and let&apos;s have an event of
 type click and then we can run a callback function. 
-
 Inside this function, we will say const newListItem. 
-
 Here we can say document.createElement and we want to create a new li
 element like this. 
 
 Then let&apos;s say const newListItemText and you can create it using a
 method that is document.create, and that is TextNode. 
-
 We want to pass it let&apos;s say, Tacos. 
-
 Then what we want to do is after that, we can say newListItem.append, or
 you can use append child and we want to say newListItemText. 
 
 Then what you want to do is we want to see foodList.appendChild, this
 time let&apos;s use this and you want to append newListItem. 
-
 Now if I click on Save, if we try to run this, you will see that when we
 say Add Tacos, it adds it to the list based on the event. 
 
 Similarly, let&apos;s create it for removeButton as well. 
-
 Let&apos;s put here removeButton and that is again a type of click and you
 want to do some things here. 
-
 We can say const sushi to be document.querySelector and we can say
 target li, that has an nth child of two. 
 
 Then what we can do is we can either use removedChild or remove. 
-
 Let&apos;s use removedChild at this point, we can say removeChild and you
 want to remove the sushi. 
-
 Now if I click on Save, 
-
 let&apos;s test both of them. 
-
 I will refresh. It adds tacos and it removes the sushi. 
-
 In this example, there are two buttons. 
-
 One that adds a new list item containing the text tacos to the unordered
 list, and one that removes the second item containing the text sushi
 from the unordered list. 
-
 The event listeners for both buttons use querySelector method to
 access the appropriate DOM elements. 
 
 Then we use appendChild or append, or you can say remove a removeChild
 method to create or remove elements from the DOM respectively. 
-
 Let&apos;s summarize this. 
-
 In web development, creating and removing DOM elements with JavaScript
 is a fundamental technique used to dynamically modify the content of web
 pages. 
@@ -3115,17 +2590,13 @@ pages. 
 By using the methods like createElement, appendChild, removeChild, web
 developers can create dynamic and responsive web pages that provide a
 rich and engaging user experience for the users. 
-
 In the next lesson, we will see how to use Ajax to load content
 dynamically. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-12">2.12 Using AJAX to load content dynamically (7:03)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Hi there. In the previous lesson, we learned how to create a new move DOM
+In the previous lesson, we learned how to create a new move DOM
 elements using JavaScript. 
-
 Now in this lesson, we will learn how to use AJAX to load content
 dynamically. Let&apos;s get started. 
 
@@ -3143,140 +2614,90 @@ response using JavaScript. 
 
 We can use this technique to load content from the server and display it
 on the webpage without having to reload the entire page. 
-
 Let&apos;s look at an example of how to use 
-
 AJAX to load content dynamically from a server. 
-
 Let&apos;s go to the VS Code, and here I have a basic HTML file ready. 
 
 Let&apos;s start creating a basic template here. 
-
 Let&apos;s say I wanted H1 and in this H1, you can just give it a heading
 off, let&apos;s say users. 
-
 Then we can just have an unordered list. 
-
 Let&apos;s give it an ID of user list. 
-
 Let&apos;s leave it empty for now. 
-
 Next, what we will do is we need to write JavaScript now. 
 
 We&apos;ll go inside the script tag and we can capture this user list using
 DOM selector. 
-
 Lets say const userList equals to document.querySelector. 
-
 We can pass the ID, that is hash userList. 
-
 Then you can say const xhr. 
 
 We can create this new XML request object. 
-
 It is XMLHttpRequest and we can create an object like this. 
-
 Next what we want to do is we can say xhr and we need to have an event
 that is on ready state change. 
-
 On this, we need to run a function. 
-
 Let&apos;s use a function here. 
 
 We can say if xhr.readyState is equal to XML httprequest.done, in that
 case, we want to have one more if condition. 
-
 Here we can say if xhr.status is 200, that means we got the response
 successfully. 
-
 We can say const, userData. 
-
 At this point, we can parse it. We can parse what? 
-
 We can parse the response text that we&apos;re getting from xhr object. 
-
 We can say responseText here.
-
 Next, what we want to do is we can say userData and we want to loop
 through it. 
 
 We can say for each.
-
 Here we can get a single user and then you want to run this callback
 function for every single user. 
-
 Then you want to say const, newUser. 
-
 You want to create an LI element for it. 
-
 We can say document.create element. 
-
 The element that you wanted to create is LI. 
-
 After that, we can say const, newUser let&apos;s say text. 
-
 This would be equal to document.CreateTextNode.
 
 The node we want to create is coming from user that is named. 
-
 Let&apos;s use the name as the text that we want to append. 
-
 Now we can see newUser.appendChild, and let&apos;s append newUserText. 
-
 Then we can say userList.appendChild, and let&apos;s open a newUser. 
-
 This is for the if condition. 
-
 What if you want to have an else condition as well? 
-
 After this, we can just say else.
-
 We can say console.log.
-
 We can say there was a problem with the request, something like that, an
 error message. 
 
 After that, what we want to do is we want to make the request so we can
 say xhr.open. 
-
 We want to make a request of Typekit and you want to pass the URL. 
-
 The URL that we would be using is from JSON typi code. 
-
 You can search for jsontypicode.com. 
-
 Here we want the endpoint as /users. 
-
 Here you can see we will get a list of users. 
-
 Let&apos;s copy it and let&apos;s paste it here. 
-
 Then what we want to do is we just need to say xhr.send that will send
 the request. 
-
 If I click on &quot;Save&quot;, we should get a user list here in the webpage. 
-
 This means it is working perfectly fine. 
 
 In this example, we use AJAX to load a list of users from the JSON
 Placeholder API and we are displaying them on the webpage. 
-
 We start by using XMLHttpRequest object to create a new HttpRequest and
 then we define a callback function to handle the response when it is
 received from the server. 
 
 Now, when the response is received, we check the status of the response
 to make sure that it was successfull. 
-
 Then we parse it using JSON.parse the response data into a JavaScript
 object. 
-
 Finally, we loop through them and dynamically create LI elements for
 each user, which are then appended to the userList that is UL on the
 webpage. 
-
 Let&apos;s summarize this. 
-
 Overall, using AJAX to load content dynamically from APIs is a powerful
 technique that can greatly enhance the user experience of the pages by
 allowing them to load new content in the background without requiring a
@@ -3284,11 +2705,9 @@ full page refresh. 
 
 In the next lesson we will see how to handle errors and exceptions in
 JavaScript. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-13">2.13 Handling Errors and Exceptions (5:53)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In the previous lesson, we learned how to use Ajax to load
 content dynamically. 
 
@@ -3297,127 +2716,89 @@ JavaScript. Let&apos;s get started. 
 
 Handling errors and exception is an important part of writing robust and
 reliable JavaScript code. 
-
 In JavaScript, we have try and catch keywords that are used together to
 handle errors and exceptions in the code. 
 
 Here is the basic syntax of try and catch block. 
-
 The try block contains the code that may potentially throw an error or
 exception. 
-
 If an error occurs, JavaScript will jump out of the try block and into
 the catch block. 
-
 The catch block contains code that will handle the error or
 exception such as logging an error message or taking corrective action. 
 
 Within the catch block, you will also notice this error variable. 
-
 This error variable is used to represent the error object that was
 thrown. 
-
 This variable can be used to access information about the error, such as
 its message, stack trace, and any additional data that may be attached
 to it. 
 
 Let&apos;s understand this through an example. 
-
 Let&apos;s go to the VS Code. 
-
 Here I have a file that is a JavaScript file handlingErrors.js. 
-
 Let&apos;s start writing a code at this point. 
-
 Let&apos;s create a function divide and this function will take a numerator
 and you can see denominator as the parameter. 
 
 Then what you want to do is, we can add a check here. 
-
 We can say if denominator is equal, equal to zero, in that
 case, division is not possible. 
-
 What we want to do is we want to throw new error. 
-
 This will throw a new object. 
-
 We can pass a message here. 
 
 We can say division by zero. 
-
 You can pass any error related to it. 
-
 At this point, it seems more appropriate. 
-
 Then what we want to do is we can say return numerator divided by
 denominator. 
-
 This is the function. 
 
 Then you want to call a function. 
-
 But before calling the function, we will use try and catch to check for
 any errors. 
-
 We can say try this piece of this block of code. 
-
 We can say const result, and result would be a part of, let&apos;s say
 divide. 
-
 Whatever divide this returning, you can show it in result. 
-
 We will pass here 10, 0 because we want to get an error. 
-
 Then we can say console.log result. 
 
 As you can see, it is throwing some error that catcher finally
 expected. 
-
-So it is always important to use catch method at this point. 
-
+It is always important to use catch method at this point. 
 We can say catch error.
 
 We can see console.log error. 
-
 It is an object and we want to put a message at this point. 
-
 We can say error.message.
-
 Let&apos;s try to run this program. 
-
 I&apos;ve clicked on &quot;Save&quot; and let&apos;s open up the terminal. 
-
 Let&apos;s clear it and let&apos;s run node handlingErrors.js. 
 
 You can see we get the message here that is division by zero. 
-
 Also right here something like this to actually give more idea about
 that this is an error rather than a normal message. 
-
 If I try to run this again, you can see it says error division by zero. 
 
 In this example we define a function divide that performs a division
 operation on two numbers, that is numerator and denominator. 
-
 Before performing the division, we checked to make sure that the
 denominator is not zero. 
 
 If it is, we throw a new error object with a custom error message that
 is error division by zero in this case. 
-
 We then call the divide function with arguments 10 and 0 within a try
 block. 
 
 Since this will result in a divide-by-zero error, JavaScript will jump
 out of the try block into the catch block. 
-
 Within the catch block, we log the error message to the console using
 console.log error.message. 
 
 That&apos;s all we are getting the output here. 
-
 Let&apos;s summarize this. 
-
 In JavaScript, try and catch are used together to handle errors and
 exceptions in the code. 
 
@@ -3475,14 +2856,10 @@ more](https://www.tutorialspoint.com/javascript/javascript_error_handling.htm)
 
 Module 3: What you will learn (0:50)
 
-Hi there. 
-
 In this lesson, we will delve into more advanced Java script
 techniques. 
-
 You will learn how to work with arrays and objects in Java script
 and understand how to manipulate their properties and methods. 
-
 Additionally, you will learn about closures and how they can be used to
 create private variables and functions. 
 
@@ -3492,40 +2869,30 @@ code. 
 
 This will help you understand how variables are scoped and how to avoid
 conflicts when writing complex applications. 
-
 Finally, we will discuss debugging techniques in Java script. 
-
 You will learn about how to use browser developing tools to diagnose
 and fix errors in your code. 
 
 This is an important skill to have when building complex Java script
 applications. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-2">3.2 Working with Arrays and Objects in JavaScript (8:18)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi, there. In this lesson, we will learn about arrays and objects in
 JavaScript. Let&apos;s get started. 
-
 Let&apos;s first talk about arrays in JavaScript. 
-
 An array is a data structure in JavaScript that allows you to
 store multiple values in a single variable. 
 
 It can hold values of any data type such as: numbers, strings, Booleans,
 or even other arrays. 
-
 Arrays are zero-indexed. 
-
 That means the first element is at Index 0, the second would be at Index
 1, and then so on. 
-
 Let&apos;s understand working with arrays with the help of an example. 
 
 Here, I&apos;m in my VS Code and I have a basic index.html page, linked with
 index.js file. 
-
 Let&apos;s first start by creating an array. 
 
 We can say let fruits, and we can create an array using the square
@@ -3533,53 +2900,38 @@ brackets and we can put multiple items here, let&apos;s say array of
 strings. 
 
 We can say apple. 
-
 Let&apos;s put banana, and then we can put orange as well. 
-
 This is how you can create an array. 
 
 If you do console.log fruits, you will get array into the console. 
-
 Let&apos;s go to Inspect and console. 
-
 You can see that we have array with three strings, that is apple,
 banana, and orange and you can see the index starts from zero. 
 
 Apple&apos;s index is 0, banana is 1, and orange is 2. 
-
 You can access the element based on the index. 
-
 If I say fruits at Index 0, so guess the output, the output would be
 apple here. 
 
 If I do, let&apos;s say 2, it would be orange, as you can see here. 
-
 If you want to modify an array element, let&apos;s say we can do something
 like fruits add index 1 and I just want to put, let&apos;s say, grape here. 
-
 Let&apos;s console it again. 
 
 I can say console.log fruits. 
-
 At this point, you will see that at Index 1, we have grape now, if you
 want to check a length of the array, you can do it by using a.length
 property like this, it will give you the length of the array that is
 three in this case. 
-
 You can do a lot of things using array methods and properties. 
-
 We&apos;re just seeing the important ones and the commonly used. 
-
 Let&apos;s also see how we can add elements to this array. 
-
 We can say fruits. 
 
 There is a method called push that push the elements into the end of the
 array. 
-
 Let&apos;s say we want to push mango and if I do console.log fruits
 again, you will see that the mango has been added at Index 3. 
-
 If you want to pop or remove the last element, you can use a method that
 is pop. 
 
@@ -3592,59 +2944,43 @@ Of course, there are a couple of more methods that you can use, but
 these are the common ones. 
 
 You can also iterate the array using a for loop. 
-
 We can say for let i to be zero, we want to iterate
 through fruits.length and then we can say i++. 
-
 In this case, if I do console.log fruits at index I, you will see that
 it has iterated over all of the strings and printed in the console. 
 
 Now let&apos;s talk about objects in JavaScript. 
-
 Objects in JavaScript are more complex data types that allows you to
 store key-value pairs. 
 
 They can not represent real-world entities or concepts and provide a way
 to organize related data and functionality together. 
-
 Objects have properties that is called as keys and corresponding
 values, which can be of any data type. 
-
 Let&apos;s now try to understand objects using an example. 
 
 Let me remove this code and let&apos;s create a person object. 
-
 Just like we create an array using a square bracket, we can create an
 object using curly brackets. 
-
 Then we can create a key. 
-
 Let&apos;s say the name of the person is John. 
 
 Then it can have any number of attributes, let&apos;s say age to be 25. 
-
 Then we can say is a student so that would be true in this case. 
-
 Again, it can hold any data type. 
 
 As you can see, we&apos;re holding string, number, and Boolean, although you
 can have areas and objects here as well. 
-
 How to access the properties? 
-
 You can just say console.log and we can say person.name. 
 
 This is one notation that is dot notation and when we say
 person.name, you will get John printed here. 
-
 There is one more way to access the properties using a square bracket
 notation. 
-
 We can just say square bracket here and we can pass the key age. 
-
 If I write this syntax, you will see we get the age here as well in the
 console. 
-
 Let&apos;s say we want to modify the properties here so we can see
 person.age to be 30. 
 
@@ -3694,60 +3030,47 @@ handling data. 
 
 In the next lesson, we will understand about closures and scope chain in
 JavaScript. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-3">3.3 Understanding Closures and the Scope Chain (11:42)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In the previous lesson, we learned about arrays and objects in
 JavaScript. 
 
 Now in this lesson we will understand closures and scope chain. 
 
-So let&apos;s get started. 
-
+Let&apos;s get started. 
 Before diving into closures, let&apos;s first understand what is scope. 
 
 Scope in JavaScript refers to the visibility and accessibility of
 variables, functions, and objects in some particular part of your code
 during runtime. 
-
 JavaScript has function scope which means that variables defined within
 a function are only accessible within that function. 
 
 This concept helps with variable encapsulation and prevents naming
 conflicts. 
-
 Let&apos;s understand the scope using an example. 
-
-So let&apos;s go to the Vs code I have index HTML and index JS file linked
+Let&apos;s go to the Vs code I have index HTML and index JS file linked
 to each other, and let&apos;s create a function called great.
 
 In this function, let&apos;s create a message using const and here we can
 put let&apos;s say Hello at this point. 
-
 If I do something like console log message, and let&apos;s call great
 here, if I click on save, let&apos;s go to inspect and to console. 
 
 You can see that we get the output as Hello. 
-
 But if after the greed I try to log this message, you will see that
 error. 
-
 That message is not defined. 
-
-So in this example the message variable is defined within the great
+In this example the message variable is defined within the great
 function. 
-
 It is accessible and can be used within this function only. 
 
 However, if you try to access this outside of the function like
 this, you will receive an error because the variable is not defined in
 that scope. 
-
 Now we can move to the part of closures. 
-
-So closure is a combination of a function and the lexical environment
+Closure is a combination of a function and the lexical environment
 within which that function was declared. 
 
 It allows a function to access variables from its outer scope, even
@@ -3755,8 +3078,7 @@ after the outer function has finished executing. 
 
 This is a very important concept, so let&apos;s try to understand this using
 an example. 
-
-So here what we can do is, we can create a function and let&apos;s give the
+Here what we can do is, we can create a function and let&apos;s give the
 name as outer.
 
 Now into this function, we can create a variable and let&apos;s call it as
@@ -3764,45 +3086,36 @@ outer variable.
 
 And I can just put up a value here or a string here that I am from
 outer, something like that. 
-
 And then inside this, we can create a function inner.
-
 And here we can say console.log outer variable.
-
 And then after this function we can just return this inner function at
 this point.
-
 Now we can say const closureFunction.
 
 And let&apos;s put outer and call the outer function here. 
-
-So outer function is called here and it will return inner function into
+Outer function is called here and it will return inner function into
 this closure function variable, and then what we can do is, we can call
 this closure function like this.
 
-So if I click on Save you will see that we get the output I am from
+If I click on Save you will see that we get the output I am from
 outer. 
-
-So in this example, the outer function defines a variable called outer
+In this example, the outer function defines a variable called outer
 variable here. 
 
 It also declares an inner function within it, the inner function has
 access to the outer variable even though it is declared inside the outer
 function. 
-
-So when outer function is invoked and assigned to the closure function
+When outer function is invoked and assigned to the closure function
 variable, it returns the inner function. 
 
 Even though at this point the outer function has finished executing,
 closure function still retains access to the outer variable through
 something called closure. 
-
-So when closure function is called, it locks the value of outer variable
+When closure function is called, it locks the value of outer variable
 at this point. 
 
 If you want to test this out, you can also go to sources to index.js
 and where we are consoling it here.
-
 Let&apos;s put a debugger at this point and click on Refresh. 
 
 Now you can see that this particular function forms a closure with the
@@ -3818,19 +3131,17 @@ function. 
 
 Now let&apos;s move to another important topic, that is scope chain. 
 
-So the scope chain is the hierarchy of scopes in which variables
+The scope chain is the hierarchy of scopes in which variables
 and functions are accessible. 
 
 It is created during the lexical analysis phase of code execution. 
-
 When a variable or function is referenced, JavaScript searches for it in
 the current scope. If it doesn&apos;t find it, it continues searching in the
 outer scope, and this process continues until the variable or function
 is found or until the global scope is reached. 
 
 Let&apos;s understand the scope chain using an example.
-
-So we can create a function again with the name outer, and inside this,
+We can create a function again with the name outer, and inside this,
 we can say const outervariable, and let&apos;s put the value as outer string
 here. 
 
@@ -3843,8 +3154,7 @@ here, and then we can say plus then outervariable. 
 And after this we can call our inner function, and after this we can
 call our outer function.
 
-So let&apos;s see the output first. 
-
+Let&apos;s see the output first. 
 If we go here, let&apos;s remove the debugger and let&apos;s refresh it
 again, you can see that we get the output as inner and outer. 
 
@@ -3853,8 +3163,7 @@ variable and the outer variable. 
 
 This is possible because the inner function is within the scope of the
 outer function. 
-
-So it can access variables in both its scope and outer scope as well. 
+It can access variables in both its scope and outer scope as well. 
 
 Let&apos;s summarize this. 
 
@@ -3866,54 +3175,43 @@ With these concepts you can create powerful and modular JavaScript
 applications. 
 
 In the next lesson we will understand about debugging in JavaScript. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-4">3.4 Debugging JavaScript Code (7:51)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Hi, there. 
-
 In the previous lesson, we learned about closures and the scope chain in
 JavaScript. Now in this lesson, we will understand how to debug
 JavaScript code. 
 
-So let&apos;s get started. 
-
+Let&apos;s get started. 
 Debugging JavaScript code is an important skill for developers to
 identify and fix errors or issues in their code. 
-
 Let&apos;s look at some debugging concepts and techniques in JavaScript. 
 
 Identifying errors, so when you encounter an error in your JavaScript
 code, the browser&apos;s console is a useful tool for identifying and
 understanding the error. 
-
 The console provides information about the error type, the line number
 where the error occurred, and any accompanying error messages. 
 
 You can just console these statements. 
-
 Let&apos;s go to the VS Code, and here I have index.js and index.html
 file linked together, and you can directly use a console.log
 statement, and you can log anything that would be printed in the
 console. 
 
-So if I click on Save, I have already opened index.html with live
+If I click on Save, I have already opened index.html with live
 server. 
-
 Let&apos;s go to Inspect and Console, and you can see the console statements
 here. 
 
-So when running this code, the browser&apos;s console will display an error
+When running this code, the browser&apos;s console will display an error
 message, indicating a syntax error and the line number where the error
 occurred if there is any error. 
 
 For example, if I do something like this, you can see that it displays a
 type error at this point. 
-
 Next is to use console statements. 
-
-So console statements are helpful for debugging code by printing values
+Console statements are helpful for debugging code by printing values
 or messages to the console. 
 
 They actually allow you to see the state of variables or the flow of
@@ -3930,19 +3228,17 @@ After that, let&apos;s create a result variable, And let&apos;s invoke the
 function multiply(5,2,); and let&apos;s also say console.log(&apos;Result: &apos;,
 result);. 
 
-So in this example, the console.log statement is used to display
+In this example, the console.log statement is used to display
 messages and the values of the variables during the execution of the
 multiply function. 
 
 By inspecting the console output, you can verify if the function is
 receiving the correct values and producing the expected result. 
-
-So if I click on Save, you will see that we are getting Multiplying 5
+If I click on Save, you will see that we are getting Multiplying 5
 and 2, and the result is 10.
 
 Next technique is to set breakpoints. 
-
-So setting breakpoints in your code allows you to pause the execution
+Setting breakpoints in your code allows you to pause the execution
 at specific lines enabling you to examine the state of variables
 and step through the code line by line. 
 
@@ -3951,31 +3247,29 @@ features including setting breakpoints.
 
 For this particular case, let&apos;s modify the example and we can say let
 result = a &ast; b; and then we can say return the result;. 
-
 Next, we are just calling this multiply function storing the result in
 the result variable and then logging the result again. 
 
 But just before returning the result, I will just add debugger key here,
 and this will pause the code. 
 
-So in this example, this debugger statement is added to pause the
+In this example, this debugger statement is added to pause the
 execution at that line. 
 
-So when you open this browser tools now, you can see the code has been
+When you open this browser tools now, you can see the code has been
 stopped and it allows us to inspect the variables in step to the code
 and analyze the program&apos;s flow. 
-
 You can see that at this point, a is 5, b is 2, and the result is 10.
 
 Last but not the least, we can read error messages. 
 
-So when encountering an error, JavaScript provides error messages that
+When encountering an error, JavaScript provides error messages that
 can offer clues about the issue. 
 
 Understanding and interpreting these error messages can help you
 identify the problem and fix it. 
 
-So let&apos;s try to create an error, so what we can do here is we can
+Let&apos;s try to create an error, so what we can do here is we can
 say function divide(a, b). 
 
 Then, we can say if(b === 0) {throw new Error(&apos;Cannot divide by zero&apos;
@@ -3985,32 +3279,26 @@ And after this if this condition is false, we can just return A / b;. 
 
 Next, we can say try and into this try block, we can say let result =
 divide(10,0);. 
-
 And let&apos;s create an error, so we can say console.log(&apos;Result: &apos;,
 result);. 
 
 And we can also have a catch, so it will catch for any errors, and then
 we can say console.log(&apos;Error: &apos;,error.message).
-
-So in this particular example, the divide function throws an error if
+In this particular example, the divide function throws an error if
 the second argument b is 0. 
-
-So when running this code, an error is thrown, so let&apos;s check that
+When running this code, an error is thrown, so let&apos;s check that
 out. 
 
-So let&apos;s refresh, and you can see in the console, we have error cannot
+Let&apos;s refresh, and you can see in the console, we have error cannot
 divide by zero, and here the catch block is executed. 
-
 The error message can be accessed using this error.message property that
 allows you to display custom error messages or handle errors gracefully,
 so let&apos;s summarize this. 
 
 By understanding these debugging techniques and concepts, beginners can
 effectively identify and resolve issues in their JavaScript code. 
-
 Debugging plays a vital role in development process and helps improve
 the functionality and quality of your JavaScript applications. 
-
 Learn more about Advance JS Techniques
 
 **Working with arrays and objects in JavaScript**
@@ -4029,7 +3317,6 @@ more](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arra
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Understanding closures and the scope chain**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Scope is the context environment (also known as lexical environment)
 created when a function is written. This context defines what other data
 it has access to.
@@ -4045,7 +3332,6 @@ more](https://www.freecodecamp.org/news/deep-dive-into-scope-chains-and-closures
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Debugging JavaScript code**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Refer to the link below for a step-by-step approach.
 
 [Read more](https://developer.chrome.com/docs/devtools/javascript/)
@@ -4089,10 +3375,8 @@ pages. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-6">3.6 What is jQuery? (5:01)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Hi there. In this lesson we will learn about what is jQuery. Let&apos;s get
+In this lesson we will learn about what is jQuery. Let&apos;s get
 started. 
-
 jQuery is a popular, fast and lightweight JavaScript library that is
 designed to simplify client side web development. 
 
@@ -4104,10 +3388,8 @@ jQuery is built on top of JavaScript and offers a simplified syntax and
 cross-browser compatibility, making it widely used in web development. 
 
 Let&apos;s try to consider an analogy to understand jQuery. 
-
 Imagine that you have a toolbox filled with various tools that help you
 perform specific task. 
-
 Each tool serves a different purpose and make your work easier. 
 
 In this analogy, JavaScript is like a general purpose tool, while jQuery
@@ -4138,51 +3420,41 @@ Let&apos;s look at some key features of jQuery, DOM manipulation. 
 
 jQuery simplifies the process of selecting and manipulating HTML
 elements in the document object model, often called as DOM. 
-
 It provides a concise syntax for accessing and modifying elements such
 as changing their content, attributes, or CSS styles. 
 
 With jQuery, you can easily create dynamic and interactive web pages. 
-
 Even handling: jQuery makes it easier to handle browser events such as
 clicks, key presses, mouse movements, and form submissions. 
 
 It provides methods to attach event handlers to elements, and execute
 code when that particular event occurs. 
-
 This allows you to enhance user interactivity and respond to user
 actions effectively. 
 
 Animations and effects: jQuery offers a wide range of animations and
 effects that can be applied to HTML elements. 
-
 You can create smooth transitions, fields, slides, and other visually
 appealing effects using simple jQuery methods. 
-
 This enables you to add engaging in emissions to your web pages without
 complex JavaScript coding. 
-
 AJAX: jQuery simplifies the process of making asynchronous requests to
 the server and handling the responses without requiring a page reload. 
 
 It provides a set of AJAX methods makes it easier to fetch data from a
 server, send data, and update parts of a webpage dynamically. 
-
 AJAX allows for seamless and interactive user experiences. 
 
 Cross-browser compatibility: One of jQuery&apos;s significant advantages
 is its ability to handle cross-browser compatibility issues. 
-
 It provides a consistent API that works across different web
 browsers, reducing the need to write browser specific code. 
 
 This ensures that your web application functions reliably and
 consistently across various platforms. 
-
 Last but not the least, plugin integration. 
 
 jQuery has a vast ecosystem of plugins contributed by the community. 
-
 These plugins extend jQuery&apos;s functionality and allows you
 to incorporate additional features and behaviors into your web
 projects. 
@@ -4192,108 +3464,83 @@ validation, date pickers, and much more. Let&apos;s summarize this. 
 
 Overall jQuery is a versatile library that simplifies many common tasks
 in web development. 
-
 Its application span from basic DOM manipulation and event handling to
 more advanced features like AJAX request animation effects. 
 
 By using jQuery, developers can write concise, cross-browser compatible
 code and create rich and interactive web experiences with less effort. 
-
 In the next lesson, we will understand about selectors. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-7">3.7 jQuery Selectors (7:39)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In the previous lesson we learned about what is jQuery. 
-
 Now in this lesson we will understand jQuery selectors, so let&apos;s get
 started. 
-
 jQuery selectors are a powerful feature that allows you to target and
 select HTML elements in the DOM. 
 
 They provide a concise and efficient way to identify elements based on
 various criteria, such as element types, classes, IDs, attributes, and
 more. 
-
 Let&apos;s look at some commonly used jQuery selectors. 
-
 We have element selector, so it selects elements based on their tag
 name. 
 
 You can use tag names like div, p, h1, etc, to select specific
 elements. 
-
 Then we have a class selector where you can select the elements based on
 any class. 
-
 Then we have an ID selector you can select the element with its unique
 ID and then we have attribute selectors, so you can select an element
 based on its attribute and you can also combine all these selectors and
 pick up a single element. 
-
 Let&apos;s try to understand all of them using examples. 
-
 Let&apos;s go to the VS Code, and here I have index.html file ready where I
 have a bunch of HTML tags and this is the output as of now. 
 
 We have h1, two p tags with a class of highlight, some div with class of
 boxes, two links, then again headings; h2s and h3s, then input with
 attributes, then we have buttons and a form. 
-
 Now we have to select them based on jQuery selectors. 
-
 Let&apos;s start by simple element selector. 
 
 If I want to select let&apos;s say a p tag, so we&apos;re using a p tag here and
 what we can do is we can say dollar and we can pass a p tag here. 
-
 We can say dot text and we can change the text to, let&apos;s say this
 text is changed using jQuery, something like that. 
 
 Now if I click on &quot;Save&quot;, you will see that both of the p tags text is
 changed. 
-
 This is cool, this is what is called as an element selector where you
 pick up the elements based on their tag names. 
 
 Here we have picked up p. If you want to pick h1, you can say h1, h2,
 and h3. The problem here is that it will pick all the elements, all the
 p tags from the particular HTML page. 
-
 We want to create or we want to select a unique element based either on
 the class or an ID, or you can say attribute. 
-
 Let&apos;s look at those examples as well. 
 
 Let&apos;s say if I want to select elements with the class of highlight, so
 we can say dollar and we can pass the name of the class in quotes,
 let&apos;s say &quot;.highlight&quot;. 
-
 Then we can say.css and you want to change the color to let&apos;s say red. 
 
 Now if I click on &quot;Save&quot; you will see that the color of this
 particular paragraph or the particular element with the class of
 highlight, the text color has been changed and you can see this p tag
 only has the class of highlight. 
-
 Let&apos;s select the element based on the ID. 
 
 What we can do is let&apos;s say dollar and the ID is my elements. 
-
 Just like you say.class, you say #ID. 
-
 #MyElement and then we can say.hide. 
-
 Let&apos;s see if we have an element by MyElement ID, so we don&apos;t have it. 
-
 What we can do is we can give here this p tag an ID of my element and
 let&apos;s click on &quot;Save&quot;. 
 
 Let&apos;s go here. You can see that the second paragraph or that element
 that had the ID of my element has been hidden. 
-
 Let&apos;s look at attribute selector, so you can select elements based on
 their attributes and attribute values. Let&apos;s try that. 
 
@@ -4306,92 +3553,68 @@ third has the required attribute. 
 
 We want to pick them and we want to add a new class and that class
 would be let&apos;s say required-field. 
-
 Now if I click on &quot;Save&quot; you will see that they have this required
 field added here. 
-
 This required-field we have already created here, so it has just the
 border of 2px solid and red. 
 
 You can see that only those required; that is one and third, have been
 given the borders. 
-
 This is what is called as an attribute selector. 
 
 Next we can look at combination of selectors, or you can say in easier
 words, combining selectors. 
-
 You can combine multiple selectors to target elements that meet specific
 criteria. 
 
 For example, you can combine class and elements selectors or
 use multiple selectors separated by comma. 
-
 We have here anchor tag. 
-
 Here, let&apos;s do what? Let&apos;s target them. 
-
 We can say dollar and let&apos;s put here a.nav-link.
-
 What is this nav-link? 
-
 This nav-link is the class. 
-
 We are combining here the tag selector and the class selector, and then
 we can say.addClass and let&apos;s add an active class. 
 
 If I click on &quot;Save&quot; you will see in both the elements we now have the
 active class. 
-
 An active class is created here or it&apos;s not created, so we can
 say.active and let&apos;s give it a background of green. 
 
 If I click on &quot;Save&quot;, you can see that we have navigation links and
 let&apos;s target that again. 
-
 We have.active here, it should be ve. 
-
 Now you can see that both have been given the background color. 
 
 These are just few examples of jQuery selectors, there are many more
 selectors options available such as parent-child relationships, sibling
 relationships, form related selectors, and much more. 
-
 jQuery selector syntax is designed to closely reassemble CSS
 selectors, making it easy to grasp and use for selecting elements. 
 
 In the next lesson, we will learn about jQuery effects. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-8">3.8 jQuery Effects (6:31)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In the previous lesson, we learned about jQuery selectors. 
-
 Now in this lesson we will learn jQuery effects. Let&apos;s get started. 
 
 jQuery effects allows you to add visual transitions and animations to
 HTML elements. 
-
 Effects can make your webpages more engaging and interactive by
 providing smooth transitions, fades, slides, and other animations. 
-
 Let&apos;s understand this through an example. 
-
 Let&apos;s go to the VS Code and I have index.html file we created here. 
 
 Let&apos;s have a basic template and let&apos;s say intitled to jQuery effects
 and let&apos;s have an h1 for now of let&apos;s say effect. 
-
 If I click on Save, we should get effect as the output here. 
-
 Let&apos;s change it to effects example. 
 
 You have what the structure would be is, let&apos;s have a button and to
 this button, let&apos;s give a text of a toggle box. 
-
 We will create a toggle example here and then you can have a div. 
-
 Let&apos;s give this an id of myBox and we can also give it a class of box
 like this and that&apos;s it. 
 
@@ -4401,32 +3624,20 @@ say, 200 pixels and a height of 200 pixels as well. 
 
 Let&apos;s also give it a background color of, let&apos;s say, light blue and
 let&apos;s also give it a display of none. 
-
 Before that, let&apos;s see the output first. 
-
 We should get a square here, lightbox. 
-
 Now what we want to do is initially we want it to be hidden. 
-
 We can say display of none. 
-
 Now if I click on Save, you will see that it is hidden for now. 
-
 After this style tag, let&apos;s also use a script tag and we will include
 the jQuery CDN, that is content delivery network. 
-
 You can search it on Google. 
 
 Let me just type it here. 
-
 It is https://code.jquery.com and then we can say slash 
-
 jQuery and then you can put the version. 
-
 I will use 3.6.0. 
-
 You can use any version here and the name would be.min.js. That&apos;s it. 
-
 Let&apos;s test this out if it is working or not. 
 
 We can have a script tag just below here. 
@@ -4437,42 +3648,33 @@ First of all, we will say document.ready, and then we can have a
 function inside it. 
 
 Let&apos;s create a function. Here, we will add our toggle functionality. 
-
 You can say toggle the visibility of the element with a fade in and fade
 out effect on the button click. Which button? This button. 
-
 We can see dollar and I want to target my button like this using the
 selector and then we can add even listener that is click an onclick. 
 
 I just want to run a function again. 
-
 Here we can target our div of id myBox. 
-
 We have to pass here hash and name of the id that is my box and then we
 can use an effect that is fadeToggle and that&apos;s it. 
 
 Let&apos;s test this out. 
-
 If I click on Save, if I go here, we have toggle and boxes coming and
 then boxes going on the other clip. 
 
 This is a fadeToggle example that we have created. 
-
 Make sure that you include necessarily jQuery library along with the
 script tag. 
-
 Inside the script tag, this code is wrapped in document.ready
 function, ensuring that jQuery code executes when the document, in this
 case, HTML page, has finished loading. 
 
 Within this document.ready function, we haven&apos;t event handler that
 is attached with a button using this.click. 
-
 This means that when the button is clicked, the function provided as the
 argument will be executed. 
 
 Now inside the click event handler, the fadeToggle method is used. 
-
 This method toggles the visibility of the element with the ID myBox by
 feeding it in if it&apos;s hidden or feeding it out if it&apos;s visible. 
 
@@ -4500,38 +3702,27 @@ They provide an extensive set of methods that can be used to create
 eye-catching transitions and animations with ease. 
 
 This is all for this lesson. 
-
 In the next lesson, we will learn about jQuery diversing. 
-
 See you in the next lesson. Thank you.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-9">3.9 jQuery Traversing (5:33)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there. In the previous lesson, we learned about jQuery effects. 
-
 Now in this lesson we will understand about jQuery traversing. Let&apos;s get
 started. 
-
 JQuery provides powerful methods for traversing the DOM, that is
 document object model, allowing you to select and manipulate specific
 elements based on their relationship to other elements. 
 
 Traversing methods in jQuery help you navigate through the DOM tree and
 select elements that match certain criteria. 
-
 Let&apos;s understand this using an example. 
-
 Let&apos;s go to the VS Code. 
-
 Here I have a index.html file ready with a script tag that has a CDN of
 jQuery attached. 
 
 In this script tag, we can start writing our jQuery code. 
-
 Before that, let&apos;s create a basic UI. 
-
 Here, let&apos;s have our unordered list, and let&apos;s have multiple list
 items. 
 
@@ -4541,41 +3732,31 @@ Let&apos;s say Item 1, and then we can say Item 2, and then let&apos;s have It
 All of them would be listed here. 
 
 Now let&apos;s start writing our jQuery code. 
-
 First I will say dollar and document, and then I would say.ready. 
-
 When the document is ready, I just want to run this function. 
-
 Inside this function, we want to filter the list items and select the
 ones containing two. 
 
 We can say, var filteredItems, let&apos;s create a variable here, and we
 would target LI items based on this selector. 
-
 Then you can say.filter. 
-
 Now, this is the traversing method, and here we can call a function. 
-
 This function, we&apos;ll just return. 
 
 Let&apos;s say this.text,.includes, and it should include this two here. 
-
 Then what we can do is then we can apply a CSS class to the filtered
 list item. 
-
 What we can do here is we can see filteredItems.addClass, and we can
 say, highlight, at this point. 
 
 Let&apos;s also create a highlight part here in the style tag, and we can
 say.highlight, let&apos;s just give it a background color of light blue or
 let&apos;s say blue. 
-
 If I click on &quot;Save,&quot; if I go here, you can see that this particular
 element that includes two is being given the background color of blue. 
 
 This filter method is applied to this list items to filter and select
 only the list items that meet a specific criteria. 
-
 Inside this filter method, we are providing a filtering function, as you
 can see here, that returns true or false for each list item. 
 
@@ -4591,12 +3772,10 @@ Then we can perform any operations on the filtered elements. 
 
 In this example, we apply a CSS class named highlight to the filter list
 items using the add class method. 
-
 The highlight class adds a blue background color to the list item
 through the defined CSS. 
 
 Let&apos;s summarize this. 
-
 JQuery traversing methods provide a convenient way to select and
 navigate through elements in the document object model. 
 
@@ -4609,35 +3788,27 @@ filter that we have used, now that allows you to select elements based
 on their position in the DOM or specific criteria. 
 
 The parent method selects 
-
 a direct parent element of the master element, while children selects
 the direct children elements. 
-
 These methods help you navigate up or down the DOM tree. 
 
 The siblings method selects all sibling elements of the matched
 element. 
-
 This allows you to target the elements that share the same parent. 
-
 The filter method lets you select a subset of elements from a larger set
 based on a specific criteria. 
 
 In our case, it was the text that has 2 in it. 
-
 You can use filtering functions to evaluate elements based on their
 properties, attributes or contents. 
-
 JQuery traversing methods provides flexibility and power when working
 with complex DOM structures, allowing you to precisely target and
 manipulate elements as needed. 
 
 By utilizing these traversing methods, you can easily navigate through
 the DOM and select the desired elements for further manipulation. 
-
 Traversing helps you write concise and efficient jQuery code, making it
 an essential skill for working with complex web applications. 
-
 Further Reading on jQuery
 
 **What is jQuery?**
@@ -4679,82 +3850,60 @@ find, filter or select a particular or entire element.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-10">3.10 Project Building, Part 1 (5:35)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Hi there. 
-
 In this lesson we will talk about how to create the project structure
 and how to get started in creating a Todo app. 
-
-So let&apos;s get started. 
-
-So let&apos;s look at the problem statement first. 
-
-So you are tasked with developing a ToDo application. 
+Let&apos;s get started. 
+Let&apos;s look at the problem statement first. 
+You are tasked with developing a ToDo application. 
 
 The app should allow users to add and delete tasks. 
-
 It should provide a user-friendly interface for adding tasks, displaying
 the them in a list and allowing users to delete the task. 
-
 The app should handle user input and create task items dynamically
 and update the list accordingly. 
 
-So key points here are that the main functionality that we have to
+Key points here are that the main functionality that we have to
 add is add and delete task and the list should be added dynamically. 
-
-So let&apos;s look at the step-by-step approach of solving this problem
+Let&apos;s look at the step-by-step approach of solving this problem
 statement. 
-
-So first is HTML structure. 
-
-So we need to create the HTML structure for the ToDo app including a
+First is HTML structure. 
+We need to create the HTML structure for the ToDo app including a
 form to add new task and a container to display the tasks. 
 
 Then we can add necessary HTML elements such as input fields, buttons, 
-
 containers with appropriate classes or IDs for styling and
 manipulation. 
-
 Next we can start with JavaScript functionality. 
-
-So you can write JavaScript functions to handle the core functionality 
-
+You can write JavaScript functions to handle the core functionality 
 of the ToDo app can create a function to capture user input from the
 form and add new task to the task list. 
 
 Then you can implement a function to delete task when the user interacts
 with the corresponding buttons. 
-
 You need to ensure that the app updates the task list dynamically when a
 task is added or deleted. 
-
 That is one of the core points in the problem statement. 
 
 Then we can add some event listeners. 
-
-So you can attach event listeners to the appropriate HTML elements, for
+You can attach event listeners to the appropriate HTML elements, for
 example form submission or button clicks to trigger the corresponding
 JavaScript functions. 
 
 Need to ensure that the app responds to user interaction and updates the
 UI accordingly. 
-
-So with the problem statement and step by step approach, let&apos;s start
+With the problem statement and step by step approach, let&apos;s start
 building our ToDo application. 
 
-So let&apos;s move to the Vs code and here let&apos;s create three files. 
-
-So I have index HTML file, a script JS file and 
+Let&apos;s move to the Vs code and here let&apos;s create three files. 
+I have index HTML file, a script JS file and 
 
 let&apos;s also create a style CSS dot file. 
-
 Now first let&apos;s start with the structure. 
-
-So what we can do is, we can just create a basic HTML template here and
+What we can do is, we can just create a basic HTML template here and
 let&apos;s give the title as todo app and then we can use a link tag to link
 our external style sheet. 
 
-So we can say relation of style sheet and let&apos;s say type of text CSS
+We can say relation of style sheet and let&apos;s say type of text CSS
 and an href of style.CSS.
 
 Next in the body tag we can have an h1 for now let&apos;s say todo app and
@@ -4762,17 +3911,13 @@ here we can have a script tag.
 
 Let&apos;s give it a defer attribute so it will load asynchronously
 and let&apos;s also use source and pass the path that is script.JS. 
-
-So if I click on save now we should see todo app here. 
+If I click on save now we should see todo app here. 
 
 Now let&apos;s first create the structure. 
-
-So here we want a div and let&apos;s give this a class of container.
+Here we want a div and let&apos;s give this a class of container.
 
 Let&apos;s have a h1 or heading of todo app And then let&apos;s have a form. 
-
-So let&apos;s give this an ID of task form.
-
+Let&apos;s give this an ID of task form.
 And in this form we want an input where user will type the task and we
 can give it a type of text and ID of let&apos;s say task input.
 
@@ -4780,184 +3925,135 @@ We can also give it a placeholder, let&apos;s say add a new task and then we
 can have a button of type submit and then we can say here just a text of
 add task. 
 
-So if I click on save you will see this as the output. 
-
+If I click on save you will see this as the output. 
 We have a basic to do heading input and a button and once the user
 clicks on the button we should be able to show a list. 
-
-So for that after the form we can have an ordered list and let&apos;s give
+For that after the form we can have an ordered list and let&apos;s give
 it an ID of task list like this and it should be ul.
 
-So through this we have completed the first approach that is creating
+Through this we have completed the first approach that is creating
 our HTML structure. 
-
 And this would be empty because the list would be generated dynamically,
 right, the task would be generated dynamically whenever user types in
 the input. 
 
 In the next lesson we will try to add functionality and before that we
 will add some styles to it. 
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-11">3.11 Project Building, Part 2 (10:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 Hi there, in the previous lesson we created the HTML structure of our
 Todo app. 
-
 Now in this lesson we will add styles to it and also some functionality
 to the app. 
 
-So let&apos;s move back to the VS code and this was our HTML structure. 
-
+Let&apos;s move back to the VS code and this was our HTML structure. 
 Let&apos;s open this side by side and style it. 
+First that I want to style is this class container. 
 
-So first that I want to style is this class container. 
-
-So let let&apos;s give here a max width of, let&apos;s say 400 pixels and then
+Let let&apos;s give here a max width of, let&apos;s say 400 pixels and then
 we can say margin of 20 pixels and auto from left and right. 
-
 And then let&apos;s give it a background color of #fff. 
-
 Then let&apos;s give a padding of 20 pixels from all sites. 
 
 And let&apos;s also give it a box shadow of 0px, 2px and 5px. 
-
 And the color that we want would be rgba and let&apos;s give it a black
 shade. 
+We can say 0,0,0 and the opacity would be 0.1. 
 
-So we can say 0,0,0 and the opacity would be 0.1. 
-
-So if I click on save you can see that we have a light box shadow here.
-
+If I click on save you can see that we have a light box shadow here.
 Now let&apos;s target our h1, so we can say h1 and we just want to align it
 to center.
-
-So it aligns to the center now. 
-
+It aligns to the center now. 
 And then we can target our form. 
 
 And to this form we can just give it a margin bottom of let&apos;s say 10px.
-
 And then we can target the input of type text like this.
-
 And in this case, we just want to give it a width of, let&apos;s say 70%.
 
 And let&apos;s give it a padding from all sides of 5px and let&apos;s give it a
 font size of 16px as well. 
-
-So if I click on Save we have this as the output. 
-
+If I click on Save we have this as the output. 
 Now let&apos;s target this button. 
 
-So we can say button and let&apos;s give it a padding of let&apos;s say from top
+We can say button and let&apos;s give it a padding of let&apos;s say from top
 and bottom 5px, and from left and right 10px. 
-
 Let&apos;s give it a background color of a green shade. 
-
-So that would be 4caf 50 and then let&apos;s give it a color of fff. 
+That would be 4caf 50 and then let&apos;s give it a color of fff. 
 
 And then let&apos;s give it a border of none and let&apos;s also give it a
 cursor to be pointer. 
-
-So if I click on Save, this is our button and it looks cooler.
-
+If I click on Save, this is our button and it looks cooler.
 Next we can target our unordered list as well since there is nothing
 here, we can just say list, style, type of none and a padding of 0. 
 
-So since there is nothing here, we will not be able to see any output at
+Since there is nothing here, we will not be able to see any output at
 this point, but it will be visible as soon as we start dynamically add
 using JavaScript. 
-
-So the styling part is complete. 
-
+The styling part is complete. 
 Now let&apos;s go to the script tag and let&apos;s create the functionality. 
 
-So in the script tag first I want to target the st elements, or we can
+In the script tag first I want to target the st elements, or we can
 say get the html elements.
-
 We only want the elements that we want to work with. 
 
-So let&apos;s say if we want to get the form, we can say const taskForm and
+Let&apos;s say if we want to get the form, we can say const taskForm and
 we have a method for it. 
-
-So we can say document get elementbyid and we can say get the id of
+We can say document get elementbyid and we can say get the id of
 taskForm like this.
-
 And then we can say const taskInput.
 
-So to this input we can say document.get element by id and the id is
+To this input we can say document.get element by id and the id is
 taskInput.
-
 Let&apos;s also check if we have given the ids or not. 
 
-So to the input we have given id of taskInput and taskForm, so this is
+To the input we have given id of taskInput and taskForm, so this is
 correct. 
-
 Otherwise you can do console and check if you are getting the element in
 the variable and then in the UI you can say UL, we have given it an id
 of task list. 
 
-So we can say const taskList to be document.getelementByid and we can
+We can say const taskList to be document.getelementByid and we can
 say taskList here. 
 
-So we have targeted all the elements. 
-
+We have targeted all the elements. 
 Now we will create a task counter.
-
-So let&apos;s say let task id to be 1 and now we can write a logic or a
+Let&apos;s say let task id to be 1 and now we can write a logic or a
 function to add a new task.
-
-So let&apos;s create this function. 
-
-So we can say function addTask and we will get an event here because
+Let&apos;s create this function. 
+We can say function addTask and we will get an event here because
 this will be passed as a callback to the event listener. 
 
 And then we can say event prevent default.
-
-So this will prevent the page from refreshing. 
-
+This will prevent the page from refreshing. 
 Now, side by side, let&apos;s also add the event listener. 
-
-So we can say here add event listener to the form. 
-
-So what we can do here is we can say taskForm.addEventListener and 
-
+We can say here add event listener to the form. 
+What we can do here is we can say taskForm.addEventListener and 
 we want to add a type of event that is submit. 
-
 And then we can say the function that we have to run is addTask. 
-
-So this is the task. 
+This is the task. 
 
 What happens is if I do not use this particular line, if I comment it
 out, you would see that if I click on Add Task the page is reloading,
 right? 
 
 Although it is fast, you can see here it is reloading. 
-
-So we don&apos;t want to remove the data because the data will be lost when
+We don&apos;t want to remove the data because the data will be lost when
 you refresh the page. 
-
-So in this case we can say e prevent default or even prevent default. 
-
-So now you can see the page has stopped refreshing.
+In this case we can say e prevent default or even prevent default. 
+Now you can see the page has stopped refreshing.
 
 Now we can write our logic here.
-
-So we can target the text from the input first. 
-
-So we can say const taskText and this would be coming from
+We can target the text from the input first. 
+We can say const taskText and this would be coming from
 taskInput.value and we can trim for any spaces.
-
 Next we can say if this is one of the edge cases, we can say if taskText
 is not equal to empty string, only then we want to move further, right? 
-
 Because we do not want to add an empty value. 
 
 In that case we can do what, we can create a taskItem and that is
 nothing but ally item, right? 
-
-So we can say document.createElement and the element that we want to
+We can say document.createElement and the element that we want to
 create is li.
 
 Next we want to add a text and some button to it so we can say
@@ -4965,40 +4061,32 @@ taskItem.innerhtml and we can use backticks to add a span. 
 
 Let&apos;s add a span tag and inside this span tag we will add the
 text whatever the user has typed in the input and that is taskText. 
-
 And then we can close our span tag and then we can also add a button for
 delete. 
 
-So we can say button of class. 
-
+We can say button of class. 
 Let&apos;s give it a class of delete-button and then we can say delete here
 as a text and let&apos;s close this button tag.
-
 After creating a new li element, what we can do is we can say taskList
 and this is our UI and we want to append taskItem to it.
-
 And then we can say taskInput.value to be an empty string. 
 
 This is because once we add it to the list right, we do not want to show
 that value to the user on the input. 
 
-So we are removing it and then we can do something like taskId ++, so it
+We are removing it and then we can do something like taskId ++, so it
 will increment the taskId. 
-
 And then what we can do is we can add an event to the delete button.
-
 How? We can say const deleteButton or we can say Btn to be taskItem
 querySelector and we can select the element with the class of delete
 button. 
 
-So we can say .delete-btn and then we can say delete
+We can say .delete-btn and then we can say delete
 button.addEventListener and we can add a type of click. 
-
 And let&apos;s also run a new function that is deleteTask.
+Now let&apos;s create a function called deleteTask and that&apos;s it. 
 
-So now let&apos;s create a function called deleteTask and that&apos;s it. 
-
-So we have written the code for add task function and we have added the
+We have written the code for add task function and we have added the
 event as well.
 
 This is all for this lesson, in the next lesson we will test this function
@@ -5013,146 +4101,104 @@ and added the functionality for add a task. 
 
 Now in this lesson we will complete the app and make it working. 
 
-So let&apos;s go to the VS code and here we already created the function add
+Let&apos;s go to the VS code and here we already created the function add
 task. 
 
-So let&apos;s test this out. 
-
+Let&apos;s test this out. 
 If I click on save, let&apos;s go here and add a new task. 
-
 Let&apos;s say music. 
-
 And as soon as I click on add, you can see that nothing is working, it
 is not getting added. 
-
 And we are getting an error here. 
-
 That means cannot read properties of null, and we have trim here. 
 
 Okay, this is not area value, this is just value. 
-
-So now if I click on save, let&apos;s put music and add. 
-
+Now if I click on save, let&apos;s put music and add. 
 And you can see it gets added here along with the delete button. 
-
 And if you want to check it you can say the text gets removed inside the
 input. 
-
-So if I add, let&apos;s say, study and click on add task, you can see it
+If I add, let&apos;s say, study and click on add task, you can see it
 also gets deleted from the input. 
 
 Now we want to make this delete functionality working. 
-
-So we have already created or attached an event listener here
+We have already created or attached an event listener here
 and created a delete task function. 
-
-So we will again get an event from here, event object. 
+We will again get an event from here, event object. 
 
 And we can say alert, clicked, just to check if the event is working
 or not on the click of the delete button. 
-
-So if I go here, let&apos;s add a and b. 
-
+If I go here, let&apos;s add a and b. 
 If I click on delete, you can see that it is clicked and it is clicked
 as well. 
-
-So it is working fine. 
-
+It is working fine. 
 Now what we can do is we can define or write a logic here to delete the
 task. 
 
-So we can say const taskItem, and we can say event.target.
-
+We can say const taskItem, and we can say event.target.
 First of all, let&apos;s console this as well. 
-
 So let&apos;s see what do we get in the task item.
-
 So if I click on save, let&apos;s add a and b again. 
-
 If I want to click on delete, you can see that we get button of delete
 button class here. 
-
 Now we don&apos;t want to delete only the button, right? 
-
 We want to delete the whole task. 
 
-So in that case, we want to get its parent element. 
-
-So when I say parent element, e.target.parentElement, and if I click on
+In that case, we want to get its parent element. 
+When I say parent element, e.target.parentElement, and if I click on
 save, let&apos;s say a, add it again, and let&apos;s click on delete. 
-
 You can see that now the whole li element gets targeted here. 
-
 And now we want to remove it from the unordered list. 
-
-So what we can do here is we can just say, taskList, that is the
+What we can do here is we can just say, taskList, that is the
 unordered list,dotremovechild, and we can remove this task item.
 
 And if I click on save, you would see that if I do add a and b, and if I
 want to delete a, it gets deleted and only b is left. 
-
-So we have created the Working ToDo app, and we have added the
+We have created the Working ToDo app, and we have added the
 functionalities like Add and Delete, based on the problem statement. 
 
 Let&apos;s also discuss how you can enhance your application. 
-
-So you can add functionality like to do task completion. 
-
-So you can allow users to mark tasks as completed by adding a checkbox
+You can add functionality like to do task completion. 
+You can allow users to mark tasks as completed by adding a checkbox
 or toggle button next to each task, right? 
 
 For example, you can go here and you can add a checkbox for each task. 
-
 And when a task is marked as completed, you can apply a different style
 to indicate its completion. 
-
 Next you can add is task editing. 
-
 You can implement the ability for users to edit task names, and this
 can be done by allowing users to click on the task text and edit it
 directly. 
 
 You can add an event listener to the task text and enable editing mode
 when clicked. 
-
 You can also provide a save button or press Enter to save the changes of
 the edited task. 
-
 You can also add a task count so you can display the total number of
 tasks as the top of the app. 
-
 You can update the count dynamically as tasks are added or deleted. 
 
 You can also add a functionality like task filtering, you can add
 options to filter tasks based on their status, completed or pending. 
-
 And you can implement a drop down or radio buttons to allow users to
 switch between different filtering options. 
 
 You can update the task list to show only the task that match the
 selected filter. 
-
 You can also add local storage persistence so you can implement
 local storage functionality to persist the task across page reloads. 
-
 You can save the task array to local storage whenever a task is
 added, deleted, or modified. 
 
 Then you can retrieve the task from local storage when the app is loaded
 to populate the task list. 
-
 You can also implement Clear All task functionality. 
-
-So you can add a button to clear all tasks at once. 
-
+You can add a button to clear all tasks at once. 
 When clicked, you can prompt the user for confirmation before deleting
 all tasks from the list. 
 
 Last but not the least, you can also add responsive design. 
-
 That means you can make the app responsive so that it adapts well to
 different screen sizes and devices. 
-
 You can ensure that the app layout and styling remain consistent
 and user friendly on both desktop and mobile devices. 
 
