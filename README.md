@@ -1,6 +1,6 @@
 ---
 title: |
-  JS Web Dev
+  Board's Infinity's JavaScript Web Development
 author: "Brian Bauska (bbauska)"
 date first created: "11/20/2024 9+pm"
 date late editted: "11/21/2024 7+pm"
