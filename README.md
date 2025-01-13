@@ -5,7 +5,7 @@ author: "Brian Bauska (bbauska)"
 date first created: "11/20/2024 9+pm"
 date late editted: "11/21/2024 7+pm"
 date late editted: "12/06/2024 2+pm"
-date late editted: "1/12/2025 1+pm"
+date late editted: "1/13/2025 2+pm"
 output: 
   markdown:
     with some style
@@ -126,11 +126,14 @@ the needs of their clients and users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-obj">Learning Objectives</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Use JavaScript to access and manipulate HTML elements in the DOM, such as changing text, 
-styles, and attributes. Understand how to use events and event listeners in JavaScript to 
-respond to user interactions with the DOM. Apply event listeners to respond to user input, 
-such as clicks and key presses. Develop proficiency in creating interactive user interfaces 
-using JavaScript.</p>
+<ul>
+  <li>Use JavaScript to access and manipulate HTML elements in the DOM, such as changing text, 
+    styles, and attributes.</li>
+  <li>Understand how to use events and event listeners in JavaScript to respond to user 
+    interactions with the DOM.</li>
+  <li>Apply event listeners to respond to user input, such as clicks and key presses.</li>
+  <li>Develop proficiency in creating interactive user interfaces using JavaScript.</li>
+</ul>
 
 <p><small><small>13 lessons, 3 readings</small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -186,9 +189,13 @@ thier learning to life.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-obj">Learning Objectives</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Develop the ability to write efficient and effective JavaScript code using advanced techniques.
-Master the use of the jQuery library to simplify DOM manipulation and event handling in JavaScript, and enhance interactivity of web pages.
-Build a project utilizing JavaScript.</p>
+<ul>
+  <li>Develop the ability to write efficient and effective JavaScript code using advanced 
+    techniques.</li>
+  <li>Master the use of the jQuery library to simplify DOM manipulation and event handling
+    in JavaScript, enhance interactivity of web pages.</li>
+  <li>Build a project utilizing JavaScript.</li>
+</ul>
 
 <p><small><small>12 lessons, 2 readings</small></small></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -226,38 +233,32 @@ Build a project utilizing JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-1-1">1.1.1 Syllabus</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-This course is designed for beginners who want to learn how to use
-JavaScript to add dynamic and interactive features to their websites. In
-this course, you will learn the fundamentals of JavaScript programming,
-and how to apply them to web development.
+<p>This course is designed for beginners who want to learn how to use JavaScript to add 
+dynamic and interactive features to their websites. In this course, you will learn the 
+fundamentals of JavaScript programming, and how to apply them to web development.</p>
 
-Throughout the course, you will be guided through the process of using
-JavaScript to manipulate the Document Object Model (DOM) of a web page,
-handle events, and create dynamic and interactive user interfaces. You
-will also learn how to use JavaScript to make asynchronous requests to
-web servers and consume data from web APIs.
+<p>Throughout the course, you will be guided through the process of using JavaScript to 
+manipulate the Document Object Model (DOM) of a web page, handle events, and create 
+dynamic and interactive user interfaces. You will also learn how to use JavaScript to 
+make asynchronous requests to web servers and consume data from web APIs.</p>
 
-By the end of the course, you will have a solid foundation in JavaScript
-programming and a clear understanding of how to use it for web
-development. You will also have the skills to create dynamic and
-interactive websites that can respond to user input.
+<p>By the end of the course, you will have a solid foundation in JavaScript programming 
+and a clear understanding of how to use it for web development. You will also have the 
+skills to create dynamic and interactive websites that can respond to user input.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1">Module 1: Introduction to JavaScript Programming</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-This module is designed to provide you with a comprehensive introduction
-to JavaScript programming. Throughout the module, you will gain hands-on
-experience working with JavaScript and develop a deep understanding of
-its core features and capabilities.
+<p>This module is designed to provide you with a comprehensive introduction to JavaScript 
+programming. Throughout the module, you will gain hands-on experience working with 
+JavaScript and develop a deep understanding of its core features and capabilities.</p>
 
-The module will cover the key concepts of JavaScript, including
-variables, data types, operators, control structures, and functions. You
-will understand how to use these concepts to create basic programs that
-are modular, maintainable, and easy to test.
+<p>The module will cover the key concepts of JavaScript, including variables, data types, 
+operators, control structures, and functions. You will understand how to use these 
+concepts to create basic programs that are modular, maintainable, and easy to test.</p>
 
-By the end of the module, you will be proficient in creating simple and
-effective JavaScript programs and will be able to apply best practices
-and coding standards to write high-quality code that meets the needs of
-your clients and users.
+<p>By the end of the module, you will be proficient in creating simple and effective 
+JavaScript programs and will be able to apply best practices and coding standards to 
+write high-quality code that meets the needs of your clients and users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2">Module 2: DOM Manipulation and Event Handling</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -318,35 +319,33 @@ next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3">1.3 Introduction to JavaScript (5:33)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi there. In this lesson we will learn some history and introduction
-related to JavaScript. So let&apos;s get started. 
+In this lesson we will learn some history and introduction related to JavaScript. 
+So let&apos;s get started.
 
 The very first question that comes to our mind is, what is JavaScript? 
 
 JavaScript is a programming language that is used to add interactive
 features to websites. 
 
-It is used often alongside HTML and CSS to make websites more dynamic
-and engaging. In simple terms, JavaScript allows you to add
-functionality to your web page. For example, you can use JavaScript to
-create interactive forms, add animations, and create dynamic effects
+It is used alongside HTML and CSS to make websites more dynamic and engaging. In simple 
+terms, JavaScript allows you to add functionality to your web page. For example, you can 
+use JavaScript to create interactive forms, add animations, and create dynamic effects
 when users interact with your web page.
 
-One of the great things about JavaScript is that, it runs in the web
-browser, which means that it can be used on almost any device that has a
-web browser. This makes it a powerful tool for creating cross platform
-applications that can be used on desktop computers, tablets, and
-smartphones.
+One of the great things about JavaScript is that it runs in the web browser, which means 
+that it can be used on almost any device that has a web browser. This makes it a powerful  
+tool for creating cross platform applications that can be used on desktop computers, 
+tablets, and smartphones.
 
-Why is it called JavaScript? JavaScript was originally created by
-Brendan Eich at Netscape Communications. The language was initially
-called Mocha, but it was later renamed to Live Script. The decision to
-rename the language to JavaScript was largely a marketing decision made
-by Netscape. At that time, the company was in heated browser war with
-Microsoft and they wanted to capitalize on the popularity of Java by
-making their language sound similar. This helped to create a perception
-that JavaScript was a complementary technology to Java, even though the
-two languages are quite different. 
+Why is it called JavaScript? JavaScript was originally created by Brendan Eich at 
+Netscape Communications. The language was initially called Mocha, but it was later 
+renamed to Live Script. The decision to rename the language to JavaScript was largely a 
+marketing decision made by Netscape. At that time, the company was in heated browser war 
+with Microsoft and they wanted to capitalize on the popularity of Java by making their 
+language sound similar. Thank god the community sided with Netscape and saw how 
+Microsoft's Interne Explorer was in real terms a piece of shit. This helped to create a 
+perception that JavaScript was a complementary technology to Java, even though the
+two languages are quite different.
 
 JavaScript has become one of the most widely used programming languages
 in the world, and it is an essential tool for web developers today. In
@@ -392,13 +391,12 @@ user experience and engage users with the content. 
 
 Make HTTP requests, JavaScript can fetch data from a server or send data
 to a server using HTTP request. For example, to update the page content
-dynamically or submit a form without reloading the page. Last but not
-the least, it can store and manipulate data. 
+dynamically or submit a form without reloading the page. 
 
-JavaScript can store data in variables, arrays, and objects,
-for example, to remember user preferences or to keep track of game
-scores and manipulate the data using built-in functions such as sorting
-or filtering. 
+Last but not the least, it can store and manipulate data. JavaScript can store data in 
+variables, arrays, and objects, for example, to remember user preferences or to keep 
+track of game scores and manipulate the data using built-in functions such as sorting
+or filtering.
 
 Let&apos;s summarize this, JavaScript is a high level dynamic programming
 language  that is used for creating interactive web pages and web
@@ -414,14 +412,10 @@ development environment.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4">1.4 Setting Up Your Development Environment (2:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi there, in the previous lesson, we saw introduction to JavaScript. 
-
-Now in this lesson, we will set up our development environment for
-JavaScript.  So let&apos;s get started. To set up your development
-environment, you need a code editor, a web browser, and a JavaScript
-engine. A code editor enables us to write and organize our code with
-features such as syntax, highlight, autocompletion, and code
-formatting. 
+In this lesson, we will set up our development environment for JavaScript. So let&apos;s 
+get started. To set up your development environment, you need a code editor, a web browser, 
+and a JavaScript engine. A code editor enables us to write and organize our code with
+features such as syntax, highlight, autocompletion, and code formatting. 
 
 It also provides us with debugging tools to identify and fix errors in
 our code. A web browser is necessary for testing our JavaScript code in
@@ -431,15 +425,15 @@ interactions and Http request. 
 
 A JavaScript engine enables us to run JavaScript code outside of a web
 browser, which is useful for building serverside, applications, command
-line tools, and other types of applications that do not rely on web
+line tools, and other types of applications that do not rely on a web
 browser. 
 
 You can follow these basic steps for your development environment. So
 the first step is you can install a code editor. You can choose from
 variety of free and paid code editors such as Visual Studio Code,
-Sublime Text, or Atom. These editors provide features such as syntax
+Sublime Text, Atom, or Notepad++. These editors provide features such as syntax
 highlighting, autocompletion, and debugging tools that make writing and
-debugging JavaScript code easier. You can just go to Google and let&apos;s
+debugging JavaScript code easier. You can go to Google and let&apos;s
 say if you want to install Visual Studio code, you can just type in the
 Google and you can just install it for your OS.
 
@@ -457,18 +451,17 @@ example, to build server side applications or command line tools. 
 Once you have these tools set up, you can start writing and running
 JavaScript code in your code editor and test it on your web browser or
 JavaScript engine. So this is all for this lesson. In the next lesson, we
-will write our very first JavaScript program. See you in the next
-lesson. Thank you. 
+will write our very first JavaScript program.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5">1.5 Writing Your First JavaScript Program (4:39)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi there, in the previous lesson, you have set up your development environment. Now in 
+In the previous lesson, you have set up your development environment. Now in 
 this lesson, you will write your first JavaScript program. 
 Let&apos;s get started. Let&apos;s look at some basic steps to write the first
 JavaScript program. 
 
 The first step is to open up a code editor. You can choose a code editor
-of your choice, such as Visual Studio Code, Sublime Text, or Atom and
+of your choice, such as Visual Studio Code, Sublime Text, Atom, Notepad++ and
 you have to create a new file with the extension.js. 
 
 The second step is to write the code. In your new file, you can write
@@ -476,7 +469,7 @@ your first JavaScript program, for example, you can write a simple Hello
 World program. 
 
 The third step is to save the file. You have to save your file with a
-meaningful name and the.js extension, for example, hello.js. 
+meaningful name and the ".js" extension, for example, hello.js.
 
 The last step is to run the program. You can open up a terminal or
 command prompt and navigate to the directory where your program file is
@@ -495,20 +488,24 @@ first JavaScript code. How to run it. There are couple of ways. The first way is
 node js. You can go here to the VS Code, you can open up your terminal, and ensure that 
 you are in the directory. You can see that here, the directory is this JavaScript folder 
 and then I can say node hello.js. As soon as I press enter, you will see the output on 
-the console. That is Hello World. This is one way. Other way is that you can directly go 
-to the Google and you can right-click on Inspect. It gives you a Chrome Developer Tools 
-and here what you can do is you can paste this or you can write the code. Let's say 
-console.log Hello World. As soon as I press on Enter, it runs the code and the output 
-is printed here. The third way is to use an html file. What we can do is we can create 
-a new index.html file and you have to use a boilerplate here. You can use this exclamatory 
-mark and this is a shortcut where you can create a basic boilerplate code. What we could 
-do here is we have hello.js file. Either you can link this file into your index.html 
-using a script tag or you can directly write JavaScript in your script tag. Let's say 
-console.log Hello World. How to check it in the browser, you can directly click on 
-index.html and copy the path. Once you copy the path, you can go to the browser and you 
-can paste it here. This is a blank screen because there is no HTML tag at this point. 
-But as soon as you click on Inspect, you will see in the console the Hello World is 
-printed. This is a third way in which you can execute your JavaScript code. 
+the console. That is Hello World. This is one way. 
+
+Other way is that you can directly go to the Google and you can right-click on Inspect. 
+It gives you a Chrome Developer Tools and here what you can do is you can paste this or 
+you can write the code. Let's say console.log Hello World. As soon as I press on Enter, 
+it runs the code and the output is printed here. The third way is to use an html file. 
+What we can do is we can create a new index.html file and you have to use a boilerplate 
+here. You can use this exclamatory mark and this is a shortcut where you can create a 
+basic boilerplate code. What we could do here is we have hello.js file. Either you can 
+link this file into your index.html using a script tag or you can directly write 
+JavaScript in your script tag. 
+
+Let's say console.log Hello World. How to check it in the browser, you can directly 
+click on index.html and copy the path. Once you copy the path, you can go to the browser 
+and you can paste it here. This is a blank screen because there is no HTML tag at this 
+point. But as soon as you click on Inspect, you will see in the console the Hello World 
+is printed. This is a third way in which you can execute your JavaScript code.
+
 Congratulations, you have written and executed your first JavaScript program. This is a 
 simple example, but it demonstrates the basic structure and syntax of a JavaScript 
 program. This is all for this lesson. See you in the next lesson. Thank you.
