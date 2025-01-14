@@ -44,7 +44,9 @@ creation of intricate web application functionalities.</p>
 <p>By the end of the course, you will have a solid foundation in JavaScript programming 
 and a clear understanding of how to use it for web development. You will also have the 
 skills to design and develop dynamic, interactive web applications that resonate with 
-the contemporary digital landscape. This course takes 3 weeks to complete.</p>
+the contemporary digital landscape.</p>
+
+<p>This course takes 3 weeks to complete.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p id="toc"></p>
 <h2 id="ch1">Module 1: Introduction to JavaScript Programming</h2>
@@ -64,11 +66,11 @@ write high-quality code that meets the needs of their clients and users.</p>
 <h3 id="ch1-obj">Learning Objectives</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>Understanding the different data types in JavaScript and how to use them.</li>
+  <li>Understanding the different data types in JavaScript and how to use them,</li>
   <li>Utilize various operators in JavaScript, such as arithmetic, comparison and logical 
-    operators.</li>
+    operators,</li>
   <li>Utilize control structures, such as conditional statements and loops, to control 
-    program flow.</li>
+    program flow,</li>
   <li>Develop proficiency in defining and using functions to modularize code and improve 
     code readability.</li>
 </ul>	
@@ -128,10 +130,10 @@ the needs of their clients and users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Use JavaScript to access and manipulate HTML elements in the DOM, such as changing text, 
-    styles, and attributes.</li>
+    styles, and attributes,</li>
   <li>Understand how to use events and event listeners in JavaScript to respond to user 
-    interactions with the DOM.</li>
-  <li>Apply event listeners to respond to user input, such as clicks and key presses.</li>
+    interactions with the DOM,</li>
+  <li>Apply event listeners to respond to user input, such as clicks and key presses,</li>
   <li>Develop proficiency in creating interactive user interfaces using JavaScript.</li>
 </ul>
 
@@ -191,9 +193,10 @@ thier learning to life.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
   <li>Develop the ability to write efficient and effective JavaScript code using advanced 
-    techniques.</li>
+    techniques,</li>
   <li>Master the use of the jQuery library to simplify DOM manipulation and event handling
-    in JavaScript, enhance interactivity of web pages.</li>
+    in JavaScript,</li>
+  <li>Enhance interactivity of web pages,</li>
   <li>Build a project utilizing JavaScript.</li>
 </ul>
 
@@ -262,70 +265,59 @@ write high-quality code that meets the needs of your clients and users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2">Module 2: DOM Manipulation and Event Handling</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-This module is designed to provide you with a comprehensive
-understanding of how to manipulate the Document Object Model (DOM) using
-JavaScript and how to handle events in JavaScript. Throughout the
-module, you will gain hands-on experience working with the DOM and will
-develop a deep understanding of how to make dynamic and interactive web
-pages.
+This module is designed to provide you with a comprehensive understanding of how to 
+manipulate the Document Object Model (DOM) using JavaScript and how to handle events in 
+JavaScript. Throughout the module, you will gain hands-on experience working with the DOM 
+and will develop a deep understanding of how to make dynamic and interactive web pages.
 
-The module will cover the key concepts of the DOM, including how to
-access and manipulate DOM elements using JavaScript, and how to use
-event listeners to respond to user input, such as clicks and key
-presses. You will understand how to use these concepts to create
+The module will cover the key concepts of the DOM, including how to access and manipulate 
+DOM elements using JavaScript, and how to use event listeners to respond to user input, 
+such as clicks and key presses. You will understand how to use these concepts to create
 interactive web pages that are responsive to user input.
 
-By the end of the module, you will be proficient in manipulating the DOM
-using JavaScript and will be able to handle events to make your web
-pages more interactive. You will be able to apply best practices and
-coding standards to write high-quality code that meets the needs of your
-clients and users.
+By the end of the module, you will be proficient in manipulating the DOM using JavaScript 
+and will be able to handle events to make your web pages more interactive. You will be 
+able to apply best practices and coding standards to write high-quality code that meets 
+the needs of your clients and users.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3">Module 3: Advanced JavaScript Techniques and jQuery</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-This module is designed to provide you with a comprehensive
-understanding of advanced JavaScript techniques and the jQuery library.
-Throughout the module, you will gain hands-on experience working with
-JavaScript and jQuery and develop a deep understanding of how to make
-dynamic and interactive web pages.
+This module is designed to provide you with a comprehensive understanding of advanced 
+JavaScript techniques and the jQuery library. Throughout the module, you will gain 
+hands-on experience working with JavaScript and jQuery and develop a deep understanding 
+of how to make dynamic and interactive web pages.
 
-You will understand how to use these techniques to write efficient and
-effective JavaScript code. In addition, you will be introduced to the
-jQuery library, which simplifies DOM manipulation and event handling in
-JavaScript. You will learn how to use jQuery to create animations,
-handle events, and manipulate the DOM more easily.
+You will understand how to use these techniques to write efficient and effective 
+JavaScript code. In addition, you will be introduced to the jQuery library, which 
+simplifies DOM manipulation and event handling in JavaScript. You will learn how to use 
+jQuery to create animations, handle events, and manipulate the DOM more easily.
 
-By the end of the module, you will build a hands-on project that will
-bring learning to life.
+<p>By the end of the module, you will build a hands-on project that will bring learning 
+to life.</p>
 <!-- end of syllabus -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-2">1.2 About this Lesson: JS for Web Dev (0:38)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi there. In this lesson, you will be introduced to the world of
-JavaScript,  a high level programming language that is widely used for
-web development. 
+In this lesson, you will be introduced to the world of JavaScript, a high level 
+programming language that is widely used for web development. 
 
-You will learn about the basics of JavaScript programming, including the
-syntax, data, types and variables.  You will also set up your
-development environment to get started with writing  your own JavaScript
-code. By the end of this lesson,  you will have a solid understanding of
-the basics of JavaScript programming. And you will be able to create
-simple JavaScript programs. You will also be ready to move on to more
-advanced topics like JavaScript development. Whether you are a complete
-beginner or have some programming experience, this lesson will provide
-you with a solid foundation in JavaScript programming. See you in the
-next lesson.
-
+You will learn about the basics of JavaScript programming, including the syntax, data, 
+types and variables. You will also set up your development environment to get started 
+with writing  your own JavaScript code. By the end of this lesson,  you will have a solid 
+understanding of the basics of JavaScript programming. And you will be able to create 
+simple JavaScript programs. You will also be ready to move on to more advanced topics 
+like JavaScript development. Whether you are a complete beginner or have some programming 
+experience, this lesson will provide you with a solid foundation in JavaScript 
+programming. See you in the next lesson.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3">1.3 Introduction to JavaScript (5:33)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 In this lesson we will learn some history and introduction related to JavaScript. 
-So let&apos;s get started.
 
 The very first question that comes to our mind is, what is JavaScript? 
 
-JavaScript is a programming language that is used to add interactive
-features to websites. 
+JavaScript is a programming language that is used to add interactive features to 
+websites.
 
 It is used alongside HTML and CSS to make websites more dynamic and engaging. In simple 
 terms, JavaScript allows you to add functionality to your web page. For example, you can 
@@ -335,7 +327,7 @@ when users interact with your web page.
 One of the great things about JavaScript is that it runs in the web browser, which means 
 that it can be used on almost any device that has a web browser. This makes it a powerful  
 tool for creating cross platform applications that can be used on desktop computers, 
-tablets, and smartphones.
+laptop computers, tablets, and smartphones.
 
 Why is it called JavaScript? JavaScript was originally created by Brendan Eich at 
 Netscape Communications. The language was initially called Mocha, but it was later 
@@ -347,45 +339,41 @@ Microsoft's Interne Explorer was in real terms a piece of shit. This helped to c
 perception that JavaScript was a complementary technology to Java, even though the
 two languages are quite different.
 
-JavaScript has become one of the most widely used programming languages
-in the world, and it is an essential tool for web developers today. In
-fact, according to some estimates, JavaScript is used over 95% of all
-websites on the Internet.
+JavaScript has become one of the most widely used programming languages in the world, 
+and it is an essential tool for web developers today. In fact, according to some 
+estimates, JavaScript is used over 95% of all websites on the Internet.
 
-Where else beyond the browser can JavaScript be executed? JavaScript is
-a versatile programming language that can be used to create both front
-end and backend applications. It is primarily known for its use in web
-development, where it is used to add interactivity and dynamic effects
-to web page. 
+Where else beyond the browser can JavaScript be executed? JavaScript is a versatile 
+programming language that can be used to create both front end and backend applications. 
+It is primarily known for its use in web development, where it is used to add 
+interactivity and dynamic effects to web page. 
 
-However, JavaScript can also be used to build serverside applications
-that run on web server, as well as desktop and mobile applications, and
-even on IoT devices. This versatility is one of the greatest trends of
-JavaScript as it allows  developers to use a single programming language
-to build applications across a wide range of platforms and devices. 
+However, JavaScript can also be used to build serverside applications that run on a web 
+server, as well as desktop and mobile applications, and even on IoT devices. This 
+versatility is one of the greatest trends of JavaScript as it allows developers to use a 
+single programming language to build applications across a wide range of platforms and 
+devices. This not only makes development more efficient, but also enables developers to 
+create interactive and responsive user interfaces that can respond to user input in real 
+time.
 
-This not only makes development more efficient, but also enables
-developers to create interactive and responsive user interfaces that can
-respond to user input in real time. Web browsers use different
-JavaScript engines to interpret and execute JavaScript code. For
-example, V8 is used by Chrome, SpiderMonkey by Firefox, and Chakra by
-Internet Explorer. 
+Web browsers use different JavaScript engines to interpret and execute JavaScript code. 
+For example, V8 is used by Chrome, SpiderMonkey by Firefox, and Chakra by Internet 
+Explorer. Each engine has its own unique features and performance characteristics.
 
-Each engine has its own unique features and performance characteristics.
-What are the tasks that in browser JavaScript can perform? Let&apos;s look
-at some. It can manipulate HTML and CSS. JavaScript can change the style
-and content of elements on a web page.
+What are the tasks that JavaScript can perform? Let&apos;s look at some. 
 
-For example, by hiding or showing an element, or changing its color,
+It can manipulate HTML and CSS. JavaScript can change the style and content of elements 
+on a web page. For example, by hiding or showing an element, or changing its color, 
 or size, or maybe animating it. Handling user events, JavaScript can
 respond to user interactions with the page, such as clicking a button,
 submitting a form, or scrolling, and trigger corresponding actions such
-as, displaying a message or updating the page content. Validate forms,
-JavaScript can check the user input in a web form. 
+as, displaying a message or updating the page content. 
 
+Validate forms, JavaScript can check the user input in a web form. 
 For example, to ensure that a required field is not left blank, that a
-phone number is valid, or that a password means a certain criteria. Add
-interactivity, JavaScript can add interactive elements to a web page
+phone number is valid, or that a password means a certain criteria. 
+
+Add interactivity, JavaScript can add interactive elements to a web page
 such as drop down menus, image sliders, or pop up windows to enhance the
 user experience and engage users with the content. 
 
@@ -398,17 +386,19 @@ variables, arrays, and objects, for example, to remember user preferences or to
 track of game scores and manipulate the data using built-in functions such as sorting
 or filtering.
 
-Let&apos;s summarize this, JavaScript is a high level dynamic programming
-language  that is used for creating interactive web pages and web
-applications.  I would call it a 5^th^ generation language feeding off
-its' prior 4 levels. Originally called Mocha and later renamed to
+<p>Let&apos;s summarize this, JavaScript is a high level dynamic programming
+language that is used for creating interactive web pages and web
+applications.  I would call it a 5<sup>th</sup> generation language feeding off
+its' prior 4 levels. 1st is machine language, 2nd "C", 3rd Macro which executes more
+or less languages, 4<sup>th</sup> library routine to execute server commands for expected
+input and finally, 5<sup>th</sup>, JavaScript.</p>
+
+Originally called Mocha and later renamed to
 LiveScript, it was eventually rebranded as JavaScript for marketing
 purposes. While it is primarily associated with web development,
 JavaScript can also be used on servers and other devices that have a
 JavaScript engine. With its versatility and popularity, JavaScript has
-become a fundamental language for modern web development. This is all
-for this lesson. In the next lesson, we will see how to set up your
-development environment.
+become a fundamental language for modern web development.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-4">1.4 Setting Up Your Development Environment (2:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -419,9 +409,9 @@ features such as syntax, highlight, autocompletion, and code formatting. 
 
 It also provides us with debugging tools to identify and fix errors in
 our code. A web browser is necessary for testing our JavaScript code in
-a real world environment. It allows to see how our code interacts with
+a real world environment. It allows us to see how our code interacts with
 HTML and CSS on a web page and to test features such as user
-interactions and Http request. 
+interactions and HTTP request. 
 
 A JavaScript engine enables us to run JavaScript code outside of a web
 browser, which is useful for building serverside, applications, command
@@ -455,69 +445,71 @@ will write our very first JavaScript program.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-5">1.5 Writing Your First JavaScript Program (4:39)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-In the previous lesson, you have set up your development environment. Now in 
+<p>In the previous lesson, you have set up your development environment. Now in 
 this lesson, you will write your first JavaScript program. 
 Let&apos;s get started. Let&apos;s look at some basic steps to write the first
-JavaScript program. 
+JavaScript program.</p>
 
-The first step is to open up a code editor. You can choose a code editor
+<p>The first step is to open up a code editor. You can choose a code editor
 of your choice, such as Visual Studio Code, Sublime Text, Atom, Notepad++ and
-you have to create a new file with the extension.js. 
+you have to create a new file with the extension.js.</p>
 
-The second step is to write the code. In your new file, you can write
+<p>The second step is to write the code. In your new file, you can write
 your first JavaScript program, for example, you can write a simple Hello
-World program. 
+World program.</p>
 
-The third step is to save the file. You have to save your file with a
-meaningful name and the ".js" extension, for example, hello.js.
+<p>The third step is to save the file. You have to save your file with a
+meaningful name and the ".js" extension, for example, hello.js.</p>
 
-The last step is to run the program. You can open up a terminal or
-command prompt and navigate to the directory where your program file is
-saved. There you can type node hello.js to run your program. You should
-see the output printed in the console. Let&apos;s actually follow these
-steps and let&apos;s try our first JavaScript program. I will go to my
-desktop and I will create a new folder and let&apos;s rename it as
-JavaScript.
+<p>The last step is to run the program. You can open up a terminal or command prompt and 
+navigate to the directory where your program file is saved. There you can type node 
+hello.js to run your program. You should see the output printed in the console. 
+Let&apos;s actually follow these steps and let&apos;s try our first JavaScript program. I 
+will go to my desktop and I will create a new folder and let&apos;s rename it as 
+JavaScript.</p>
 
-Now, we can open up our Visual Studio Code. You can use any other code editor if you want 
-and then I'll open this JavaScript folder. Now this JavaScript folder is empty. We have 
-to create a file, let's call it as hello.js. This is for JavaScript extension. Let's 
+<p>Now, we can open up our Visual Studio Code. You can use any other code editor if you 
+want and then I'll open this JavaScript folder. Now this JavaScript folder is empty. We 
+have to create a file, let's call it hello.js. This is for JavaScript extension. Let's 
 write our first program. Here you can simply say console.log and let's say Hello World. 
-What it does is it prints Hello World in the console. It is as easy as that. This is the 
-first JavaScript code. How to run it. There are couple of ways. The first way is to use 
-node js. You can go here to the VS Code, you can open up your terminal, and ensure that 
-you are in the directory. You can see that here, the directory is this JavaScript folder 
-and then I can say node hello.js. As soon as I press enter, you will see the output on 
-the console. That is Hello World. This is one way. 
+What it does is it prints "Hello World" in the console. It is as easy as that. This is 
+the first JavaScript code.</p>
 
-Other way is that you can directly go to the Google and you can right-click on Inspect. 
+<p>How to run it? There are couple of ways. The first way is to use node js. You can go here 
+to the VS Code, you can open up your terminal, and ensure that you are in the directory. 
+You can see that here, the directory is this JavaScript folder and then I can say node 
+hello.js. As soon as I press enter, you will see the output on the console. That is 
+Hello World. This is one way.</p>
+
+<p>Another way is that you can directly go to the Google and you can right-click on Inspect. 
 It gives you a Chrome Developer Tools and here what you can do is you can paste this or 
 you can write the code. Let's say console.log Hello World. As soon as I press on Enter, 
-it runs the code and the output is printed here. The third way is to use an html file. 
-What we can do is we can create a new index.html file and you have to use a boilerplate 
-here. You can use this exclamatory mark and this is a shortcut where you can create a 
-basic boilerplate code. What we could do here is we have hello.js file. Either you can 
-link this file into your index.html using a script tag or you can directly write 
-JavaScript in your script tag. 
+it runs the code and the output is printed here.</p>
 
-Let's say console.log Hello World. How to check it in the browser, you can directly 
-click on index.html and copy the path. Once you copy the path, you can go to the browser 
-and you can paste it here. This is a blank screen because there is no HTML tag at this 
-point. But as soon as you click on Inspect, you will see in the console the Hello World 
-is printed. This is a third way in which you can execute your JavaScript code.
+<p>The third way is to use an html file. What we can do is we can create a new index.html 
+file and you have to use a boilerplate here. You can use this exclamatory mark and this 
+is a shortcut where you can create a basic boilerplate code. What we could do here is we 
+have hello.js file. Either you can link this file into your index.html using a script tag 
+or you can directly write JavaScript in your script tag. Let's say console.log Hello World. 
+How to check it in the browser, you can directly click on index.html and copy the path. 
+Once you copy the path, you can go to the browser and you can paste it here. This is a 
+blank screen because there is no HTML tag at this point. But as soon as you click on 
+Inspect, you will see in the console the Hello World is printed. This is a third way in 
+which you can execute your JavaScript code.</p>
 
-Congratulations, you have written and executed your first JavaScript program. This is a 
+<p>Congratulations, you have written and executed your first JavaScript program. This is a 
 simple example, but it demonstrates the basic structure and syntax of a JavaScript 
-program. This is all for this lesson. See you in the next lesson. Thank you.
+program.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-6">1.6 About this Lesson (0:52)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Now, we can open up our Visual Studio Code. You can use any other code editor if you want 
 and then I'll open this JavaScript folder. Now this JavaScript folder is empty. We have 
-to create a file, let's call it as hello.js. This is for JavaScript extension. Let's write 
+to create a file, let's call it hello.js. This is for JavaScript extension. Let's write 
 our first program. Here you can simply say console.log and let's say Hello World. What it 
-does is it prints Hello World in the console. It is as easy as that. This is the first 
-JavaScript code. How to run it. There are couple of ways. The first way is to use node 
+does is it prints Hello World in the console. It is as easy as that. 
+
+This is the first JavaScript code. How to run it. There are couple of ways. The first way is to use node 
 js. You can go here to the VS Code, you can open up your terminal, and ensure that you 
 are in the directory. You can see that here, the directory is this JavaScript folder and 
 then I can say node hello.js. As soon as I press enter, you will see the output on the 
@@ -1675,52 +1667,43 @@ structured programs and avoid naming conflicts between variables. 
 
 Further Reading on Control Statements
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-**Conditional statements (if/else, switch)**
+<h3>Conditional statements (if/else, switch)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-In JavaScript we have the following conditional statements:
-
--   Use if to specify a block of code to be executed, if a specified
-    condition is true
-
--   Use else to specify a block of code to be executed, if the same
-    condition is false
-
--   Use else if to specify a new condition to test, if the first
-    condition is false
-
--   Use switch to specify many alternative blocks of code to be executed
-
--   The if Statement - Use the if statement to specify a block of
-    JavaScript code to be executed if a condition is true.
-
+<p>In JavaScript we have the following conditional statements:</p>
+<ul>
+  <li>Use <span class="consolas">if</span> to specify a block of code to be executed, if 
+    a specified condition is true,</li>
+  <li>Use <span class="consolas">else</span> to specify a block of code to be executed, 
+    if the same condition is false,</li>
+  <li>Use <span class="consolas">else if</span> to specify a new condition to test, if 
+    the first condition is false,</li>
+  <li>Use <span class="consolas">switch</span> to specify many alternative blocks of code 
+    to be executed,</li>
+  <li>The <span class="consolas">if Statement</span> - Use the if statement to specify a 
+    block of JavaScript code to be executed if a condition is true.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-**Looping structures (for, while)**
+<h3>Looping structures (for, while)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>The JavaScript <span class="consolas">loops</span> are used to iterate the piece of code 
+using <span class="consolas">for, while, do while or for-in loops</span>. It makes the code 
+compact. It is mostly used in array.</p>
 
-The JavaScript loops are used to iterate the piece of code using for,
-while, do while or for-in loops. It makes the code compact. It is mostly
-used in array.
+<p>There are four types of loops in JavaScript;</p>
+<ul>
+  <li>for loop</li>
+  <li>while loop</li>
+  <li>do-while loop</li>
+  <li>for-in loop</li>
+</ul>
 
-There are four types of loops in JavaScript.
-
--   for loop
-
--   while loop
-
--   do-while loop
-
--   for-in loop
-
-**Functions and scope**
-
-Another essential concept in coding is functions, which allow you to
-store a piece of code that does a single task inside a defined block,
+<h3>Functions and scope</h3>
+<p>Another essential concept in coding is <span class="consolas">functions</span>, 
+which allow you to store a piece of code that does a single task inside a defined block,
 and then call that code whenever you need it using a single short
-command --- rather than having to type out the same code multiple
-times. 
+command --- rather than having to type out the same code multiple times. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Module 2: Manipulating the DOM
+<h2 id="ch2">Module 2: Manipulating the DOM</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-1">2.1 About the DOM (0:46)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1740,22 +1723,20 @@ web pages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-2">2.2 Understanding the Document Object Model (DOM) (3:51)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi, there. In this lesson we will learn DOM and HTML. 
-So let&apos;s get started. 
-DOM stands for Document Object Model. 
+Hi, there. In this lesson we will learn <span class="consolas">DOM</span> and 
+<span class="consolas">HTML</span>. So let&apos;s get started. <span class="consolas">DOM</span> 
+stands for <span class="consolas">Document Object Model</span>.
 
-The Document Object Model is a programming interface for web document. 
-It represents the HTML or XML document as a tree-like structure where
-each node in the tree corresponds to a different part of the document. 
-The dominance for web developers to interact with the contents of a
-webpage using JavaScript. 
+<p>The <span class="consolas">Document Object Model</span> is a programming interface for 
+web document. It represents the <span class="consolas">HTML or XML</span> document as a 
+tree-like structure where each node in the tree corresponds to a different part of the 
+document. The dominance for web developers to interact with the contents of a webpage 
+using JavaScript.</p>
 
-It allows them to add, remove, or modify elements dynamically. 
-You can imagine a webpage as a tree where each branch represents an
-element in the webpage, such as a paragraph or an image. 
-Each leaf represents a property or attribute of that element, such as a
-text inside the paragraph or the source URL of the image. 
-This is essentially what DOM is. 
+<p>It allows them to add, remove, or modify elements dynamically. You can imagine a webpage 
+as a tree where each branch represents an element in the webpage, such as a paragraph or 
+an image. Each leaf represents a property or attribute of that element, such as a text 
+inside the paragraph or the source URL of the image. This is essentially what DOM is.</p>
 
 JavaScript can manipulate the DOM by selecting nodes and changing their
 properties or adding and removing nodes altogether. 
@@ -1764,40 +1745,40 @@ paragraph tag or add a new paragraph or image to a page, remove an
 element from the page entirely, or maybe change the attributes of an
 elements such as its size, color, or position. 
 
+<!-- <image> -->
 This is how tree structure would look like. 
 
-This tree diagram represents the hierarchical structure of the DOM for a
-given webpage. 
+<p>This <span class="consolas">tree diagram</span> represents the hierarchical structure 
+of the <span class="consolas">DOM</span> for a given webpage.</p>
 
-Each node in the tree corresponds to an HTML element or a piece of text
-within that element. 
-The nodes are arranged in a parent-child relationship with parent nodes
-higher up in the tree and child nodes branching off from their parent
-nodes below. 
-For example, document is the parent tree of this HTML. 
+<p>Each <span class="consolas">node</span> in the tree corresponds to an HTML element or 
+a piece of text within that element. The nodes are arranged in a <span class="consolas">
+parent-child</span> relationship with parent nodes higher up in the tree and child nodes 
+branching off from their parent nodes below. For example, document is the parent tree of 
+this HTML.</p>
 
-Html is a child of document. 
-In this particular diagram, the root node is the document object, which
-represents the entire webpage. 
-The first level of the child nodes corresponds to the top-level HTML
-elements, such as HTML then we have head, then we have body as well. 
-Each of these nodes have one or more child nodes depending on the
-structure of the webpage. 
+<p><span class="consolas">HTML</span> is a <span class="consolas">child</span> of 
+<span class="consolas">document</span>. In this particular diagram, the 
+<span class="consolas">root node</span> is the <span class="consolas">document object</span>, 
+which represents the entire webpage. The first level of the child nodes 
+corresponds to the top-level HTML elements, such as HTML then we have head, then we 
+have body as well. Each of these nodes have one or more child nodes depending on the 
+structure of the webpage.</p>
 
 Head has further child nodes, body has further child nodes. 
 For example, the body node might have child nodes corresponding to a
 header section, a main content area, and a footer section. 
-Each of these child nodes might have further child nodes, such as
+Each of these child nodes might have further child nodes, such as 
 paragraphs, images, or other HTML&apos;s. 
 
 For example here we have H1 in the body, and this one has a further
 child node of x that is welcome to my page. 
 
-This tree diagram is useful for visualizing the structure of a webpage
+This <span class="consolas">tree diagram</span> is useful for visualizing the structure of a webpage
 and understanding how different elements are related to one another. 
 
-By traversing the tree and selecting different nodes, developers can use
-JavaScript to modify the contents of the webpage and create dynamic and
+By traversing the tree and selecting different nodes, developers can use 
+JavaScript to modify the contents of the webpage and create dynamic and 
 interactive effects. 
 
 Let&apos;s summarize this. 
@@ -1811,28 +1792,22 @@ document, and JavaScript can manipulate the DOM by selecting nodes and
 changing their properties or adding and removing nodes altogether. 
 
 The DOM is a powerful tool for web development and it allows developers
-to create dynamic interactive webpages. 
-
-In the next lesson, we will learn how to access and actually manipulate
-the DOMs with JavaScript. 
+to create dynamic interactive webpages.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-3">2.3 Accessing DOM elements with JavaScript (7:21)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi there, in the previous lesson we learned DOM in JavaScript. 
-Now in this lesson we will see how to access DOM using JavaScript
-so let&apos;s get started. 
+In the previous lesson we learned DOM in JavaScript. Now in this lesson we will see how 
+to access DOM using JavaScript.
 
-Accessing DOM elements with JavaScript is a key skill for web
-development. 
-As we know that the Document Object Model is a tree-like structure
-that represents the HTML elements of a web page. 
+Accessing DOM elements with JavaScript is a key skill for web development. As we know, 
+the Document Object Model is a tree-like structure that represents the HTML elements of 
+a web page.
 
 You can use JavaScript to access these elements in various ways. 
 To get started you will need to know how to select an element. 
 Let&apos;s look at some commonly used DOM selectors in JavaScript. 
-First is document.getElementById. 
-It returns the element with the specific ID let&apos;s see how we can use
-that. 
+First is <span class="consolas">document.getElementById</span>. 
+It returns the element with the specific ID. Let&apos;s see how we can use that. 
 
 So let&apos;s go to the VS code and here I have index.html file. 
 I can delete this one and let&apos;s create a very basic boilerplate using
@@ -1841,24 +1816,21 @@ DOM. 
 And in the body we can say h1 of DOM Selectors. 
 
 If I click on save you can see that we have the output on the web page. 
-We are talking about document.getElementById. 
-Here we can have a div and let&apos;s say hello world. 
-And what we can do is we can create one more div and we can just say hi
-there. 
+We are talking about <span class="consolas">document.getElementById</span>. 
+Here we can have a <span class="consolas">div</span> and let&apos;s say hello world. 
+And what we can do is we can create one more <span class="consolas">div</span> and we 
+can just say "hi there". 
 
-Now the first div we will just give it an ID of let&apos;s say hello. 
-We want to access this div out of all these elements we want to
-access the first div of ID hello. 
-Here I will have a script tag and I will say document or we can
-say console.log(document.getElementById) and we can pass the ID name
+Now the first div we will just give it an ID of let&apos;s hello. 
+We want to access this div out of all these elements we want to access the first div of ID hello. 
+Here I will have a script tag and I will say document or we can 
+say <span class="consolas">console.log(document.getElementById)</span> and we can pass the ID name
 here. 
 
-The ID is hello we have to pass it in quotes. 
-And now if I click on save let&apos;s go to inspect, let&apos;s go to console
-and you can see that we have got this div. 
-It&apos;s cool, right? 
-We have got this on the basis of ID. 
-The next one is document.getElementsByClassName. 
+The ID is hello we have to pass it in quotes. And now if I click on save let&apos;s go to 
+inspect, let&apos;s go to console and you can see that we have got this div. It&apos;s cool, 
+right? We have got this on the basis of ID. 
+The next one is <span class="consolas">document.getElementsByClassName</span>. 
 
 The little difference you will see that it is get elements earlier one
 was get element. 
@@ -1867,22 +1839,21 @@ elements by class name. 
 It returns a collection of all the elements with the specified class
 name. 
 
-For example, if I create an unordered list and inside that I have a li
-of class, let&apos;s say green. 
-And we can say item one and we can create one more li or let&apos;s say four
-lis out of which only two has the class of green. 
+For example, if I create an unordered list and inside that I have a li (list item)
+of class, let&apos;s say green. And we can say item one and we can create one more li 
+or let&apos;s say four li's out of which only two has the class of green. 
 We can remove these options here. 
 
 If I click on save and if I rather than doing this, what I can do is I
 can say let items, I can also put them in a variable. 
 
-I can say document.getElementsByClassName and we can pass the class name
-as green and then we can say console.log items. 
+I can say <span class="consolas">document.getElementsByClassName</span> and we can pass 
+the class name as "green" and then we can say console.log items. 
 If I click on save if I go here, if I refresh you will see that we get
 an HTML collection. 
-It is an array like structure and we get two Li items that has the class
-of green color. Let&apos;s go to the next one. Next one is
-document.getElementsByTagName.
+It is an array like structure and we get two "li" items that has the class
+of "greenColor". Let&apos;s go to the next one. Next one is
+<span class="consolas">document.getElementsByTagName</span>.
 
 Here also we can get multiple collections or you can say it returns a
 collection of all the elements with the specified tag name. We have
