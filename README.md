@@ -1895,8 +1895,8 @@ We know that the Document Object Model is a tree-like structure that
 represents the HTML elements of a web page. 
 
 JavaScript provides various methods to access these elements such
-as getElementById, getElementsByClassName,
-getElementsByTagName, querySelector and querySelectorAll. 
+as <span class="consolas">getElementById, getElementsByClassName,
+getElementsByTagName, querySelector and querySelectorAll</span>.
 
 Once you have a reference to an element you can modify its
 attributes, content and style or create new elements using other methods
@@ -1908,12 +1908,12 @@ In the next lesson we will see how to manipulate DOM using JavaScript. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch2-5">2.5 Modifying styles and attributes with JS (6:17)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi there. In the previous lesson, we learned how to manipulate DOM
+In the previous lesson, we learned how to manipulate DOM
 elements with JavaScript. 
 Now in this lesson we will learn how to modify styles and attributes
-using its own methods. 
+using its own methods.
 
-Let&apos;s get started. Modifying styles and attributes with
+Modifying styles and attributes with
 JavaScript allows you to change the appearance and behavior of elements
 on a webpage dynamically. 
 
@@ -1926,10 +1926,10 @@ Let&apos;s understand all these methods and properties through some
 examples. 
 
 I&apos;m here in my VS Code, and here we have an index or HTML template
-ready with a script tag. 
-We can start writing our code. 
-Here, in the body I want to create a div, inside this div, I will have a
-span tag. 
+ready with a script tag. We can start writing our code. 
+Here, in the body I want to create a <span class="consolas">div</span>, 
+inside this <span class="consolas">div</span>, I will have a
+<span class="consolas">span tag</span>. 
 
 Let&apos;s give this ID of one and let&apos;s give a name attribute of, let&apos;s
 say post. Then we can just write, it is a first spend, this is some
@@ -1948,8 +1948,8 @@ Now let&apos;s start manipulating these tiles and attributes. 
 Let&apos;s talk about attributes first. 
 
 If you want to get the attribute, you can say console.log and let&apos;s say
-if you want to get the attribute of spanOne so we can say spanOne.get
-attribute. 
+if you want to get the attribute of <span class="consolas">spanOne</span> so we can say 
+<span class="consolas">spanOne.getAttribute</span>. 
 It is a method, it will take the attributes, we want to get the value of
 attribute name. 
 
@@ -1957,7 +1957,7 @@ If I click on Save, if I go here, refresh, we get the output as
 first because the name has the value of forced at this point. 
 Let&apos;s say we want to change the name. 
 That means setting the attribute. 
-We can say spanOne.setAttribute. 
+We can say <span class="consolas">spanOne.setAttribute</span>. 
 
 This is the method, we can put the attribute name, let&apos;s say name and
 the value and the second argument. 
@@ -1966,20 +1966,21 @@ Let&apos;s say a, b, c, d, e, if I click on Save, you will see nothing here
 but if you want to see the actual thing that happened, you can go to the
 elements section to the body and here inside that div, we will see that
 now the name has changed from first to a, b, c, d, e. If you want to
-remove the attribute, you can just see spanOne.removeAttribute and we
+remove the attribute, you can just see <span class="consolas">spanOne.removeAttribute</span> and we
 can just remove the attribute of name. 
 
 If I click on &quot;Save,&quot; you will see in this span, we only have the ID
 and name has been removed. 
 
-A very short feature is also there that you can just say spanOne.id and
-rather than using set attribute, you can directly give it an id name
-of, let&apos;s say any text. 
+A very short feature is also there that you can just say <span class="consolas">spanOne.id</span> and
+rather than using set attribute, you can directly give it an id name of, let&apos;s say 
+any text. 
 If I click on &quot;Save,&quot; if I go here, you will see that in the body
 now seems to this unique word, or letter, you can name it anything. 
 You can also change classes using class methods. 
 
-Let&apos;s see if I target spanTwo and I can just say spanTwo.classList.add
+Let&apos;s see if I target <span class="consolas">spanTwo</span> and I can just say 
+<span class="consolas">spanTwo.classList.add</span>
 and I can add the class, let&apos;s say a new class. 
 
 If I click on &quot;Save,&quot; you will see that in the body under the span div
@@ -1989,16 +1990,15 @@ pause the class name that you want to remove. 
 
 You can actually manipulate the styles using a style property. 
 Let&apos;s do that as well. 
-We can say spanOne.style.color and let&apos;s give it red. 
+We can say <span class="consolas">spanOne.style.color</span> and let&apos;s give it red. 
 If I click on &quot;Save&quot;, you will see that the text color has changed to
 red. 
 
 Similarly, if you want to change the background, you can say
-spanTwo.style.backgroundColor, you can put any property here and let&apos;s
+<span class="consolas">spanTwo.style.backgroundColor</span>, you can put any property here and let&apos;s
 give it green. 
 
-If I click on Save, you will see that the background of the second span
-has changed to green. 
+If I click on Save, you will see that the background of the second span has changed to green. 
 
 Let&apos;s summarize this. 
 The style property can be used to access and modify CSS styles of an
@@ -2028,15 +2028,14 @@ update the content, structure, and style of a document.
 
 The W3C DOM standard is separated into 3 different parts:
 
--    Core DOM - standard model for all document types
+<ul>
+  <li>Core DOM - standard model for all document types,</li>
+  <li>XML DOM - standard model for XML documents,</li>
+  <li>HTML DOM - standard model for HTML documents.</li>
+</ul>
 
--    XML DOM - standard model for XML documents
-
--    HTML DOM - standard model for HTML documents
-
-[Read
-more](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">
+Read more on the DOM.</a></p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 **Accessing and manipulating DOM elements with JavaScript**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
