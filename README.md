@@ -307,7 +307,8 @@ You will learn about the basics of JavaScript programming, including the syntax
 types and variables. You will also set up your development environment to get started 
 with writing  your own JavaScript code. By the end of this lesson, you will have a solid 
 understanding of the basics of JavaScript programming.</p>
-<pAnd you will be able to create 
+
+<p>And you will be able to create 
 simple JavaScript programs. You will also be ready to move on to more advanced topics 
 like JavaScript development. Whether you are a complete beginner or have some programming 
 experience, this lesson will provide you with a solid foundation in JavaScript 
