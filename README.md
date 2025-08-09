@@ -6,10 +6,12 @@ date first created: "11/20/2024 9+pm"
 date late editted: "11/21/2024 7+pm"
 date late editted: "12/06/2024 2+pm"
 date late editted: "1/13/2025 5+pm"
+date late editted: "8/8/2025 8+pm"
 output: 
   markdown:
     with some style
 ---
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ readme.md of JS-Web-Dev (Coursera/Board Infinity) ~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -175,19 +177,19 @@ the needs of their clients and users.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3">Module 3: Advanced JavaScript Techniques and jQuery</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-This module is designed to provide learners with a comprehensive
+<p>This module is designed to provide learners with a comprehensive
 understanding of advanced JavaScript techniques and the jQuery library.
 Throughout the module, learners will gain hands-on experience working
 with JavaScript and jQuery and will develop a deep understanding of how
-to make dynamic and interactive web pages.
+to make dynamic and interactive web pages.</p>
 
-Learners will understand how to use these techniques to write efficient
+<p>Learners will understand how to use these techniques to write efficient
 and effective JavaScript code. In addition, learners will be introduced
 to the jQuery library, which simplifies DOM manipulation and event
 handling in JavaScript. They will learn how to use jQuery to create
 animations, handle events, and manipulate the DOM more easily. By the
 end of the module, lerners will build a hands on project that will bring
-thier learning to life.
+their learning to life.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch3-obj">Learning Objectives</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -303,12 +305,13 @@ programming language that is widely used for web development. 
 
 You will learn about the basics of JavaScript programming, including the syntax, data, 
 types and variables. You will also set up your development environment to get started 
-with writing  your own JavaScript code. By the end of this lesson,  you will have a solid 
-understanding of the basics of JavaScript programming. And you will be able to create 
+with writing  your own JavaScript code. By the end of this lesson, you will have a solid 
+understanding of the basics of JavaScript programming.</p>
+<pAnd you will be able to create 
 simple JavaScript programs. You will also be ready to move on to more advanced topics 
 like JavaScript development. Whether you are a complete beginner or have some programming 
 experience, this lesson will provide you with a solid foundation in JavaScript 
-programming. See you in the next lesson.
+programming. See you in the next lesson.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-3">1.3 Introduction to JavaScript (5:33)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -334,10 +337,11 @@ Netscape Communications. The language was initially called Mocha, but it was la
 renamed to Live Script. The decision to rename the language to JavaScript was largely a 
 marketing decision made by Netscape. At that time, the company was in heated browser war 
 with Microsoft and they wanted to capitalize on the popularity of Java by making their 
-language sound similar. Thank god the community sided with Netscape and saw how 
-Microsoft's Interne Explorer was in real terms a piece of shit. This helped to create a 
-perception that JavaScript was a complementary technology to Java, even though the
-two languages are quite different.
+language sound similar.
+
+Thank god the community sided with Netscape and saw how Microsoft's Interne Explorer 
+was in real terms a piece of shit. This helped to create a perception that JavaScript 
+was a complementary technology to Java, even though the two languages are quite different.
 
 JavaScript has become one of the most widely used programming languages in the world, 
 and it is an essential tool for web developers today. In fact, according to some 
@@ -516,20 +520,23 @@ then I can say node hello.js. As soon as I press enter, you will see the output 
 console. That is Hello World. This is one way. Other way is that you can directly go to 
 the Google and you can right-click on Inspect. It gives you a Chrome Developer Tools and 
 here what you can do is you can paste this or you can write the code. Let's say console.log 
-Hello World. As soon as I press on Enter, it runs the code and the output is printed here. 
+Hello World. As soon as I press on Enter, it runs the code and the output is printed here.
+
 The third way is to use an html file. What we can do is we can create a new index.html 
 file and you have to use a boilerplate here. You can use this exclamatory mark and this 
 is a shortcut where you can create a basic boilerplate code. What we could do here is we 
 have hello.js file. Either you can link this file into your index.html using a script tag 
 or you can directly write JavaScript in your script tag. Let's say console.log Hello World. 
+
 How to check it in the browser, you can directly click on index.html and copy the path. 
 Once you copy the path, you can go to the browser and you can paste it here. This is a 
 blank screen because there is no HTML tag at this point. But as soon as you click on 
 Inspect, you will see in the console the Hello World is printed. This is a third way in 
-which you can execute your JavaScript code. Congratulations, you have written and 
-executed your first JavaScript program. This is a simple example, but it demonstrates the 
-basic structure and syntax of a JavaScript program. This is all for this lesson. See you 
-in the next lesson. Thank you.
+which you can execute your JavaScript code.
+
+Congratulations, you have written and executed your first JavaScript program. This is a 
+simple example, but it demonstrates the basic structure and syntax of a JavaScript 
+program. This is all for this lesson. See you in the next lesson. Thank you.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-7">1.7 Variable, Data Types & Operators (7:12)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -538,171 +545,140 @@ let&apos;s get started. 
 Let&apos;s say that you have a box of crayons and you want to organize them
 by color. 
 
-You could use different compartments in the box to store each color
-separately. 
-Each compartment would be like a variable and the crayons would be the
-data stored in those variables. 
+You could use different compartments in the box to store each color separately. Each 
+compartment would be like a variable and the crayons would be the data stored in 
+those variables. 
 
-For example, you could have a compartment for red crayons, a compartment
-for blue crayons, and so on. 
-The number of crayons in each compartment could vary depending on how
-many crayons you have of each color. 
+For example, you could have a compartment for red crayons, a compartment for blue crayons, 
+and so on. The number of crayons in each compartment could vary depending on how many 
+crayons you have of each color.
 
-In JavaScript, variables work in a similar way. 
-You can think of variable as a container that holds a piece of data like
-a crayon. 
-The variable has a name that you can choose, just like the compartment
-in the crayon box has a label indicating the color of crayons it holds. 
+In JavaScript, variables work in a similar way. You can think of variable as a container 
+that holds a piece of data like a crayon. The variable has a name that you can choose, 
+just like the compartment in the crayon box has a label indicating the color of crayons 
+it holds. 
 
-You can then use these variables to perform calculations or manipulate
-the data stored in them. 
-Just like you can move crayons from one compartment to another, you can
-change the data stored in a variable as needed. 
+You can then use these variables to perform calculations or manipulate the data stored 
+in them. Just like you can move crayons from one compartment to another, you can change 
+the data stored in a variable as needed. 
 
-Most of the time, a JavaScript application needs to work with some
-information. 
-Let&apos;s see some examples. 
+Most of the time, a JavaScript application needs to work with some information. Let&apos;s 
+see some examples. 
 
-The first is a social media app. 
-In this case, the information might include the user&apos;s name, age, and
-number of followers. 
+The first is a social media app. In this case, the information might include the 
+user&apos;s name, age, and number of followers. 
 
-The second is a music app. 
-In this case, the information might include the user&apos;s favorite songs,
-playlist, and artist. 
+The second is a music app. In this case, the information might include the user&apos;s 
+favorite songs, playlist, and artist.
 
-Variables are used to store this information. 
-To create a variable in JavaScript,  you can use let, var, and const
-keyword. 
+Variables are used to store this information. To create a variable in JavaScript,  you 
+can use let, var, and const keyword.
 
-Let&apos;s understand when to prefer what through some examples. 
-Let&apos;s move to the VSCode. 
-Here I have index.html ready with us. 
-We can just create a new file and let&apos;s call it as variables.js. 
-You can use var, let, and const, but when to use what lets see that. 
+Let&apos;s understand when to prefer what through some examples. Let&apos;s move to the 
+VSCode. Here I have index.html ready with us. We can just create a new file and let&apos;s 
+call it as variables.js. You can use var, let, and const, but when to use what lets see 
+that. 
 
-Before that, let&apos;s use let keyword and let&apos;s say let name to be John.
-This is how you create a variable. 
-Here you have two process. 
-First is that you are saying let name. 
-That means you are declaring a variable. 
+Before that, let&apos;s use let keyword and let&apos;s say let name to be John. This is 
+how you create a variable. Here you have two process. First is that you are saying let 
+name. That means you are declaring a variable.
 
-Then you are assigning the value, that is John in this case, like this. 
-This is variable declaration. 
-This is variable initialization. 
-You can in fact do the initialization and declaration in the same line
-like this, you will use in this fashion. 
+Then you are assigning the value, that is John in this case, like this. This is variable 
+declaration. This is variable initialization. You can in fact do the initialization and 
+declaration in the same line like this, you will use in this fashion. 
 
-Let is the preferred way to declare a variable that can be reassigned
-later in the code. 
-It is blocked scope, which means that it can only exist within the block
-of code where it was defined. 
-For example, let&apos;s create a variable by the name of count and we can
-give it a value of 0. 
+<span>Let</span> is the preferred way to declare a variable that can be reassigned
+later in the code. It is <span>blocked scope</span>, which means that it can only exist 
+within the block of code where it was defined. For example, let&apos;s create a variable 
+by the name of count and we can give it a value of 0. 
 
-Then you can say count to be 1 and then we can say console.log(count). 
-Now we can run this. 
+Then you can say count to be 1 and then we can say console.log(count). Now we can run this. 
 Let&apos;s clear up the terminal and here we can say, let&apos;s save and let&apos;s
-say node variables.js and you can see 1 is printed here. 
-Next we can look at const. 
+say node variables.js and you can see 1 is printed here. Next we can look at const. 
 
-Const is the preferred way to declare a variable that cannot be
-reassigned. 
-It is also blocked scope. 
-For example, let&apos;s say if you want to use some constants, like let&apos;s
-say Pi. 
-We can say const PI and normally the value of Pi is approximately equal
-to 3.14, and then we can say console.log(PI). 
+<span>Const</span> is the preferred way to declare a variable that cannot be reassigned. 
+It is also blocked scope. For example, let&apos;s say if you want to use some constants, 
+like let&apos;s say Pi. We can say const PI and normally the value of Pi is approximately 
+equal to 3.14, and then we can say console.log(PI).
 
-If I click on &quot;Save&quot;, if I run this code, you will see that we get the
-value. 
-But now if someone tries to do this, let&apos;s say four or something, in
-that case, it will give an error, as you can see here, that you
-cannot assign it to a constant variable. 
+If I click on &quot;Save&quot;, if I run this code, you will see that we get the value. 
+But now if someone tries to do this, let&apos;s say four or something, in that case, it 
+will give an error, as you can see here, that you cannot assign it to a constant variable. 
 
-The third one that is left is var keyword. 
-Var is older keyword for declaring variables in JavaScript. 
-While it can still be used in modern JavaScript, it is generally
+The third one that is left is <span>var</span> keyword. Var is older keyword for declaring 
+variables in JavaScript. While it can still be used in modern JavaScript, it is generally
 considered outdated because it is not blocked scope. 
 
-This means that variables declared with var are available throughout the
-entire function or global scope, which can make it harder to
-reason about your code and avoid bugs. 
+This means that variables declared with var are available throughout the entire function or 
+global scope, which can make it harder to reason about your code and avoid bugs. 
 
-Now all these terms, functions and global scope you will be looking at
-in further lessons in detail. 
+Now all these terms, <span>functions</span> and <span>global scope</span> you will be looking 
+at in further lessons in detail. For now, let&apos;s also see how we can create a variable 
+using var.
 
-For now, let&apos;s also see how we can create a variable using var. 
-
-We can say var count = 0 and we can use our if condition here. 
-
-Again, we will see if conditions in detail in the conditional spot. 
-I can say if true, let&apos;s say var count to be 1 and then we can say
-console.log(count). 
+We can say var count = 0 and we can use our if condition here. Again, we will see if 
+conditions in detail in the conditional spot. I can say if true, let&apos;s say var 
+count to be 1 and then we can say console.log(count). 
 In the down, if you will say console.log(count) as well. 
-
 Let&apos;s clear up the terminal and let&apos;s see the output. 
 
-Here you can see that in both the cases, it is 1, that means it is not
-blocked scope. 
-It has shadowed the previous count at this point. 
-Earlier it was 0, even though it isn&apos;t a block, that is these curly
-brackets. 
+Here you can see that in both the cases, it is 1, that means it is <span>not blocked 
+scope</span>. It has shadowed the previous count at this point. Earlier it was 0, even 
+though it isn&apos;t a block, that is these curly brackets. 
 
 It has overridden the previous count, and now you can see that in both
 the console&apos;s, it is printing 1 and 1 each time. 
-Let&apos;s summarize this. 
-Overall variables are a way to store and manage data in your code. 
+Let&apos;s summarize this. Overall variables are a way to store and manage data in your code. 
 
 They allow you to refer to a data by name, which makes your code more
-organized and easier to read. 
-To create a variable in JavaScript, you can use let, var, and const
-keyword. 
+organized and easier to read. To create a variable in JavaScript, you can use 
+<span>let</span>, <span>var</span>-, and <span>const</span> keyword. 
 
-Let and const are the preferred keywords for declaring variables in
-modern JavaScript because they are blocked scope, and offer better
-control over variable assignment. 
+<span>Let</span> and <span>const</span> are the preferred keywords for declaring 
+variables in modern JavaScript because they are <span>blocked scope</span>, and 
+offer better control over variable assignment. 
 
-While var can still be used, it is generally considered outdated
-and should be avoided in new code wherever possible. 
-In the next lesson, we will see data types in JavaScript. 
+While <span>var</span> can still be used, it is generally considered outdated and should 
+be avoided in new code wherever possible. In the next lesson, we will see data types in 
+JavaScript. 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-8">1.8 Data Types in JavaScript (8:58)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi there. In the previous lesson we learned variables in JavaScript. Now
-in this lesson we will learn data types in JavaScript. So let&apos;s get
-started. 
+In the previous lesson we learned variables in JavaScript. Now in this lesson we will 
+learn data types in JavaScript. So let&apos;s get started. 
 
 In JavaScript, a data type represents the type of data that can be
 stored and manipulated in a program. Let&apos;s look at some common data
-types in JavaScript. The first one is numbers, a data type that
-represents both integer and floating point numbers. In JavaScript,
-numbers are represented with the number keyword. 
+types in JavaScript. 
+
+The first one is <span>numbers</span>, a data type that represents both <span>integer</span> 
+and <span>floating point</span> numbers. In JavaScript, numbers are represented with the 
+number keyword.
 
 Let&apos;s see all these data types side by side with an example. So let&apos;s
 move to VS Code. And here I have a file, datatypes.js, ready with me. If
-you want to create a data with a number type, you can say let, and we
-can just say x. X is a variable name, and we can say 5, this is a
-number. So this creates a variable x of type number with value of 5.
-Next one is BigInt. So for most purposes, we have a range that is
-+(2&Hat;53 - 1) and -(2&Hat;53 - 1) and this range is quite enough. But
-sometimes we need the entire range of really big integers. For example
-for cryptography of microsecond precision timestamps. Now BigInt was
-recently added to the language to represent integers of arbitrary
-length. A BigInt value is created by appending end to the end of an
-integer. The n means that it&apos;s a big end. Let&apos;s see how we can create
-one. So here I can say const and let&apos;s say bigInt, and here we can give
+you want to create data with a number type, you can say <span>let</span>, and 
+we can just say x. X is a variable name, and we can say 5, this is a number. So 
+this creates a variable x of type number with value of 5. 
+
+Next one is <span>BigInt</span>. So for most purposes, we have a range that is 
++(2&Hat;53 - 1) and -(2&Hat;53 - 1) and this range is quite enough. But 
+sometimes we need the entire range of really big integers. For example for cryptography 
+of microsecond precision timestamps. Now BigInt was recently added to the language to 
+represent integers of arbitrary length. A BigInt value is created by appending end 
+to the end of an integer. The n means that it&apos;s a big end. Let&apos;s see how 
+we can create one. 
+
+So here I can say const and let&apos;s say bigInt, and here we can give
 it a very lengthy number. Let&apos;s just give any number and let&apos;s just
 say n. Now, if you want to check the type of any variable in
 JavaScript, you can say console.log, and we can say typeof bigInt. So if
 I click on Save, let&apos;s run this program that is node datatype.js, and
 you can see it gives the type as bigInt in the console. BigInt rhombus
-are rarely needed. 
+are rarely needed. But still if you want, you can use them like this. 
 
-But still if you want, you can use them like this.Next data type is
-String. A data type that represents a sequence of characters is a String. 
-In JavaScript, Strings are represented using a String keyword. 
-
+Next data type is <span>String</span>. A data type that represents a sequence of 
+characters is a String. In JavaScript, Strings are represented using a String keyword. 
 Let&apos;s see an example. If you wanted to create a String, 
 you can say let and we can say name, and the name we want to give 
 is a string that is a sequence of characters. Let&apos;s give it John. This
@@ -710,33 +686,31 @@ creates a variable name of type string with a value of John. Again, if you wan
 to check the type, you can use this type of operator here, but this is
 how you represent a string.
 
-The next one is Boolean, a data type that represents a logical value. It
+The next one is <span>Boolean</span>, a data type that represents a logical value. It
 could be either true or false. In JavaScript, Booleans are represented
 using a Boolean keyword. Let&apos;s see an example. 
-
 To create a variable that holds Boolean value, you can say let and we
 can give any variable name like is True or something. And we can just
 give it a value of true. So this creates a variable isTrue of type
-Boolean with a value of true. Next is Null. It is a data type that
+Boolean with a value of true. 
+
+Next is <span>Null</span>. It is a data type that
 represents the intestinal absence of any object value. It is represented
-using a null keyword. It is a separate data type, and if you want to
+using a <span>null keyword</span>. It is a separate data type, and if you want to
 create or give a value to a variable, you can just say let and you
-can create any variable, let&apos;s say x
+can create any variable, let&apos;s say x.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3 id="ch1-9">1.9 Using Arithmetic and Comparison Operators (8:38)</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Hi there. In the previous lesson we learned data types in JavaScript. 
+In the previous lesson we learned data types in JavaScript. 
 Now in this lesson we will learn about arithmetic and comparison
-operators in JavaScript. 
-
-Let&apos;s get started.
-Let&apos;s talk about arithmetic operators first.
-Arithmetic operators in JavaScript are used to perform mathematical
+operators in JavaScript. Let&apos;s talk about <span>arithmetic operators</span> 
+first. <span>Arithmetic operators</span> in JavaScript are used to perform mathematical
 calculations on numerical values. 
 
-As you can see, one of the arithmetic operator is addition.
-Then we have subtraction, multiplication, division, modulus and
-exponentiation. 
+As you can see, one of the arithmetic operator is <span>addition</span>.
+Then we have <span>subtraction</span>, <span>multiplication</span>, <span>division</span>, 
+<span>modulus</span> and <span>exponentiation</span>.
 
 These are some symbols that you can use for these operators.
 Let&apos;s go to the VS code and understand them by examples.
@@ -745,8 +719,7 @@ We can say let x and let&apos;s give it a number 10. 
 And we can say, let y and let&apos;s give it a value of 5. 
 
 We want to perform arithmetic operations, so let&apos;s talk about
-addition. 
-We can say let sum and addition would be x+ y. 
+addition. We can say let sum and addition would be x+ y. 
 This is the addition operator.
 Then I can just say console.log(sum). 
 The result that is stored for x +y is in the variable sum. 
